@@ -1,0 +1,105 @@
+{
+    "vendor": "American Megatrends Inc.", 
+    "network": "Digilab", 
+    "bios version": "2.0", 
+    "hostname": "blh0", 
+    "stroke": 1, 
+    "type": "HEAD", 
+    "children": [
+        {
+            "stroke": 1, 
+            "name": "GPUs", 
+            "children": []
+        }, 
+        {
+            "stroke": 1, 
+            "name": "NICs", 
+            "children": [
+                {
+                    "name": "tun0", 
+                    "ip": "10.254.254.1  P-t-P:10.254.254.1", 
+                    "stroke": 0, 
+                    "mac": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                    "type": "nic", 
+                    "speed": "10"
+                }, 
+                {
+                    "name": "eth2", 
+                    "ip": false, 
+                    "stroke": 1, 
+                    "mac": "00:25:90:fb:92:16", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth3", 
+                    "ip": false, 
+                    "stroke": 1, 
+                    "mac": "00:25:90:fb:92:17", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "lo", 
+                    "ip": "127.0.0.1", 
+                    "mac": false, 
+                    "stroke": 1, 
+                    "dns server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth0", 
+                    "ip": "10.11.0.153", 
+                    "mac": "00:25:90:fb:92:14", 
+                    "stroke": 10, 
+                    "dns server": "acmeh2.digilab.pvt", 
+                    "type": "nic", 
+                    "speed": "1000"
+                }, 
+                {
+                    "name": "eth1", 
+                    "ip": "10.0.1.1", 
+                    "mac": "00:25:90:fb:92:15", 
+                    "stroke": 100, 
+                    "dns server": "blh1.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "10000"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "CPUs", 
+            "children": [
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "clock": "3200.0000", 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 6, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "threads per core": "1", 
+                    "type": "cpu", 
+                    "socket": 0
+                }, 
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "clock": "3200.0000", 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 6, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "threads per core": "1", 
+                    "type": "cpu", 
+                    "socket": 1
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "total": "131922836 kB", 
+            "name": "Memory"
+        }
+    ]
+}
