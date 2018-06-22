@@ -1,0 +1,60 @@
+device:
+  CPU:
+  - architecture: x86_64
+    clock: '3000.0000'
+    cores: 8
+    model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    socket: 0
+    threads per core: '1'
+  - architecture: x86_64
+    clock: '3000.0000'
+    cores: 8
+    model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    socket: 1
+    threads per core: '1'
+  Disks: []
+  GPU(s): []
+  Memory:
+    total: 65860620 kB
+  NICs:
+  - ip: 172.17.0.1
+    mac: 02:42:49:b6:df:88
+    name: docker0
+    speed: NA
+  - dns server: blc01.bl.pvt
+    ip: 10.0.1.111
+    mac: ac:1f:6b:2d:03:f8
+    name: eth0
+    speed: '1000'
+  - ip: false
+    mac: ac:1f:6b:2d:03:f9
+    name: eth1
+    speed: NA
+  - ip: false
+    mac: ac:1f:6b:2d:03:fa
+    name: eth2
+    speed: NA
+  - ip: false
+    mac: ac:1f:6b:2d:03:fb
+    name: eth3
+    speed: NA
+  - dns server: blc01-4.tenge.pvt
+    ip: 10.10.10.6
+    mac: 02:02:0a:0a:0a:06
+    name: eth4
+    speed: '40000'
+  - dns server: blc01-5.tenge.pvt
+    ip: 10.10.10.134
+    mac: 02:02:0a:0a:0a:86
+    name: eth5
+    speed: '-1'
+  - dns server: localhost.bl.pvt
+    ip: 127.0.0.1
+    mac: false
+    name: lo
+    speed: NA
+  bios version: 2.0b
+  hostname: blc01
+  network: Digilab
+  type: COMPUTE
+  vendor: American Megatrends Inc.
