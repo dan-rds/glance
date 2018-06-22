@@ -1,0 +1,443 @@
+{
+    "vendor": "American Megatrends Inc.", 
+    "network": "Digilab", 
+    "bios version": "1.0b", 
+    "hostname": "bls0", 
+    "stroke": 1, 
+    "type": "STORAGE", 
+    "children": [
+        {
+            "stroke": 1, 
+            "name": "GPUs", 
+            "children": []
+        }, 
+        {
+            "stroke": 1, 
+            "name": "NICs", 
+            "children": [
+                {
+                    "name": "eth4", 
+                    "ip": "10.10.10.2", 
+                    "mac": "02:02:0a:0a:0a:02", 
+                    "stroke": -1, 
+                    "dns server": "bls0-4.tenge.pvt", 
+                    "type": "nic", 
+                    "speed": "-1"
+                }, 
+                {
+                    "name": "eth5", 
+                    "ip": "10.10.10.130", 
+                    "mac": "02:02:0a:0a:0a:82", 
+                    "stroke": -1, 
+                    "dns server": "bls0-5.tenge.pvt", 
+                    "type": "nic", 
+                    "speed": "-1"
+                }, 
+                {
+                    "name": "docker0", 
+                    "ip": "172.17.0.1", 
+                    "stroke": 1, 
+                    "mac": "02:42:e6:0f:eb:67", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth1", 
+                    "ip": false, 
+                    "stroke": 1, 
+                    "mac": "0c:c4:7a:bc:96:bd", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth2", 
+                    "ip": false, 
+                    "stroke": 1, 
+                    "mac": "0c:c4:7a:bc:96:be", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth3", 
+                    "ip": false, 
+                    "stroke": 1, 
+                    "mac": "0c:c4:7a:bc:96:bf", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "lo", 
+                    "ip": "127.0.0.1", 
+                    "mac": false, 
+                    "stroke": 1, 
+                    "dns server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth0", 
+                    "ip": "10.0.1.72", 
+                    "mac": "0c:c4:7a:bc:96:bc", 
+                    "stroke": 10, 
+                    "dns server": "bls0.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "1000"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "CPUs", 
+            "children": [
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "clock": "3200.0000", 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 12, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "threads per core": "2", 
+                    "type": "cpu", 
+                    "socket": 0
+                }, 
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "clock": "3200.0000", 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 12, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "threads per core": "2", 
+                    "type": "cpu", 
+                    "socket": 1
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "total": "65865876 kB", 
+            "name": "Memory"
+        }, 
+        {
+            "stroke": 1, 
+            "name": "Disks", 
+            "children": [
+                {
+                    "name": "d46", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "X5O1K4OMF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "46", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d38", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y5ADK1ECF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "38", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d43", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y5ADK1DZF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "43", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d41", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y5ADK1DWF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "41", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d45", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y586K2MSF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "45", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d39", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y56FK0M9F56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "39", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d40", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "855AK0OYF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "40", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d47", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y583K2C3F56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "47", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d44", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "759AK0EXF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "44", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d48", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y56EK15CF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "48", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d42", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y58EK16YF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "42", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d65", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9556KL8NFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "65", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d52", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9556KL8OFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "52", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d51", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9557KETRFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "51", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d63", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9548K9TGFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "63", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d62", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9556KL8KFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "62", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d67", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9547KEPZFSBATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "67", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d66", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9547KEPYFSBATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "66", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d70", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "85O8K916FSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "70", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d56", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9563KNFOFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "56", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d55", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "85SAKA70FSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "55", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d68", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9534KFAFFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "68", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d58", 
+                    "firmware": "FP2A", 
+                    "stroke": 1, 
+                    "serial": "9565K7BVFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "58", 
+                    "size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                }, 
+                {
+                    "name": "d59", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y5AEK1A5F56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "59", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d72", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "Y58DK1B9F56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "72", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d57", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "758DK07GF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "57", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d53", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "758DK07MF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "53", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d74", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "759AK0G4F56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "74", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d61", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "85N9K134F56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "61", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d54", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "85J9K10SF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "54", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d71", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "75B6K16VF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "71", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d60", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "85JAK13BF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "60", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d64", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "85JBK0ILF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "64", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d73", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "85JAK13GF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "73", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }, 
+                {
+                    "name": "d69", 
+                    "firmware": "FS2A", 
+                    "stroke": 1, 
+                    "serial": "75B6K16XF56DTOSHIBA HDWE160                         FS2A", 
+                    "type": "disk", 
+                    "diskID": "69", 
+                    "size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                }
+            ]
+        }
+    ]
+}
