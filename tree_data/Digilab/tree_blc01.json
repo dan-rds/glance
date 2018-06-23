@@ -3,6 +3,14 @@
     "network": "Digilab", 
     "bios version": "2.0b", 
     "hostname": "blc01", 
+    "tt_info": [
+        "Vendor: American Megatrends Inc.", 
+        "Network: Digilab", 
+        "Bios Version: 2.0b", 
+        "Hostname: blc01", 
+        "Stroke: 1", 
+        "Type: COMPUTE"
+    ], 
     "stroke": 1, 
     "type": "COMPUTE", 
     "children": [
