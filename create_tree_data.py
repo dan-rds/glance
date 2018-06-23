@@ -180,7 +180,7 @@ def get_sys():
       row = []
       for k,v in sys_fields.iteritems():
           row.append(k.title()+ ": "+ str(v))
-
+      sys_fields["tt_info"] = row
       return sys_fields
 
 
