@@ -1,0 +1,485 @@
+{
+    "vendor": "American Megatrends Inc.", 
+    "network": "Digilab", 
+    "bios version": "1.0b", 
+    "hostname": "blc00", 
+    "stroke": 1, 
+    "type": "COMPUTE", 
+    "children": [
+        {
+            "stroke": 1, 
+            "name": "GPUs", 
+            "children": [
+                {
+                    "name": "GeForce GTX 1080", 
+                    "bios version": "86.04.17.00.80", 
+                    "pciid": "00000000:02:00.0", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: GeForce GTX 1080", 
+                        "Serial: [Not Supported]"
+                    ], 
+                    "node_type": "leaf", 
+                    "serial": "[Not Supported]", 
+                    "type": "gpu"
+                }, 
+                {
+                    "name": "GeForce GTX 1080", 
+                    "bios version": "86.04.17.00.80", 
+                    "pciid": "00000000:81:00.0", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: GeForce GTX 1080", 
+                        "Serial: [Not Supported]"
+                    ], 
+                    "node_type": "leaf", 
+                    "serial": "[Not Supported]", 
+                    "type": "gpu"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "NICs", 
+            "children": [
+                {
+                    "name": "docker0", 
+                    "ip": "172.17.0.1", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: docker0", 
+                        "Ip: 172.17.0.1", 
+                        "Mac: 02:42:06:bf:57:87", 
+                        "Speed: NA"
+                    ], 
+                    "mac": "02:42:06:bf:57:87", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth1", 
+                    "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: 0c:c4:7a:8e:0b:ad", 
+                        "Speed: NA", 
+                        "Name: eth1"
+                    ], 
+                    "mac": "0c:c4:7a:8e:0b:ad", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth2", 
+                    "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: 0c:c4:7a:8e:0b:ae", 
+                        "Speed: NA", 
+                        "Name: eth2"
+                    ], 
+                    "mac": "0c:c4:7a:8e:0b:ae", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth3", 
+                    "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: 0c:c4:7a:8e:0b:af", 
+                        "Speed: NA", 
+                        "Name: eth3"
+                    ], 
+                    "mac": "0c:c4:7a:8e:0b:af", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "lo", 
+                    "ip": "127.0.0.1", 
+                    "tt_info": [
+                        "Name: lo", 
+                        "Ip: 127.0.0.1", 
+                        "Speed: NA"
+                    ], 
+                    "stroke": 1, 
+                    "dns server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth0", 
+                    "ip": "10.0.1.75", 
+                    "mac": "0c:c4:7a:8e:0b:ac", 
+                    "tt_info": [
+                        "Name: eth0", 
+                        "Ip: 10.0.1.75", 
+                        "Mac: 0c:c4:7a:8e:0b:ac", 
+                        "Speed: 1000"
+                    ], 
+                    "stroke": 10, 
+                    "dns server": "blc00.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "1000"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "CPUs", 
+            "children": [
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "clock": "3200.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200.0000", 
+                        "Cores: 12", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 12, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "threads per core": "2", 
+                    "type": "cpu", 
+                    "socket": 0
+                }, 
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "clock": "3200.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200.0000", 
+                        "Cores: 12", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 12, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "threads per core": "2", 
+                    "type": "cpu", 
+                    "socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Memory: 65865884 kB", 
+            "stroke": 1, 
+            "name": "Memory"
+        }, 
+        {
+            "stroke": 1, 
+            "name": "Disks", 
+            "children": [
+                {
+                    "name": "d2", 
+                    "firmware": "A3EA", 
+                    "tt_info": [
+                        "Name: d2", 
+                        "Serial: JK1171YBKATHHFHitachi HDS722020ALA330                 JKAOA3EA", 
+                        "Diskid: 2"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK1171YBKATHHFHitachi HDS722020ALA330                 JKAOA3EA", 
+                    "type": "disk", 
+                    "diskID": "2", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d6", 
+                    "firmware": "0A80", 
+                    "tt_info": [
+                        "Name: d6", 
+                        "Serial: WD-WCAVY4152307WDC WD20EARS-00S8B1                     80.00A80", 
+                        "Diskid: 6"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "WD-WCAVY4152307WDC WD20EARS-00S8B1                     80.00A80", 
+                    "type": "disk", 
+                    "diskID": "6", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d10", 
+                    "firmware": "0001", 
+                    "tt_info": [
+                        "Name: d10", 
+                        "Serial: S2H7JD1B112981      SAMSUNG HD204UI                         1AQ10001", 
+                        "Diskid: 10"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "S2H7JD1B112981      SAMSUNG HD204UI                         1AQ10001", 
+                    "type": "disk", 
+                    "diskID": "10", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d14", 
+                    "firmware": "0001", 
+                    "tt_info": [
+                        "Name: d14", 
+                        "Serial: S2H7JD2B220498      SAMSUNG HD204UI                         1AQ10001", 
+                        "Diskid: 14"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "S2H7JD2B220498      SAMSUNG HD204UI                         1AQ10001", 
+                    "type": "disk", 
+                    "diskID": "14", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d18", 
+                    "firmware": "A3MA", 
+                    "tt_info": [
+                        "Name: d18", 
+                        "Serial: JK11A4B8JR2E3WHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Diskid: 18"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK11A4B8JR2E3WHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "type": "disk", 
+                    "diskID": "18", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d22", 
+                    "firmware": "0001", 
+                    "tt_info": [
+                        "Name: d22", 
+                        "Serial: S2H7JD2B403720      SAMSUNG HD204UI                         1AQ10001", 
+                        "Diskid: 22"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "S2H7JD2B403720      SAMSUNG HD204UI                         1AQ10001", 
+                    "type": "disk", 
+                    "diskID": "22", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d5", 
+                    "firmware": "A3MA", 
+                    "tt_info": [
+                        "Name: d5", 
+                        "Serial: JK11A4B8JR25PWHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Diskid: 5"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK11A4B8JR25PWHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "type": "disk", 
+                    "diskID": "5", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d7", 
+                    "firmware": "A3MA", 
+                    "tt_info": [
+                        "Name: d7", 
+                        "Serial: JK11A4B8JR73XWHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Diskid: 7"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK11A4B8JR73XWHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "type": "disk", 
+                    "diskID": "7", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d11", 
+                    "firmware": "0001", 
+                    "tt_info": [
+                        "Name: d11", 
+                        "Serial: S2H7JR0B502302      SAMSUNG HD204UI                         1AQ10001", 
+                        "Diskid: 11"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "S2H7JR0B502302      SAMSUNG HD204UI                         1AQ10001", 
+                    "type": "disk", 
+                    "diskID": "11", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d15", 
+                    "firmware": "A3EA", 
+                    "tt_info": [
+                        "Name: d15", 
+                        "Serial: JK1171YBKAYG8FHitachi HDS722020ALA330                 JKAOA3EA", 
+                        "Diskid: 15"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK1171YBKAYG8FHitachi HDS722020ALA330                 JKAOA3EA", 
+                    "type": "disk", 
+                    "diskID": "15", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d19", 
+                    "firmware": "0001", 
+                    "tt_info": [
+                        "Name: d19", 
+                        "Serial: S2H7JD2B403723      SAMSUNG HD204UI                         1AQ10001", 
+                        "Diskid: 19"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "S2H7JD2B403723      SAMSUNG HD204UI                         1AQ10001", 
+                    "type": "disk", 
+                    "diskID": "19", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d23", 
+                    "firmware": "A3EA", 
+                    "tt_info": [
+                        "Name: d23", 
+                        "Serial: JK1171YBKB3LUFHitachi HDS722020ALA330                 JKAOA3EA", 
+                        "Diskid: 23"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK1171YBKB3LUFHitachi HDS722020ALA330                 JKAOA3EA", 
+                    "type": "disk", 
+                    "diskID": "23", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d3", 
+                    "firmware": "0001", 
+                    "tt_info": [
+                        "Name: d3", 
+                        "Serial: S2H7JD1B220140      SAMSUNG HD204UI                         1AQ10001", 
+                        "Diskid: 3"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "S2H7JD1B220140      SAMSUNG HD204UI                         1AQ10001", 
+                    "type": "disk", 
+                    "diskID": "3", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d8", 
+                    "firmware": "1G02", 
+                    "tt_info": [
+                        "Name: d8", 
+                        "Serial: WD-WMAVY0152909WDC WD2002FYPS-02W3B1                   04.01G02", 
+                        "Diskid: 8"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "WD-WMAVY0152909WDC WD2002FYPS-02W3B1                   04.01G02", 
+                    "type": "disk", 
+                    "diskID": "8", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d12", 
+                    "firmware": "0001", 
+                    "tt_info": [
+                        "Name: d12", 
+                        "Serial: S2H7JD1B112980      SAMSUNG HD204UI                         1AQ10001", 
+                        "Diskid: 12"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "S2H7JD1B112980      SAMSUNG HD204UI                         1AQ10001", 
+                    "type": "disk", 
+                    "diskID": "12", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d16", 
+                    "firmware": "A3MA", 
+                    "tt_info": [
+                        "Name: d16", 
+                        "Serial: JK11A4B8JR6X9WHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Diskid: 16"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK11A4B8JR6X9WHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "type": "disk", 
+                    "diskID": "16", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d20", 
+                    "firmware": "A3EA", 
+                    "tt_info": [
+                        "Name: d20", 
+                        "Serial: JK1171YBKAVTMFHitachi HDS722020ALA330                 JKAOA3EA", 
+                        "Diskid: 20"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "JK1171YBKAVTMFHitachi HDS722020ALA330                 JKAOA3EA", 
+                    "type": "disk", 
+                    "diskID": "20", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d9", 
+                    "firmware": "1K02", 
+                    "tt_info": [
+                        "Name: d9", 
+                        "Serial: WD-WCC1P0878541WDC WD2000FYYZ-01UL1B1                  01.01K02", 
+                        "Diskid: 9"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "WD-WCC1P0878541WDC WD2000FYYZ-01UL1B1                  01.01K02", 
+                    "type": "disk", 
+                    "diskID": "9", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d13", 
+                    "firmware": "1G02", 
+                    "tt_info": [
+                        "Name: d13", 
+                        "Serial: WD-WMAVY0151984WDC WD2002FYPS-02W3B1                   04.01G02", 
+                        "Diskid: 13"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "WD-WMAVY0151984WDC WD2002FYPS-02W3B1                   04.01G02", 
+                    "type": "disk", 
+                    "diskID": "13", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d17", 
+                    "firmware": "1K01", 
+                    "tt_info": [
+                        "Name: d17", 
+                        "Serial: WD-WCC1P0318932WDC WD2000FYYZ-01UL1B0                  01.01K01", 
+                        "Diskid: 17"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "WD-WCC1P0318932WDC WD2000FYYZ-01UL1B0                  01.01K01", 
+                    "type": "disk", 
+                    "diskID": "17", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d21", 
+                    "firmware": "1G01", 
+                    "tt_info": [
+                        "Name: d21", 
+                        "Serial: WD-WCAVY5377394WDC WD2002FYPS-02W3B0                   04.01G01", 
+                        "Diskid: 21"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "WD-WCAVY5377394WDC WD2002FYPS-02W3B0                   04.01G01", 
+                    "type": "disk", 
+                    "diskID": "21", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }, 
+                {
+                    "name": "d25", 
+                    "firmware": "1G01", 
+                    "tt_info": [
+                        "Name: d25", 
+                        "Serial: WD-WCAVY7407104WDC WD2002FYPS-02W3B0                   04.01G01", 
+                        "Diskid: 25"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "WD-WCAVY7407104WDC WD2002FYPS-02W3B0                   04.01G01", 
+                    "type": "disk", 
+                    "diskID": "25", 
+                    "size": "1.819 TB [0xe8e088b0 Sectors]"
+                }
+            ]
+        }
+    ]
+}
