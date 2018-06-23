@@ -2,11 +2,11 @@
 create_report.py
 
 The basic structure is as follows:
-  • Each type of hardware has its own method
+  * Each type of hardware has its own method
     typically this means callng one large command and spliting it a ton.
-  • This data are stored in a dictionary and returned.
-  • Each of these hardware types are inserted into the larger system.
-  • The resulting dictionary is written to a file in ./reports/<network name>/
+  * This data are stored in a dictionary and returned.
+  * Each of these hardware types are inserted into the larger system.
+  * The resulting dictionary is written to a file in ./reports/<network name>/
 
     by Daniel Richards (ddrichar@ucsc.edu)
        on 6-23-2018
