@@ -3,6 +3,14 @@
     "network": "Digilab", 
     "bios version": "1.0b", 
     "hostname": "bls0", 
+    "tt_info": [
+        "Vendor: American Megatrends Inc.", 
+        "Network: Digilab", 
+        "Bios Version: 1.0b", 
+        "Hostname: bls0", 
+        "Stroke: 1", 
+        "Type: STORAGE"
+    ], 
     "stroke": 1, 
     "type": "STORAGE", 
     "children": [
