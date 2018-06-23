@@ -1,0 +1,179 @@
+{
+    "vendor": "American Megatrends Inc.", 
+    "network": "Digilab", 
+    "bios version": "2.0b", 
+    "hostname": "blc01", 
+    "stroke": 1, 
+    "type": "COMPUTE", 
+    "children": [
+        {
+            "stroke": 1, 
+            "name": "GPUs", 
+            "children": []
+        }, 
+        {
+            "stroke": 1, 
+            "name": "NICs", 
+            "children": [
+                {
+                    "name": "eth5", 
+                    "ip": "10.10.10.134", 
+                    "mac": "02:02:0a:0a:0a:86", 
+                    "tt_info": [
+                        "Name: eth5", 
+                        "Ip: 10.10.10.134", 
+                        "Mac: 02:02:0a:0a:0a:86", 
+                        "Speed: -1"
+                    ], 
+                    "stroke": -1, 
+                    "dns server": "blc01-5.tenge.pvt", 
+                    "type": "nic", 
+                    "speed": "-1"
+                }, 
+                {
+                    "name": "docker0", 
+                    "ip": "172.17.0.1", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: docker0", 
+                        "Ip: 172.17.0.1", 
+                        "Mac: 02:42:49:b6:df:88", 
+                        "Speed: NA"
+                    ], 
+                    "mac": "02:42:49:b6:df:88", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth1", 
+                    "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: ac:1f:6b:2d:03:f9", 
+                        "Speed: NA", 
+                        "Name: eth1"
+                    ], 
+                    "mac": "ac:1f:6b:2d:03:f9", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth2", 
+                    "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: ac:1f:6b:2d:03:fa", 
+                        "Speed: NA", 
+                        "Name: eth2"
+                    ], 
+                    "mac": "ac:1f:6b:2d:03:fa", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth3", 
+                    "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: ac:1f:6b:2d:03:fb", 
+                        "Speed: NA", 
+                        "Name: eth3"
+                    ], 
+                    "mac": "ac:1f:6b:2d:03:fb", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "lo", 
+                    "ip": "127.0.0.1", 
+                    "tt_info": [
+                        "Name: lo", 
+                        "Ip: 127.0.0.1", 
+                        "Speed: NA"
+                    ], 
+                    "stroke": 1, 
+                    "dns server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "name": "eth0", 
+                    "ip": "10.0.1.111", 
+                    "mac": "ac:1f:6b:2d:03:f8", 
+                    "tt_info": [
+                        "Name: eth0", 
+                        "Ip: 10.0.1.111", 
+                        "Mac: ac:1f:6b:2d:03:f8", 
+                        "Speed: 1000"
+                    ], 
+                    "stroke": 10, 
+                    "dns server": "blc01.bl.pvt", 
+                    "type": "nic", 
+                    "speed": "1000"
+                }, 
+                {
+                    "name": "eth4", 
+                    "ip": "10.10.10.6", 
+                    "mac": "02:02:0a:0a:0a:06", 
+                    "tt_info": [
+                        "Name: eth4", 
+                        "Ip: 10.10.10.6", 
+                        "Mac: 02:02:0a:0a:0a:06", 
+                        "Speed: 40000"
+                    ], 
+                    "stroke": 400, 
+                    "dns server": "blc01-4.tenge.pvt", 
+                    "type": "nic", 
+                    "speed": "40000"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "CPUs", 
+            "children": [
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "clock": "3000.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000.0000", 
+                        "Cores: 8", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 8, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "threads per core": "1", 
+                    "type": "cpu", 
+                    "socket": 0
+                }, 
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "clock": "3000.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000.0000", 
+                        "Cores: 8", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 8, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "threads per core": "1", 
+                    "type": "cpu", 
+                    "socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Memory: 65860620 kB", 
+            "stroke": 1, 
+            "name": "Memory"
+        }, 
+        {
+            "stroke": 1, 
+            "name": "Disks", 
+            "children": []
+        }
+    ]
+}
