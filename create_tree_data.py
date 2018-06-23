@@ -4,8 +4,8 @@ import scraping
 from beeprint import pp
 import os
 import sys
-
-def get_nics():
+shit_i_care_about = ["name", "mac", "model", "serial", "speed", "make", "diskID", "amount", "ip", "clock", "cores"];
+def get_nics(nic_tooltip_info):
       inters = local["ls"]("/sys/class/net").encode("ascii")
       interfaces =  inters.split('\n')
       net_arr = []
@@ -28,12 +28,16 @@ def get_nics():
                 nic_fields['speed'] = local['cat']('/sys/class/net/'+ i +'/speed').encode("ascii").strip()
                 nic_fields['stroke'] = int(nic_fields["speed"])/100
               except:
-                nic_fields['speed'] = "NA"  
+                nic_fields['speed'] = "NA"
+              row = []
+              for k,v in nic_fields.iteritems():
+                    if k in shit_i_care_about:
+                          row.append(k.title()+ ": "+ str(v))
               net_arr.append(nic_fields)
-
+              nic_rows.append(row)
       return net_arr
             
-def get_gpus():
+def get_gpus(gpu_tooltip_info):
       gpu_count = local["lspci"]().count("VGA")
       #BEWARE DANIEL this doesnt reflect true gpu count remember the ASPEED device
       gpus = []
@@ -57,12 +61,17 @@ def get_gpus():
             gpu_fields['memory'] = gpu_arr[4]
  #           gpu_node = Node("GPU", **gpu_fields)
             gpus.append(gpu_fields)
+            row = []
+            for k,v in gpu_fields.iteritems():
+                  if k in shit_i_care_about:
+                        row.append(k.title()+ ": "+ str(v))
+            gpu_tooltip_info.append(row)
       return gpus
 
 def d_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
 
-def get_cpus():
+def get_cpus(cpu_tooltip_info):
       
       cpu_fields = {}
       cpus = []
@@ -80,6 +89,11 @@ def get_cpus():
       for c in range(soc_count):
             cpu_fields["socket"] = c
             cpus.append(cpu_fields.copy())
+            row = []
+                for k,v in cpu_fields.iteritems():
+                    if k in shit_i_care_about:
+                          row.append(k.title()+ ": "+ str(v))
+            cpu_tooltip_info.append(row)
             #cpu_node = Node("CPU", **cpu_fields)
       return cpus
 
@@ -142,8 +156,10 @@ def get_sys():
       sys_info["type"] = task_type
     #  print sys_info
       return sys_info
-
-nic_array = get_nics()
+nic_rows = []
+nic_array = get_nics(nic_rows)
+for i in nic_rows:
+      print i
 
 from operator import itemgetter
 nic_array = sorted(nic_array, key=itemgetter('stroke'))
