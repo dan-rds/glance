@@ -20,6 +20,7 @@ from plumbum.cmd import echo, nslookup, sudo
 from operator import itemgetter
 import yaml
 import json
+import datetime
 import os
 import sys
 import re
@@ -36,15 +37,17 @@ def get_nics():
       for i in interfaces[:-1]:
 	      output = local['ifconfig'](i).encode('ascii')
               nic_fields = {'name':i}
-	      nic_fields['ip'] = double_split('inet addr:', '  B|  M', output)
               try:
+                    nic_fields['ip'] = double_split('inet addr:', '  ', output)
                     dns_lookup = nslookup(nic_fields["ip"])
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
                     nic_fields["dns server"] = dns_server_name
               except:
                     pass
-              nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
-              
+              try:
+                    nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
+              except:
+                   pass
               try:
                 nic_fields['speed'] = local['cat']('/sys/class/net/'+ i +'/speed').encode("ascii").strip()
               except:

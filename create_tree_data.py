@@ -25,26 +25,29 @@ shit_i_care_about = ["name", "mac", "model", "serial", "speed", "make", "diskID"
 def double_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
 
-def get_nics(nic_csv_info):
+def get_nics():
       inters = local["ls"]("/sys/class/net").encode("ascii")
       interfaces =  inters.split('\n')
       net_arr = []
 
       for i in interfaces[:-1]:
-	            output = local['ifconfig'](i).encode('ascii')
+              output = local['ifconfig'](i).encode('ascii')
               nic_fields = {'name': i}
-	            nic_fields['ip'] = scraping.double_split('inet addr:', '  B|  M', output)
+#	      nic_fields['ip'] = double_split('inet addr:', '  ', output)
               nic_fields['stroke'] = 1
               nic_fields['type'] = "nic"
               
               try:
+                    nic_fields['ip'] = double_split('inet addr:', '  ', output)
                     dns_lookup = nslookup(nic_fields["ip"])
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
                     nic_fields["dns server"] = dns_server_name
               except:
                     pass
-              nic_fields['mac'] = scraping.double_split('HWaddr ', '  \n', output)
-              
+              try:
+                    nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
+              except:
+                    pass
               try:
                 nic_fields['speed'] = local['cat']('/sys/class/net/'+ i +'/speed').encode("ascii").strip()
                 nic_fields['stroke'] = int(nic_fields["speed"])/100
@@ -200,8 +203,8 @@ if 'h' not in sys_info_dict['hostname']:  #Head nodes dont have megacli >:(
       sys_info_dict["children"].append({"name": "Disks", "stroke":1,"children": disk_info_dict}) 
       
 
-name  = sys_info_dict["hostname"] +'_'
+name  = sys_info_dict["hostname"] 
 network = sys_info_dict["network"] 
-with open( "tree_data/" + network + "/tree_" + name +'.yml', 'w') as outfile:
+with open( "tree_data/" + network + "/tree_" + name +'.json', 'w') as outfile:
       json.dump(sys_info_dict, outfile, indent=4)
 
