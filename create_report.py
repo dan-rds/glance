@@ -2,11 +2,11 @@
 create_report.py
 
 The basic structure is as follows:
-  • Each type of hardware has its own method
+  * Each type of hardware has its own method
     typically this means callng one large command and spliting it a ton.
-  • This data are stored in a dictionary and returned.
-  • Each of these hardware types are inserted into the larger system.
-  • The resulting dictionary is written to a file in ./reports/<network name>/
+  * This data are stored in a dictionary and returned.
+  * Each of these hardware types are inserted into the larger system.
+  * The resulting dictionary is written to a file in ./reports/<network name>/
 
     by Daniel Richards (ddrichar@ucsc.edu)
        on 6-23-2018
@@ -36,14 +36,14 @@ def get_nics():
       for i in interfaces[:-1]:
 	      output = local['ifconfig'](i).encode('ascii')
               nic_fields = {'name':i}
-	      nic_fields['ip'] = scraping.double_split('inet addr:', '  B|  M', output)
+	      nic_fields['ip'] = double_split('inet addr:', '  B|  M', output)
               try:
                     dns_lookup = nslookup(nic_fields["ip"])
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
                     nic_fields["dns server"] = dns_server_name
               except:
                     pass
-              nic_fields['mac'] = scraping.double_split('HWaddr ', '  \n', output)
+              nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
               
               try:
                 nic_fields['speed'] = local['cat']('/sys/class/net/'+ i +'/speed').encode("ascii").strip()
