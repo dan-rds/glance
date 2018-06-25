@@ -26,20 +26,17 @@ device:
     mac: 00:25:90:fb:92:09
     name: eth1
     speed: '10000'
-  - ip: false
-    mac: 00:25:90:fb:92:0a
+  - mac: 00:25:90:fb:92:0a
     name: eth2
     speed: NA
-  - ip: false
-    mac: 00:25:90:fb:92:0b
+  - mac: 00:25:90:fb:92:0b
     name: eth3
     speed: NA
   - dns server: localhost.bl.pvt
     ip: 127.0.0.1
-    mac: false
     name: lo
     speed: NA
-  - ip: 10.254.254.2  P-t-P:10.254.254.2
+  - ip: 10.254.254.2
     mac: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
     name: tun0
     speed: '10'
