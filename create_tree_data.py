@@ -1,49 +1,90 @@
+'''-------------------------------------
+create_tree_data.py
+
+Creates a JSON file with similar components as the reports. However, 
+the tree date includes specific information, allowing the JSON file
+(stored in ./tree_data) to be used to make a tree in d3 with minimal js.
+
+    by Daniel Richards (ddrichar@ucsc.edu)
+       on 6-23-2018
+--------------------------------------
+'''
 from plumbum import local
 from plumbum.cmd import echo, nslookup, sudo
-import scraping
+from operator import itemgetter
+import yaml
+import json
 from beeprint import pp
 import os
 import sys
+import re
 
-def get_nics():
+
+shit_i_care_about = ["name", "mac", "model", "serial", "speed", "make", "diskID", "amount", "ip", "clock", "cores"];
+csv_fields = {"Name": ' ', "Classification": ' ', "Make":' ', 'Model':' ', "Speed/Capacity": ' ', "Serial Number": ' ', "Path": ' ', 'Other':' '}
+
+def double_split(start, end, string_cmd):
+      return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
+
+def get_nics(csv_rows):
       inters = local["ls"]("/sys/class/net").encode("ascii")
       interfaces =  inters.split('\n')
       net_arr = []
+
       for i in interfaces[:-1]:
-	      output = local['ifconfig'](i).encode('ascii')
-              nic_fields = {'name':i}
-	      nic_fields['ip'] = scraping.get_between('inet addr:', '  B|  M', output)
+              row = csv_fields.copy()
+              output = local['ifconfig'](i).encode('ascii')
+              nic_fields = {'name': i}
+
+              row["Name"] = nic_fields['name']
               nic_fields['stroke'] = 1
               nic_fields['type'] = "nic"
+              row["Classification"] = "Hardware, NIC"
               
               try:
+                    nic_fields['ip'] = double_split('inet addr:', '  ', output)
+                    row["Other"] = "ip: " + nic_fields['ip']
                     dns_lookup = nslookup(nic_fields["ip"])
-                    dns_server_name = d_split("= ", ".\n", dns_lookup)
+
+                    dns_server_name = double_split("= ", ".\n", dns_lookup)
                     nic_fields["dns server"] = dns_server_name
               except:
                     pass
-              nic_fields['mac'] = scraping.get_between('HWaddr ', '  \n', output)
-              
+              try:
+                    nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
+                    row["Serial Number"] = "MAC: " + nic_fields['mac']
+              except:
+                    pass
               try:
                 nic_fields['speed'] = local['cat']('/sys/class/net/'+ i +'/speed').encode("ascii").strip()
+
                 nic_fields['stroke'] = int(nic_fields["speed"])/100
               except:
-                nic_fields['speed'] = "NA"  
+                nic_fields['speed'] = "NA"
+              row["Speed/Capacity"] = nic_fields['speed']
+              tooltip = []
+              csv_rows.append(row)
+              for k,v in nic_fields.iteritems():
+                    if k in shit_i_care_about:
+                          tooltip.append(k.title()+ ": "+ str(v))
+              nic_fields["tt_info"] = tooltip
               net_arr.append(nic_fields)
-
+              
       return net_arr
             
-def get_gpus():
+def get_gpus(csv_rows):
       gpu_count = local["lspci"]().count("VGA")
       #BEWARE DANIEL this doesnt reflect true gpu count remember the ASPEED device
       gpus = []
       for gpu_num in range(0, gpu_count-1):
+            
+            row = csv_fields.copy()
             gpu_fields = {}
             arg_arr = ['-i', str(gpu_num),
                        '--query-gpu=gpu_name,gpu_bus_id,vbios_version,serial,memory.total',
                        '--format=csv,noheader,nounits']
             gpu_info=local.get("nvidia-smi").run(arg_arr)[1].encode("ascii")
-            import re
+         
             
             gpu_arr = gpu_info.strip().split(", ")
             gpu_fields["name"] = gpu_arr[0]
@@ -55,119 +96,194 @@ def get_gpus():
             gpu_fields['bios version'] = gpu_arr[2]
             gpu_fields['serial'] = gpu_arr[3]
             gpu_fields['memory'] = gpu_arr[4]
- #           gpu_node = Node("GPU", **gpu_fields)
+
+            row["Name"] = gpu_fields["name"]
+            row["Make"] = "Nvidia"
+            row["Serial Number"] = gpu_fields["serial"]
+            row["Model"] = gpu_fields["name"]
+            row["Classification"] = "Hardware, GPU"
+            row["Speed/Capacity"] = "Memory: " + gpu_fields["memory"]
+
+            csv_rows.append(row)
+            tooltip = []
+            for k,v in gpu_fields.iteritems():
+                  if k in shit_i_care_about:
+                        tooltip.append(k.title()+ ": "+ str(v))
+            gpu_fields["tt_info"] = tooltip
             gpus.append(gpu_fields)
+         
       return gpus
 
-def d_split(start, end, string_cmd):
-      return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
-
-def get_cpus():
+def get_cpus(csv_rows):
       
       cpu_fields = {}
       cpus = []
       cpu_info = local["lscpu"]().encode("ascii")
-      soc_count = int(d_split("Socket(s):", "\n", cpu_info))
-      #cores_in_soc = int(d_split("Core(s) per socket:", "\n", cpu_info))
-      cpu_fields["model"] = d_split("Model name:", "\n", cpu_info)
+      soc_count = int(double_split("Socket(s):", "\n", cpu_info))
+
+      cpu_fields["model"] = double_split("Model name:", "\n", cpu_info)
       cpu_fields["name"] = cpu_fields["model"]
-      cpu_fields["cores"] = int(d_split("CPU(s):", "\n", cpu_info))/soc_count
-      cpu_fields["clock"] = d_split("CPU max MHz:", "\n", cpu_info)
-      cpu_fields["architecture"] = d_split("Architecture:", "\n", cpu_info)
-      cpu_fields["threads per core"] = d_split("Thread(s) per core:", "\n", cpu_info)
+      cpu_fields["cores"] = int(double_split("CPU(s):", "\n", cpu_info))/soc_count
+      cpu_fields["clock"] = double_split("CPU max MHz:", "\n", cpu_info)
+      cpu_fields["architecture"] = double_split("Architecture:", "\n", cpu_info)
+      cpu_fields["threads per core"] = double_split("Thread(s) per core:", "\n", cpu_info)
       cpu_fields['stroke'] = 1
       cpu_fields['type'] = "cpu"
+
+
+      
+
       for c in range(soc_count):
             cpu_fields["socket"] = c
+
+            row = csv_fields.copy()
+            row["Name"] = cpu_fields["name"]
+            row["Make"] = cpu_fields["model"].split("[^a-zA-Z0-9_]")[0]
+            row["Serial Number"] = "Unknown"
+            row["Model"] = cpu_fields["name"]
+            row["Classification"] = "Hardware, CPU"
+            row["Speed/Capacity"] = "Clock: " + cpu_fields["clock"]
+            row["Other"] = "Socket: " + str(c)
+            csv_rows.append(row)
+            tooltip = []
+            for k,v in cpu_fields.iteritems():
+                if k in shit_i_care_about:
+                    tooltip.append(k.title()+ ": "+ str(v))
+            cpu_fields["tt_info"] = tooltip
             cpus.append(cpu_fields.copy())
-            #cpu_node = Node("CPU", **cpu_fields)
       return cpus
 
-def get_mem():
+def get_mem(csv_rows):
       mem_fields = {}
       mem_info = local["cat"]("/proc/meminfo")
-      mem_info = d_split("MemTotal:", "\n", mem_info)
-      mem_fields["total"] = mem_info
+      mem_info = double_split("MemTotal:", "\n", mem_info)
+      mem_fields["tt_info"] = "Memory: " + mem_info
       mem_fields["name"] = "Memory"
       mem_fields["stroke"] = 1
-      #mem_node = Node("Memory", **mem_fields)
+      row = csv_fields.copy()
+      row["Name"] = "Memory"
+      row["Classification"] = "Hardware, Memory"
+      row["Speed/Capacity"] = mem_info
+
+      csv_rows.append(row)
       return mem_fields
 
-def get_disks():
+def get_disks(csv_rows):
       
       all_disks = sudo["/usr/local/sbin/megacli"]('-pdlist -a0').split("\n\n") 
-      n=0
       disk_array = []
-#      print all_disks[1]
-      for x in all_disks:
+      
+      for x in all_disks[:-1]:
             if "Port status: Active" in x and "Media Type: Hard Disk Device" in x:
+                 
                   try:
-                        disk_info = {}
-                        disk_info["diskID"] = d_split("evice Id:", "\n", x)
-                        disk_info["name"] = "d" + disk_info["diskID"]
-                        disk_info['stroke'] = 1
-                        disk_info['type'] = "disk"
-                        disk_info["firmware"] = d_split("Firmware Level:", "\n", x)
-                        disk_info["size"] = d_split("Raw Size:", "\n", x)
-                        disk_info["serial"] = d_split("Inquiry Data:", "\n", x)
-                        #print disk_info
-                        disk_array.append(disk_info)
-                        n+=1
+                        row = csv_fields.copy()
+
+                        disk_fields = {}
+                        disk_fields["diskID"] = double_split("evice Id:", "\n", x)
+                        disk_fields["name"] = "Disk: " + disk_fields["diskID"]
+                        disk_fields['stroke'] = 1
+                        disk_fields['type'] = "disk"
+                        disk_fields["firmware"] = double_split("Firmware Level:", "\n", x)
+                        disk_fields["size"] = double_split("Raw Size:", "\n", x)
+                        disk_fields["serial"] = double_split("Inquiry Data: ", "\n", x)
+
+                       
+                        name = disk_fields["name"]
+                        row["Name"] = "Hitachi" if 'Hitachi' in name else "Samsung"
+                        row["Classification"] = "Hardware, Disk"
+                        row["Speed/Capacity"] = disk_fields["size"]
+                        row["Serial Number"] = disk_fields["serial"].split(' ')[1]
+                        row["Make"] = disk_fields["serial"].replace("[^a-zA-Z_]", '')
+                        csv_values.append(row)
+                        tooltip = []
+                        for k,v in disk_fields.iteritems():
+                            if k in shit_i_care_about:
+                                tooltip.append(k.title()+ ": "+ str(v))
+                        disk_fields["tt_info"] = tooltip
+                        disk_array.append(disk_fields)
+
                   except:
                          print "ERROR IN DISK READ\n", x
                          
       
       return disk_array
-      #      disk_fields = {}
-      #      n+=1
-      #      print x
-     #       print"--------------------------------"
-#      print all_disks.count('Size: '), n
-def get_sys():
-      sys_info = {}
-      host_name = local["hostname"]().encode("ascii").strip()
-      sys_info["hostname"] = host_name
-      sys_info["bios version"] = d_split("Version:", "\n", sudo["dmidecode"]())
-      sys_info["vendor"] = d_split("Vendor:", "\n", sudo["dmidecode"]())
-      sys_info["type"] = "computer"
-      sys_info['stroke'] = 1
-      sys_info["network"] = local["/home/obs/bin/whereami"]().encode("ascii").strip().title()
+     
+def get_sys(csv_rows ,observatory, host):
+      sys_fields = {}
+      row = csv_fields.copy()
+      host[0] = local["hostname"]().encode("ascii").strip()
+      sys_fields["hostname"] = host[0] 
+      sys_fields["bios version"] = double_split("Version:", "\n", sudo["dmidecode"]())
+      sys_fields["vendor"] = double_split("Vendor:", "\n", sudo["dmidecode"]())
+      sys_fields["type"] = "computer"
+      sys_fields['stroke'] = 1
+      obs_name = local["/home/obs/bin/whereami"]().encode("ascii").strip().title()
+      if(obs_name == 'gbt'):
+        obs_name = obs_name.upper()
+      observatory[0] = obs_name
+      sys_fields["network"] = obs_name
       task_type = ''
-      if 'c' in host_name:
+      if 'c' in host[0]:    # I know, not elegant
             task_type = 'COMPUTE'
-      elif 's' in host_name:
+      elif 's' in host[0]:
             task_type = 'STORAGE'
       else:
             task_type = 'HEAD' 
-      sys_info["type"] = task_type
-    #  print sys_info
-      return sys_info
+      sys_fields["type"] = task_type
 
-nic_array = get_nics()
+      row["Name"] = host[0]
+      row["Make"] = sys_fields["vendor"]
+      row["Classification"] = "System, " + task_type
+      row["Other"] = "Bios version: " + sys_fields["bios version"]
 
-from operator import itemgetter
-nic_array = sorted(nic_array, key=itemgetter('stroke'))
+      csv_rows.append(row)
+
+      tooltip = []
+      for k,v in sys_fields.iteritems():
+          tooltip.append(k.title()+ ": "+ str(v))
+      sys_fields["tt_info"] = tooltip
+      return sys_fields
+
+csv_values = []
 
 
-gpu_array = get_gpus()
-cpu_array = get_cpus()
-mem_array = get_mem()
-sys_array = get_sys()
+nic_info_dict = get_nics(csv_values)
 
-sys_array["children"]=[]
-sys_array["children"].append({"name": "GPUs","stroke":1, "children":gpu_array})
-sys_array["children"].append({"name": "NICs","stroke":1, "children":nic_array})
-sys_array["children"].append({"name": "CPUs", "stroke":1,"children":cpu_array})
-sys_array["children"].append(mem_array)
-if 'h' not in sys_array['hostname']:
-      disk_array = get_disks()
-      sys_array["children"].append({"name": "Disks", "stroke":1,"children": disk_array}) #.update({"Disks": disk_array})
+nic_info_dict = sorted(nic_info_dict, key=itemgetter('stroke')) #looks better in tree
+
+gpu_info_dict = get_gpus(csv_values)
+cpu_info_dict = get_cpus(csv_values)
+mem_info_dict = get_mem(csv_values)
+obs =['']
+host = ['']
+sys_info_dict = get_sys(csv_values, obs, host)
+
+sys_info_dict["children"]=[]
+sys_info_dict["children"].append({"name": "GPUs","stroke":1, "children":gpu_info_dict})
+sys_info_dict["children"].append({"name": "NICs","stroke":1, "children":nic_info_dict})
+sys_info_dict["children"].append({"name": "CPUs", "stroke":1,"children":cpu_info_dict})
+sys_info_dict["children"].append(mem_info_dict)
+
+if 'h' not in sys_info_dict['hostname']:  #Head nodes dont have megacli >:(
+      disk_info_dict = get_disks(csv_values)
+      sys_info_dict["children"].append({"name": "Disks", "stroke":1,"children": disk_info_dict}) 
       
-import yaml
-import json
 
-name  = sys_array["hostname"] +'_'
-network = sys_array["network"] 
-with open( "tree_data/" + network + "/tree_" + name +'.yml', 'w') as outfile:
-      json.dump(sys_array, outfile, indent=4)
+name  = sys_info_dict["hostname"] 
+network = sys_info_dict["network"]
+print name, network
+with open( "tree_data/" + network + "/tree_" + name +'.json', 'w') as outfile:
+      json.dump(sys_info_dict, outfile, indent=4)
 
+for i in csv_values:
+  i["Path"] = obs[0] + " --> " + host[0]
+
+import csv
+
+
+with open("csv_data/table_" + network + "_" + name +'.csv', 'wb') as f:  # Just use 'w' mode in 3.x
+      w = csv.DictWriter(f, csv_fields.keys())
+      w.writeheader()
+      for r in csv_values:
+            w.writerow(r)

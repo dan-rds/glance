@@ -3,6 +3,14 @@
     "network": "Digilab", 
     "bios version": "2.0", 
     "hostname": "blh0", 
+    "tt_info": [
+        "Vendor: American Megatrends Inc.", 
+        "Network: Digilab", 
+        "Bios Version: 2.0", 
+        "Hostname: blh0", 
+        "Stroke: 1", 
+        "Type: HEAD"
+    ], 
     "stroke": 1, 
     "type": "HEAD", 
     "children": [
@@ -17,32 +25,50 @@
             "children": [
                 {
                     "name": "tun0", 
-                    "ip": "10.254.254.1  P-t-P:10.254.254.1", 
+                    "ip": "10.254.254.1", 
                     "stroke": 0, 
+                    "tt_info": [
+                        "Name: tun0", 
+                        "Ip: 10.254.254.1", 
+                        "Mac: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                        "Speed: 10"
+                    ], 
                     "mac": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
                     "type": "nic", 
                     "speed": "10"
                 }, 
                 {
                     "name": "eth2", 
-                    "ip": false, 
-                    "stroke": 1, 
-                    "mac": "00:25:90:fb:92:16", 
                     "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: 00:25:90:fb:92:16", 
+                        "Speed: NA", 
+                        "Name: eth2"
+                    ], 
+                    "mac": "00:25:90:fb:92:16", 
                     "speed": "NA"
                 }, 
                 {
                     "name": "eth3", 
-                    "ip": false, 
-                    "stroke": 1, 
-                    "mac": "00:25:90:fb:92:17", 
                     "type": "nic", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Mac: 00:25:90:fb:92:17", 
+                        "Speed: NA", 
+                        "Name: eth3"
+                    ], 
+                    "mac": "00:25:90:fb:92:17", 
                     "speed": "NA"
                 }, 
                 {
                     "name": "lo", 
                     "ip": "127.0.0.1", 
-                    "mac": false, 
+                    "tt_info": [
+                        "Name: lo", 
+                        "Ip: 127.0.0.1", 
+                        "Speed: NA"
+                    ], 
                     "stroke": 1, 
                     "dns server": "localhost.bl.pvt", 
                     "type": "nic", 
@@ -52,6 +78,12 @@
                     "name": "eth0", 
                     "ip": "10.11.0.153", 
                     "mac": "00:25:90:fb:92:14", 
+                    "tt_info": [
+                        "Name: eth0", 
+                        "Ip: 10.11.0.153", 
+                        "Mac: 00:25:90:fb:92:14", 
+                        "Speed: 1000"
+                    ], 
                     "stroke": 10, 
                     "dns server": "acmeh2.digilab.pvt", 
                     "type": "nic", 
@@ -61,6 +93,12 @@
                     "name": "eth1", 
                     "ip": "10.0.1.1", 
                     "mac": "00:25:90:fb:92:15", 
+                    "tt_info": [
+                        "Name: eth1", 
+                        "Ip: 10.0.1.1", 
+                        "Mac: 00:25:90:fb:92:15", 
+                        "Speed: 10000"
+                    ], 
                     "stroke": 100, 
                     "dns server": "blh1.bl.pvt", 
                     "type": "nic", 
@@ -75,6 +113,12 @@
                 {
                     "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
                     "clock": "3200.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200.0000", 
+                        "Cores: 6", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+                    ], 
                     "stroke": 1, 
                     "architecture": "x86_64", 
                     "cores": 6, 
@@ -86,6 +130,12 @@
                 {
                     "name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
                     "clock": "3200.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200.0000", 
+                        "Cores: 6", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz"
+                    ], 
                     "stroke": 1, 
                     "architecture": "x86_64", 
                     "cores": 6, 
@@ -97,8 +147,8 @@
             ]
         }, 
         {
+            "tt_info": "Memory: 131922836 kB", 
             "stroke": 1, 
-            "total": "131922836 kB", 
             "name": "Memory"
         }
     ]
