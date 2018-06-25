@@ -21,43 +21,53 @@ import re
 
 
 shit_i_care_about = ["name", "mac", "model", "serial", "speed", "make", "diskID", "amount", "ip", "clock", "cores"];
+csv_fields = {"Name": ' ', "Classification:": '', "Make":' '; 'Model':' ', "Speed/Capacity": ' ', "Serial Number": ' ', 'Other':' '}
 
 def double_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
 
-def get_nics():
+def get_nics(csv_rows):
       inters = local["ls"]("/sys/class/net").encode("ascii")
       interfaces =  inters.split('\n')
       net_arr = []
 
       for i in interfaces[:-1]:
+              row = csv_fields.copy()
               output = local['ifconfig'](i).encode('ascii')
               nic_fields = {'name': i}
-#	      nic_fields['ip'] = double_split('inet addr:', '  ', output)
+
+              row["Name"] = nic_fields['name']
               nic_fields['stroke'] = 1
               nic_fields['type'] = "nic"
+              row["Classification"] = "Hardware, NIC"
               
               try:
                     nic_fields['ip'] = double_split('inet addr:', '  ', output)
+                    row["Other"] = "ip: " nic_fields['ip']
                     dns_lookup = nslookup(nic_fields["ip"])
+
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
                     nic_fields["dns server"] = dns_server_name
               except:
                     pass
               try:
                     nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
+                    row["Serial Number"] = "MAC: " nic_fields['mac']
               except:
                     pass
               try:
                 nic_fields['speed'] = local['cat']('/sys/class/net/'+ i +'/speed').encode("ascii").strip()
+
                 nic_fields['stroke'] = int(nic_fields["speed"])/100
               except:
                 nic_fields['speed'] = "NA"
-              row = []
+              row["Speed/Capacity"] = nic_fields['speed']
+              tooltip = []
+              csv_rows.append(row)
               for k,v in nic_fields.iteritems():
                     if k in shit_i_care_about:
-                          row.append(k.title()+ ": "+ str(v))
-              nic_fields["tt_info"] = row
+                          tooltip.append(k.title()+ ": "+ str(v))
+              nic_fields["tt_info"] = tooltip
               net_arr.append(nic_fields)
               
       return net_arr
@@ -160,17 +170,21 @@ def get_disks():
       
       return disk_array
      
-def get_sys():
+def get_sys(observatory, host_name):
       sys_fields = {}
       host_name = local["hostname"]().encode("ascii").strip()
-      sys_fields["hostname"] = host_name
+      sys_fields["hostname"] = host_name 
       sys_fields["bios version"] = double_split("Version:", "\n", sudo["dmidecode"]())
       sys_fields["vendor"] = double_split("Vendor:", "\n", sudo["dmidecode"]())
       sys_fields["type"] = "computer"
       sys_fields['stroke'] = 1
-      sys_fields["network"] = local["/home/obs/bin/whereami"]().encode("ascii").strip().title()
+      obs_name = local["/home/obs/bin/whereami"]().encode("ascii").strip().title()
+      if(obs_name == 'gbt'):
+        obs_name = obs_name.upper()
+      observatory = obs_name
+      sys_fields["network"] = obs_name
       task_type = ''
-      if 'c' in host_name:
+      if 'c' in host_name:    # I know, not elegant
             task_type = 'COMPUTE'
       elif 's' in host_name:
             task_type = 'STORAGE'
@@ -183,8 +197,12 @@ def get_sys():
       sys_fields["tt_info"] = row
       return sys_fields
 
+csv_values = [csv_fields.copy()]
 
-nic_info_dict = get_nics()
+
+nic_info_dict = get_nics(csv_values)
+for i in csv:
+  print i
 nic_info_dict = sorted(nic_info_dict, key=itemgetter('stroke')) #looks better in tree
 
 gpu_info_dict = get_gpus()
