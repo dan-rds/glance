@@ -1,5 +1,4 @@
 Serial Number,Other,Name,Classification,Speed/Capacity,Path,Make,Model
- , , , , ,Digilab --> blc02, , 
 MAC: 02:42:d5:7d:48:c0,ip: 172.17.0.1,docker0,"Hardware, NIC",NA,Digilab --> blc02, , 
 MAC: ac:1f:6b:2d:01:f0,ip: 10.0.1.112,eth0,"Hardware, NIC",1000,Digilab --> blc02, , 
 MAC: ac:1f:6b:2d:01:f1, ,eth1,"Hardware, NIC",NA,Digilab --> blc02, , 
