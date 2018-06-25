@@ -21,7 +21,7 @@ import re
 
 
 shit_i_care_about = ["name", "mac", "model", "serial", "speed", "make", "diskID", "amount", "ip", "clock", "cores"];
-csv_fields = {"Name": ' ', "Classification:": '', "Make":' '; 'Model':' ', "Speed/Capacity": ' ', "Serial Number": ' ', 'Other':' '}
+csv_fields = {"Name": ' ', "Classification": ' ', "Make":' ', 'Model':' ', "Speed/Capacity": ' ', "Serial Number": ' ', 'Other':' '}
 
 def double_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
@@ -43,7 +43,7 @@ def get_nics(csv_rows):
               
               try:
                     nic_fields['ip'] = double_split('inet addr:', '  ', output)
-                    row["Other"] = "ip: " nic_fields['ip']
+                    row["Other"] = "ip: " + nic_fields['ip']
                     dns_lookup = nslookup(nic_fields["ip"])
 
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
@@ -52,7 +52,7 @@ def get_nics(csv_rows):
                     pass
               try:
                     nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
-                    row["Serial Number"] = "MAC: " nic_fields['mac']
+                    row["Serial Number"] = "MAC: " + nic_fields['mac']
               except:
                     pass
               try:
@@ -72,11 +72,12 @@ def get_nics(csv_rows):
               
       return net_arr
             
-def get_gpus():
+def get_gpus(csv_fields):
       gpu_count = local["lspci"]().count("VGA")
       #BEWARE DANIEL this doesnt reflect true gpu count remember the ASPEED device
       gpus = []
       for gpu_num in range(0, gpu_count-1):
+            row = csv_fields.copy()
             gpu_fields = {}
             arg_arr = ['-i', str(gpu_num),
                        '--query-gpu=gpu_name,gpu_bus_id,vbios_version,serial,memory.total',
@@ -95,11 +96,12 @@ def get_gpus():
             gpu_fields['serial'] = gpu_arr[3]
 
             
-            row = []
+            
+            tooltip = []
             for k,v in gpu_fields.iteritems():
                   if k in shit_i_care_about:
-                        row.append(k.title()+ ": "+ str(v))
-            gpu_fields["tt_info"] = row
+                        tooltip.append(k.title()+ ": "+ str(v))
+            gpu_fields["tt_info"] = tooltip
             gpus.append(gpu_fields)
          
       return gpus
@@ -201,14 +203,15 @@ csv_values = [csv_fields.copy()]
 
 
 nic_info_dict = get_nics(csv_values)
-for i in csv:
+for i in csv_values:
   print i
 nic_info_dict = sorted(nic_info_dict, key=itemgetter('stroke')) #looks better in tree
-
+'''
 gpu_info_dict = get_gpus()
 cpu_info_dict = get_cpus()
 mem_info_dict = get_mem()
-sys_info_dict = get_sys()
+obs, host = ''
+sys_info_dict = get_sys(obs, host)
 
 sys_info_dict["children"]=[]
 sys_info_dict["children"].append({"name": "GPUs","stroke":1, "children":gpu_info_dict})
@@ -225,4 +228,13 @@ name  = sys_info_dict["hostname"]
 network = sys_info_dict["network"] 
 with open( "tree_data/" + network + "/tree_" + name +'.json', 'w') as outfile:
       json.dump(sys_info_dict, outfile, indent=4)
+'''
+import csv
 
+my_dict = {"test": 1, "testing": 2}
+
+with open('mycsvfile.csv', 'wb') as f:  # Just use 'w' mode in 3.x
+      w = csv.DictWriter(f, csv_fields.keys())
+      w.writeheader()
+      for r in csv_values:
+            w.writerow(r)

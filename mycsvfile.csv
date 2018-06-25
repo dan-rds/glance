@@ -1,0 +1,10 @@
+Name,Classification,Make,Serial Number,Other,Speed/Capacity,Model
+ , , , , , , 
+docker0,"Hardware, NIC", ,MAC: 02:42:d5:7d:48:c0,ip: 172.17.0.1,NA, 
+eth0,"Hardware, NIC", ,MAC: ac:1f:6b:2d:01:f0,ip: 10.0.1.112,1000, 
+eth1,"Hardware, NIC", ,MAC: ac:1f:6b:2d:01:f1, ,NA, 
+eth2,"Hardware, NIC", ,MAC: ac:1f:6b:2d:01:f2, ,NA, 
+eth3,"Hardware, NIC", ,MAC: ac:1f:6b:2d:01:f3, ,NA, 
+eth4,"Hardware, NIC", ,MAC: 02:02:0a:0a:0a:07,ip: 10.10.10.7,40000, 
+eth5,"Hardware, NIC", ,MAC: 02:02:0a:0a:0a:87,ip: 10.10.10.135,-1, 
+lo,"Hardware, NIC", , ,ip: 127.0.0.1,NA, 
