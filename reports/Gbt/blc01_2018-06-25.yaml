@@ -1,0 +1,145 @@
+device:
+  CPU:
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 6
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 0
+    threads per core: '1'
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 6
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 1
+    threads per core: '1'
+  Disks:
+  - firmware: FP2A
+    id: '10'
+    serial: 85A4K6KSF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '17'
+    serial: 85H7K658F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '11'
+    serial: 85K5K337F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '18'
+    serial: 85I1K59ZF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '12'
+    serial: 85K2KD7AF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '19'
+    serial: 85K3KBZIF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '13'
+    serial: 85H1K58VF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '21'
+    serial: 85M2KDCOF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '15'
+    serial: 8596KAX7F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '14'
+    serial: 85L8K48XF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '16'
+    serial: 85KHK7USF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '20'
+    serial: 85KHK7UNF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '28'
+    serial: 8597K5QQF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '31'
+    serial: 85M7K6FNF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '32'
+    serial: 85I2KD3GF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '33'
+    serial: 859AK43QF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '22'
+    serial: 8591K4G7F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '23'
+    serial: 85J2KD4OF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '24'
+    serial: 85MAK4QQF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '25'
+    serial: 85MAK4Q6F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '26'
+    serial: 85J7K66DF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '27'
+    serial: 85A4K6L8F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  GPU(s):
+  - bios version: 84.00.1F.00.90
+    memory: '12207'
+    name: GeForce GTX TITAN X
+    pciid: 0000:82:00.0
+    serial: 0424115028406
+  Memory:
+    total: 65867564 kB
+  NICs:
+  - dns server: blc01.bl.pvt
+    ip: 10.0.1.75
+    mac: 0c:c4:7a:ba:cb:90
+    name: eth0
+    speed: '1000'
+  - mac: 0c:c4:7a:ba:cb:91
+    name: eth1
+    speed: NA
+  - mac: 0c:c4:7a:ba:cb:92
+    name: eth2
+    speed: NA
+  - mac: 0c:c4:7a:ba:cb:93
+    name: eth3
+    speed: NA
+  - dns server: blc01-10-0.gb.nrao.edu
+    ip: 10.17.2.17
+    mac: 02:02:0a:11:02:11
+    name: eth4
+    speed: '10000'
+  - dns server: blc01-10-1.gb.nrao.edu
+    ip: 10.17.2.145
+    mac: 02:02:0a:11:02:91
+    name: eth5
+    speed: '10000'
+  - dns server: localhost.bl.pvt
+    ip: 127.0.0.1
+    name: lo
+    speed: NA
+  bios version: 1.0b
+  hostname: blc01
+  network: Gbt
+  type: COMPUTE
+  vendor: American Megatrends Inc.
