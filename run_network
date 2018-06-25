@@ -1,6 +1,6 @@
 #!/bin/bash
 
-in_group=( `cat local_group.txt`)
+in_group=( `cat ~/local_group.txt`)
 parent=(`hostname`)
 k=1
 for i in "${in_group[@]}" 
