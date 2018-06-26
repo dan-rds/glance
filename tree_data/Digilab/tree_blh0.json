@@ -8,7 +8,6 @@
         "Network: Digilab", 
         "Bios Version: 2.0", 
         "Hostname: blh0", 
-        "Stroke: 1", 
         "Type: HEAD"
     ], 
     "stroke": 1, 
@@ -62,7 +61,7 @@
                     "speed": "NA"
                 }, 
                 {
-                    "name": "ejfberhiglo", 
+                    "name": "lo", 
                     "ip": "127.0.0.1", 
                     "tt_info": [
                         "Name: lo", 

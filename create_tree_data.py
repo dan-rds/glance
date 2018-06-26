@@ -26,23 +26,30 @@ csv_fields = {"Name": ' ', "Classification": ' ', "Make":' ', 'Model':' ', "Spee
 def flatten(old):
   new = {}
   for k,v in old.iteritems():
-    if 'gbt' in v.lower():
+    if type(v) == str and 'gbt' in v.lower():
       v = 'GBT'
-    new[k.title()] = v
+    if v != 'Tt_Info':
+      new[k.title()] = v
   return new
 
 def double_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
 
 def write_arr_to_csv(arr, hw_class, network, name):
+  if len(arr) <1:
+    return
   for i in arr:
+    #print i
     i["Path"] = network + " --> " + name
-  with open("csv_data/" + hwclass + "/table_" + network + "_" + name +'.csv', 'wb') as f:  # Just use 'w' mode in 3.x
-      w = csv.DictWriter(f, csv_fields.keys())
+  with open("csv_data/" + hw_class + "_table_" + network + "_" + name +'.csv', 'wb') as f:  # Just use 'w' mode in 3.x
+      w = csv.DictWriter(f, arr[0].keys())
       w.writeheader()
       for r in arr:
+        
+        try:
             w.writerow(r)
-
+        except:
+          pass
 def get_nics(csv_rows):
       inters = local["ls"]("/sys/class/net").encode("ascii")
       interfaces =  inters.split('\n')
@@ -161,7 +168,7 @@ def get_cpus(csv_rows):
             # row["Classification"] = "Hardware, CPU"
             # row["Speed/Capacity"] = "Clock: " + cpu_fields["clock"]
             # row["Other"] = "Socket: " + str(c)
-            csv_rows.append(flatten(nic_fields))
+            csv_rows.append(flatten(cpu_fields))
             tooltip = []
             for k,v in cpu_fields.iteritems():
                 if k in shit_i_care_about:
@@ -270,10 +277,10 @@ nic_info_dict = sorted(nic_info_dict, key=itemgetter('stroke')) #looks better in
 gpu_array = []
 gpu_info_dict = get_gpus(gpu_array)
 cpu_array = []
-cpu_info_dict = get_cpus(csv_values)
+cpu_info_dict = get_cpus(cpu_array)
 
 mem_array = []
-mem_info_dict = get_mem(csv_values)
+mem_info_dict = get_mem(mem_array)
 
 obs =['']
 host = ['']
@@ -285,9 +292,10 @@ sys_info_dict["children"].append({"name": "GPUs","stroke":1, "children":gpu_info
 sys_info_dict["children"].append({"name": "NICs","stroke":1, "children":nic_info_dict})
 sys_info_dict["children"].append({"name": "CPUs", "stroke":1,"children":cpu_info_dict})
 sys_info_dict["children"].append(mem_info_dict)
-
+disk_array = []
 if 'h' not in sys_info_dict['hostname']:  #Head nodes dont have megacli >:(
-      disk_info_dict = get_disks(csv_values)
+  
+      disk_info_dict = get_disks(disk_array)
       sys_info_dict["children"].append({"name": "Disks", "stroke":1,"children": disk_info_dict}) 
       
 
@@ -306,6 +314,7 @@ write_arr_to_csv(cpu_array, "CPUs", network, name)
 write_arr_to_csv(gpu_array, "GPUs", network, name)
 
 write_arr_to_csv(disk_array, "Disks", network, name)
+write_arr_to_csv(mem_array, "Memory", network, name)
 
 write_arr_to_csv(sys_array, "NICs", network, name)
 
