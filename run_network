@@ -2,6 +2,7 @@
 
 in_group=( `cat ~/local_group.txt`)
 parent=(`hostname`)
+obs=('/home/obs/bin/whereami')
 k=1
 for i in "${in_group[@]}" 
 do
@@ -9,4 +10,8 @@ do
     ((k++))
     ssh $i "cd ~/glance && ./run_glance.sh" 
 done
-printf $parent
+
+
+git add *
+git commit -m "Regular commit by $HOSTNAME on the ${obs} network at `date`"
+git push

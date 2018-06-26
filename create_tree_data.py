@@ -18,13 +18,30 @@ from beeprint import pp
 import os
 import sys
 import re
-
+import csv
 
 shit_i_care_about = ["name", "mac", "model", "serial", "speed", "make", "diskID", "amount", "ip", "clock", "cores"];
 csv_fields = {"Name": ' ', "Classification": ' ', "Make":' ', 'Model':' ', "Speed/Capacity": ' ', "Serial Number": ' ', "Path": ' ', 'Other':' '}
 
+def flatten(old):
+  new = {}
+  for k,v in old.iteritems():
+    if 'gbt' in v.lower():
+      v = 'GBT'
+    new[k.title()] = v
+  return new
+
 def double_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
+
+def write_arr_to_csv(arr, hw_class, network, name):
+  for i in arr:
+    i["Path"] = network + " --> " + name
+  with open("csv_data/" + hwclass + "/table_" + network + "_" + name +'.csv', 'wb') as f:  # Just use 'w' mode in 3.x
+      w = csv.DictWriter(f, csv_fields.keys())
+      w.writeheader()
+      for r in arr:
+            w.writerow(r)
 
 def get_nics(csv_rows):
       inters = local["ls"]("/sys/class/net").encode("ascii")
@@ -36,14 +53,14 @@ def get_nics(csv_rows):
               output = local['ifconfig'](i).encode('ascii')
               nic_fields = {'name': i}
 
-              row["Name"] = nic_fields['name']
+              # row["Name"] = nic_fields['name']
               nic_fields['stroke'] = 1
               nic_fields['type'] = "nic"
-              row["Classification"] = "Hardware, NIC"
+              # row["Classification"] = "Hardware, NIC"
               
               try:
                     nic_fields['ip'] = double_split('inet addr:', '  ', output)
-                    row["Other"] = "ip: " + nic_fields['ip']
+                    # row["Other"] = "ip: " + nic_fields['ip']
                     dns_lookup = nslookup(nic_fields["ip"])
 
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
@@ -52,7 +69,7 @@ def get_nics(csv_rows):
                     pass
               try:
                     nic_fields['mac'] = double_split('HWaddr ', '  \n', output)
-                    row["Serial Number"] = "MAC: " + nic_fields['mac']
+                    # row["Serial Number"] = "MAC: " + nic_fields['mac']
               except:
                     pass
               try:
@@ -61,9 +78,9 @@ def get_nics(csv_rows):
                 nic_fields['stroke'] = int(nic_fields["speed"])/100
               except:
                 nic_fields['speed'] = "NA"
-              row["Speed/Capacity"] = nic_fields['speed']
+              # row["Speed/Capacity"] = nic_fields['speed']
               tooltip = []
-              csv_rows.append(row)
+              csv_rows.append(flatten(nic_fields))
               for k,v in nic_fields.iteritems():
                     if k in shit_i_care_about:
                           tooltip.append(k.title()+ ": "+ str(v))
@@ -97,14 +114,14 @@ def get_gpus(csv_rows):
             gpu_fields['serial'] = gpu_arr[3]
             gpu_fields['memory'] = gpu_arr[4]
 
-            row["Name"] = gpu_fields["name"]
-            row["Make"] = "Nvidia"
-            row["Serial Number"] = gpu_fields["serial"]
-            row["Model"] = gpu_fields["name"]
-            row["Classification"] = "Hardware, GPU"
-            row["Speed/Capacity"] = "Memory: " + gpu_fields["memory"]
+            # row["Name"] = gpu_fields["name"]
+            # row["Make"] = "Nvidia"
+            # row["Serial Number"] = gpu_fields["serial"]
+            # row["Model"] = gpu_fields["name"]
+            # row["Classification"] = "Hardware, GPU"
+            # row["Speed/Capacity"] = "Memory: " + gpu_fields["memory"]
 
-            csv_rows.append(row)
+            csv_rows.append(flatten(gpu_fields))
             tooltip = []
             for k,v in gpu_fields.iteritems():
                   if k in shit_i_care_about:
@@ -136,15 +153,15 @@ def get_cpus(csv_rows):
       for c in range(soc_count):
             cpu_fields["socket"] = c
 
-            row = csv_fields.copy()
-            row["Name"] = cpu_fields["name"]
-            row["Make"] = cpu_fields["model"].split("[^a-zA-Z0-9_]")[0]
-            row["Serial Number"] = "Unknown"
-            row["Model"] = cpu_fields["name"]
-            row["Classification"] = "Hardware, CPU"
-            row["Speed/Capacity"] = "Clock: " + cpu_fields["clock"]
-            row["Other"] = "Socket: " + str(c)
-            csv_rows.append(row)
+           # row = csv_fields.copy()
+            # row["Name"] = cpu_fields["name"]
+            # row["Make"] = cpu_fields["model"].split("[^a-zA-Z0-9_]")[0]
+            # row["Serial Number"] = "Unknown"
+            # row["Model"] = cpu_fields["name"]
+            # row["Classification"] = "Hardware, CPU"
+            # row["Speed/Capacity"] = "Clock: " + cpu_fields["clock"]
+            # row["Other"] = "Socket: " + str(c)
+            csv_rows.append(flatten(nic_fields))
             tooltip = []
             for k,v in cpu_fields.iteritems():
                 if k in shit_i_care_about:
@@ -161,11 +178,11 @@ def get_mem(csv_rows):
       mem_fields["name"] = "Memory"
       mem_fields["stroke"] = 1
       row = csv_fields.copy()
-      row["Name"] = "Memory"
-      row["Classification"] = "Hardware, Memory"
-      row["Speed/Capacity"] = mem_info
+      # row["Name"] = "Memory"
+      # row["Classification"] = "Hardware, Memory"
+      # row["Speed/Capacity"] = mem_info
 
-      csv_rows.append(row)
+      csv_rows.append(flatten(mem_fields))
       return mem_fields
 
 def get_disks(csv_rows):
@@ -190,12 +207,12 @@ def get_disks(csv_rows):
 
                        
                         name = disk_fields["name"]
-                        row["Name"] = "Hitachi" if 'Hitachi' in name else "Samsung"
-                        row["Classification"] = "Hardware, Disk"
-                        row["Speed/Capacity"] = disk_fields["size"]
-                        row["Serial Number"] = disk_fields["serial"].split(' ')[1]
-                        row["Make"] = disk_fields["serial"].replace("[^a-zA-Z_]", '')
-                        csv_values.append(row)
+                        # row["Name"] = "Hitachi" if 'Hitachi' in name else "Samsung"
+                        # row["Classification"] = "Hardware, Disk"
+                        # row["Speed/Capacity"] = disk_fields["size"]
+                        # row["Serial Number"] = disk_fields["serial"].split(' ')[1]
+                        # row["Make"] = disk_fields["serial"].replace("[^a-zA-Z_]", '')
+                        csv_rows.append(flatten(disk_fields))
                         tooltip = []
                         for k,v in disk_fields.iteritems():
                             if k in shit_i_care_about:
@@ -232,32 +249,36 @@ def get_sys(csv_rows ,observatory, host):
             task_type = 'HEAD' 
       sys_fields["type"] = task_type
 
-      row["Name"] = host[0]
-      row["Make"] = sys_fields["vendor"]
-      row["Classification"] = "System, " + task_type
-      row["Other"] = "Bios version: " + sys_fields["bios version"]
+      # row["Name"] = host[0]
+      # row["Make"] = sys_fields["vendor"]
+      # row["Classification"] = "System, " + task_type
+      # row["Other"] = "Bios version: " + sys_fields["bios version"]
 
-      csv_rows.append(row)
+      csv_rows.append(flatten(sys_fields))
 
       tooltip = []
       for k,v in sys_fields.iteritems():
+        if 'stroke' not in k.lower():
           tooltip.append(k.title()+ ": "+ str(v))
       sys_fields["tt_info"] = tooltip
       return sys_fields
 
-csv_values = []
-
-
-nic_info_dict = get_nics(csv_values)
-
+nic_array = []
+nic_info_dict = get_nics(nic_array)
 nic_info_dict = sorted(nic_info_dict, key=itemgetter('stroke')) #looks better in tree
 
-gpu_info_dict = get_gpus(csv_values)
+gpu_array = []
+gpu_info_dict = get_gpus(gpu_array)
+cpu_array = []
 cpu_info_dict = get_cpus(csv_values)
+
+mem_array = []
 mem_info_dict = get_mem(csv_values)
+
 obs =['']
 host = ['']
-sys_info_dict = get_sys(csv_values, obs, host)
+sys_array = []
+sys_info_dict = get_sys(sys_array, obs, host)
 
 sys_info_dict["children"]=[]
 sys_info_dict["children"].append({"name": "GPUs","stroke":1, "children":gpu_info_dict})
@@ -276,14 +297,18 @@ print name, network
 with open( "tree_data/" + network + "/tree_" + name +'.json', 'w') as outfile:
       json.dump(sys_info_dict, outfile, indent=4)
 
-for i in csv_values:
-  i["Path"] = obs[0] + " --> " + host[0]
-
-import csv
 
 
-with open("csv_data/table_" + network + "_" + name +'.csv', 'wb') as f:  # Just use 'w' mode in 3.x
-      w = csv.DictWriter(f, csv_fields.keys())
-      w.writeheader()
-      for r in csv_values:
-            w.writerow(r)
+write_arr_to_csv(nic_array, "NICs", network, name)
+
+write_arr_to_csv(cpu_array, "CPUs", network, name)
+
+write_arr_to_csv(gpu_array, "GPUs", network, name)
+
+write_arr_to_csv(disk_array, "Disks", network, name)
+
+write_arr_to_csv(sys_array, "NICs", network, name)
+
+
+
+
