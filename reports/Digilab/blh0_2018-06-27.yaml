@@ -1,0 +1,53 @@
+device:
+  CPU:
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 6
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 0
+    threads per core: '1'
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 6
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 1
+    threads per core: '1'
+  GPU(s): []
+  Memory:
+    total: 131922836 kB
+  NICs:
+  - dns_server: acmeh2.digilab.pvt
+    ip: 10.11.0.153
+    mac: 00:25:90:fb:92:14
+    name: eth0
+    speed: '1000'
+  - dns_server: blh1.bl.pvt
+    ip: 10.0.1.1
+    mac: 00:25:90:fb:92:15
+    name: eth1
+    speed: '10000'
+  - dns_server: ' '
+    ip: ' '
+    mac: 00:25:90:fb:92:16
+    name: eth2
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: 00:25:90:fb:92:17
+    name: eth3
+    speed: NA
+  - dns_server: localhost.bl.pvt
+    ip: 127.0.0.1
+    mac: ' '
+    name: lo
+    speed: NA
+  - dns_server: ' '
+    ip: 10.254.254.1
+    mac: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+    name: tun0
+    speed: '10'
+  bios version: '2.0'
+  hostname: blh0
+  network: Digilab
+  type: HEAD
+  vendor: American Megatrends Inc.
