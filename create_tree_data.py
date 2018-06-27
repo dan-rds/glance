@@ -236,7 +236,7 @@ def get_disks(csv_rows):
                          
       
       return disk_array
-     
+
 def get_sys(csv_rows ,observatory, host):
       sys_fields = {}
       row = csv_fields.copy()
@@ -311,16 +311,12 @@ with open( "tree_data/" + network + "/tree_" + name +'.json', 'w') as outfile:
 
 
 
-write_arr_to_csv(nic_array, "NICs", network, name)
-
-write_arr_to_csv(cpu_array, "CPUs", network, name)
-
-write_arr_to_csv(gpu_array, "GPUs", network, name)
-
-write_arr_to_csv(disk_array, "Disks", network, name)
-write_arr_to_csv(mem_array, "Memory", network, name)
-
-write_arr_to_csv(sys_array, "SYS", network, name)
+# write_arr_to_csv(nic_array, "NICs", network, name)
+# write_arr_to_csv(cpu_array, "CPUs", network, name)
+# write_arr_to_csv(gpu_array, "GPUs", network, name)
+# write_arr_to_csv(disk_array, "Disks", network, name)
+# write_arr_to_csv(mem_array, "Memory", network, name)
+# write_arr_to_csv(sys_array, "SYS", network, name)
 
 
 

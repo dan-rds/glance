@@ -1,7 +1,0 @@
-Dns_Server,Name,Ip,Mac,Stroke,Path,Type,Speed
- ,docker0,172.17.0.1,02:42:8a:99:32:83,1,Digilab --> blc02,nic,NA
-blc02.bl.pvt,eth0,10.0.1.112,ac:1f:6b:2d:01:f0,10,Digilab --> blc02,nic,1000
- ,eth1, ,ac:1f:6b:2d:01:f1,1,Digilab --> blc02,nic,NA
- ,eth2, ,ac:1f:6b:2d:01:f2,1,Digilab --> blc02,nic,NA
- ,eth3, ,ac:1f:6b:2d:01:f3,1,Digilab --> blc02,nic,NA
-localhost.bl.pvt,lo,127.0.0.1, ,1,Digilab --> blc02,nic,NA
