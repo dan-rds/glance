@@ -36,7 +36,7 @@ def get_nics():
       net_arr = []
       for i in interfaces[:-1]:
 	      output = local['ifconfig'](i).encode('ascii')
-              nic_fields = {'name':i, "ip":' ', "dns_server": ' ', " ", "mac": ' ', "speed": ' '}
+              nic_fields = {'name':i, "ip":' ', "dns_server": " ", "mac": ' ', "speed": ' '}
               try:
                     nic_fields['ip'] = double_split('inet addr:', '  ', output)
                     dns_lookup = nslookup(nic_fields["ip"])

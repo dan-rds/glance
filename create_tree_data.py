@@ -58,7 +58,7 @@ def get_nics(csv_rows):
       for i in interfaces[:-1]:
               row = csv_fields.copy()
               output = local['ifconfig'](i).encode('ascii')
-              nic_fields = {'name':i, "ip":' ', "dns_server": ' ', " ", "mac": ' ', "speed": ' '}
+              nic_fields = {'name':i, "ip":' ', "dns_server": " ", "mac": ' ', "speed": ' '}
 
               # row["Name"] = nic_fields['name']
               nic_fields['stroke'] = 1
