@@ -146,11 +146,31 @@ def get_sys():
 
       return sys_fields
 
+
+def write_arr_to_csv(arr, hw_class, network, name):
+  if len(arr) <1:
+    return
+  for i in arr:
+    #print i
+    i["Path"] = network + " --> " + name
+  with open("csv_data/" + hw_class + "_table_" + network + "_" + name +'.csv', 'wb') as f:  # Just use 'w' mode in 3.x
+      w = csv.DictWriter(f, arr[0].keys())
+      w.writeheader()
+      for r in arr:
+        
+        try:
+            w.writerow(r)
+        except:
+          pass
+
+
+
 nic_info_dict = get_nics()
 gpu_info_dict = get_gpus()
 cpu_info_dict = get_cpus()
 mem_info_dict = get_mem()
 sys_info_dict = get_sys()
+copy_sys = sys_info_dict.copy()
 
 sys_info_dict.update({"GPU(s)":gpu_info_dict})
 sys_info_dict.update({"NICs":nic_info_dict})
@@ -164,9 +184,18 @@ if 'h' not in sys_info_dict['hostname']: #Head nodes dont have megacli >:(
 
 
 today = str(datetime.date.today())
-name  = sys_info_dict["hostname"] +'_'
+name  = sys_info_dict["hostname"] 
 network = sys_info_dict["network"]
 
-with open("reports/" + network +"/"+ name + today +'.yaml', 'w') as outfile:
+with open("reports/" + network +"/"+ name +'_'+ today +'.yaml', 'w') as outfile:
       yaml.dump({"device":sys_info_dict}, outfile, default_flow_style=False)
+
+
+write_arr_to_csv(nic_info_dict, "NICs", network, name)
+write_arr_to_csv(cpu_info_dict, "CPUs", network, name)
+write_arr_to_csv(gpu_info_dict, "GPUs", network, name)
+write_arr_to_csv(disk_info_dict, "Disks", network, name)
+write_arr_to_csv(mem_info_dict, "Memory", network, name)
+write_arr_to_csv(copy_sys, "SYS", network, name)
+
 
