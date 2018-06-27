@@ -1,8 +1,0 @@
-Dns_Server,Name,Ip,Mac,Stroke,Path,Type,Speed
-bls1.bl.pvt,eth0,10.0.1.92,0c:c4:7a:8e:75:24,10,Gbt --> bls1,nic,1000
- ,eth1, ,0c:c4:7a:8e:75:25,1,Gbt --> bls1,nic,NA
- ,eth2, ,0c:c4:7a:8e:75:26,1,Gbt --> bls1,nic,NA
- ,eth3, ,0c:c4:7a:8e:75:27,1,Gbt --> bls1,nic,NA
-bls1-10-0.gb.nrao.edu,eth4,10.17.2.105,02:02:0a:11:02:69,100,Gbt --> bls1,nic,10000
-bls1-10-1.gb.nrao.edu,eth5,10.17.2.133,02:02:0a:11:02:85,100,Gbt --> bls1,nic,10000
-localhost.bl.pvt,lo,127.0.0.1, ,1,Gbt --> bls1,nic,NA
