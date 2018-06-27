@@ -110,32 +110,39 @@ device:
   Memory:
     total: 65860656 kB
   NICs:
-  - dns server: blc23.bl.pvt
+  - dns_server: blc23.bl.pvt
     ip: 10.0.1.98
     mac: 0c:c4:7a:8f:fe:d8
     name: eth0
     speed: '1000'
-  - mac: 0c:c4:7a:8f:fe:d9
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:8f:fe:d9
     name: eth1
     speed: NA
-  - mac: 0c:c4:7a:8f:fe:da
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:8f:fe:da
     name: eth2
     speed: NA
-  - mac: 0c:c4:7a:8f:fe:db
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:8f:fe:db
     name: eth3
     speed: NA
-  - dns server: blc23-10-0.gb.nrao.edu
+  - dns_server: blc23-10-0.gb.nrao.edu
     ip: 10.17.2.35
     mac: 02:02:0a:11:02:23
     name: eth4
     speed: '10000'
-  - dns server: blc23-10-1.gb.nrao.edu
+  - dns_server: blc23-10-1.gb.nrao.edu
     ip: 10.17.2.163
     mac: 02:02:0a:11:02:a3
     name: eth5
     speed: '-1'
-  - dns server: localhost.bl.pvt
+  - dns_server: localhost.bl.pvt
     ip: 127.0.0.1
+    mac: ' '
     name: lo
     speed: NA
   bios version: '2.0'

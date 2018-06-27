@@ -38,96 +38,107 @@
             "name": "NICs", 
             "children": [
                 {
+                    "dns_server": "blc35-10-1.gb.nrao.edu", 
                     "name": "eth5", 
                     "ip": "10.17.2.173", 
-                    "mac": "02:02:0a:11:02:ad", 
+                    "stroke": -1, 
                     "tt_info": [
                         "Name: eth5", 
                         "Ip: 10.17.2.173", 
                         "Mac: 02:02:0a:11:02:ad", 
                         "Speed: -1"
                     ], 
-                    "stroke": -1, 
-                    "dns server": "blc35-10-1.gb.nrao.edu", 
+                    "mac": "02:02:0a:11:02:ad", 
                     "type": "nic", 
                     "speed": "-1"
                 }, 
                 {
+                    "dns_server": " ", 
                     "name": "eth1", 
-                    "type": "nic", 
+                    "ip": " ", 
                     "stroke": 1, 
                     "tt_info": [
+                        "Name: eth1", 
+                        "Ip:  ", 
                         "Mac: 0c:c4:7a:8f:f7:2d", 
-                        "Speed: NA", 
-                        "Name: eth1"
+                        "Speed: NA"
                     ], 
                     "mac": "0c:c4:7a:8f:f7:2d", 
+                    "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": " ", 
                     "name": "eth2", 
-                    "type": "nic", 
+                    "ip": " ", 
                     "stroke": 1, 
                     "tt_info": [
+                        "Name: eth2", 
+                        "Ip:  ", 
                         "Mac: 0c:c4:7a:8f:f7:2e", 
-                        "Speed: NA", 
-                        "Name: eth2"
+                        "Speed: NA"
                     ], 
                     "mac": "0c:c4:7a:8f:f7:2e", 
+                    "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": " ", 
                     "name": "eth3", 
-                    "type": "nic", 
+                    "ip": " ", 
                     "stroke": 1, 
                     "tt_info": [
+                        "Name: eth3", 
+                        "Ip:  ", 
                         "Mac: 0c:c4:7a:8f:f7:2f", 
-                        "Speed: NA", 
-                        "Name: eth3"
+                        "Speed: NA"
                     ], 
                     "mac": "0c:c4:7a:8f:f7:2f", 
+                    "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": "localhost.bl.pvt", 
                     "name": "lo", 
                     "ip": "127.0.0.1", 
+                    "stroke": 1, 
                     "tt_info": [
                         "Name: lo", 
                         "Ip: 127.0.0.1", 
+                        "Mac:  ", 
                         "Speed: NA"
                     ], 
-                    "stroke": 1, 
-                    "dns server": "localhost.bl.pvt", 
+                    "mac": " ", 
                     "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": "blc35.bl.pvt", 
                     "name": "eth0", 
                     "ip": "10.0.1.108", 
-                    "mac": "0c:c4:7a:8f:f7:2c", 
+                    "stroke": 10, 
                     "tt_info": [
                         "Name: eth0", 
                         "Ip: 10.0.1.108", 
                         "Mac: 0c:c4:7a:8f:f7:2c", 
                         "Speed: 1000"
                     ], 
-                    "stroke": 10, 
-                    "dns server": "blc35.bl.pvt", 
+                    "mac": "0c:c4:7a:8f:f7:2c", 
                     "type": "nic", 
                     "speed": "1000"
                 }, 
                 {
+                    "dns_server": "blc35-10-0.gb.nrao.edu", 
                     "name": "eth4", 
                     "ip": "10.17.2.45", 
-                    "mac": "02:02:0a:11:02:2d", 
+                    "stroke": 100, 
                     "tt_info": [
                         "Name: eth4", 
                         "Ip: 10.17.2.45", 
                         "Mac: 02:02:0a:11:02:2d", 
                         "Speed: 10000"
                     ], 
-                    "stroke": 100, 
-                    "dns server": "blc35-10-0.gb.nrao.edu", 
+                    "mac": "02:02:0a:11:02:2d", 
                     "type": "nic", 
                     "speed": "10000"
                 }

@@ -320,7 +320,7 @@ write_arr_to_csv(gpu_array, "GPUs", network, name)
 write_arr_to_csv(disk_array, "Disks", network, name)
 write_arr_to_csv(mem_array, "Memory", network, name)
 
-write_arr_to_csv(sys_array, "NICs", network, name)
+write_arr_to_csv(sys_array, "SYS", network, name)
 
 
 

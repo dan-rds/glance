@@ -1,2 +1,8 @@
-Vendor,Network,Bios Version,Hostname,Stroke,Path,Type
-American Megatrends Inc.,GBT,2.0,blc13,1,Gbt --> blc13,COMPUTE
+Dns_Server,Name,Ip,Mac,Stroke,Path,Type,Speed
+blc13.bl.pvt,eth0,10.0.1.85,0c:c4:7a:8e:05:fc,10,Gbt --> blc13,nic,1000
+ ,eth1, ,0c:c4:7a:8e:05:fd,1,Gbt --> blc13,nic,NA
+ ,eth2, ,0c:c4:7a:8e:05:fe,1,Gbt --> blc13,nic,NA
+ ,eth3, ,0c:c4:7a:8e:05:ff,1,Gbt --> blc13,nic,NA
+blc13-10-0.gb.nrao.edu,eth4,10.17.2.27,02:02:0a:11:02:1b,100,Gbt --> blc13,nic,10000
+blc13-10-1.gb.nrao.edu,eth5,10.17.2.155,02:02:0a:11:02:9b,-1,Gbt --> blc13,nic,-1
+localhost.bl.pvt,lo,127.0.0.1, ,1,Gbt --> blc13,nic,NA
