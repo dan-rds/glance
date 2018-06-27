@@ -23,36 +23,37 @@
             "name": "NICs", 
             "children": [
                 {
+                    "dns_server": "blc01-4.tenge.pvt", 
                     "name": "eth4", 
                     "ip": "10.10.10.6", 
-                    "mac": "02:02:0a:0a:0a:06", 
+                    "stroke": -1, 
                     "tt_info": [
                         "Name: eth4", 
                         "Ip: 10.10.10.6", 
                         "Mac: 02:02:0a:0a:0a:06", 
                         "Speed: -1"
                     ], 
-                    "stroke": -1, 
-                    "dns server": "blc01-4.tenge.pvt", 
+                    "mac": "02:02:0a:0a:0a:06", 
                     "type": "nic", 
                     "speed": "-1"
                 }, 
                 {
+                    "dns_server": "blc01-5.tenge.pvt", 
                     "name": "eth5", 
                     "ip": "10.10.10.134", 
-                    "mac": "02:02:0a:0a:0a:86", 
+                    "stroke": -1, 
                     "tt_info": [
                         "Name: eth5", 
                         "Ip: 10.10.10.134", 
                         "Mac: 02:02:0a:0a:0a:86", 
                         "Speed: -1"
                     ], 
-                    "stroke": -1, 
-                    "dns server": "blc01-5.tenge.pvt", 
+                    "mac": "02:02:0a:0a:0a:86", 
                     "type": "nic", 
                     "speed": "-1"
                 }, 
                 {
+                    "dns_server": " ", 
                     "name": "docker0", 
                     "ip": "172.17.0.1", 
                     "stroke": 1, 
@@ -67,66 +68,77 @@
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": " ", 
                     "name": "eth1", 
-                    "type": "nic", 
+                    "ip": " ", 
                     "stroke": 1, 
                     "tt_info": [
+                        "Name: eth1", 
+                        "Ip:  ", 
                         "Mac: ac:1f:6b:2d:03:f9", 
-                        "Speed: NA", 
-                        "Name: eth1"
+                        "Speed: NA"
                     ], 
                     "mac": "ac:1f:6b:2d:03:f9", 
+                    "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": " ", 
                     "name": "eth2", 
-                    "type": "nic", 
+                    "ip": " ", 
                     "stroke": 1, 
                     "tt_info": [
+                        "Name: eth2", 
+                        "Ip:  ", 
                         "Mac: ac:1f:6b:2d:03:fa", 
-                        "Speed: NA", 
-                        "Name: eth2"
+                        "Speed: NA"
                     ], 
                     "mac": "ac:1f:6b:2d:03:fa", 
+                    "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": " ", 
                     "name": "eth3", 
-                    "type": "nic", 
+                    "ip": " ", 
                     "stroke": 1, 
                     "tt_info": [
+                        "Name: eth3", 
+                        "Ip:  ", 
                         "Mac: ac:1f:6b:2d:03:fb", 
-                        "Speed: NA", 
-                        "Name: eth3"
+                        "Speed: NA"
                     ], 
                     "mac": "ac:1f:6b:2d:03:fb", 
+                    "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": "localhost.bl.pvt", 
                     "name": "lo", 
                     "ip": "127.0.0.1", 
+                    "stroke": 1, 
                     "tt_info": [
                         "Name: lo", 
                         "Ip: 127.0.0.1", 
+                        "Mac:  ", 
                         "Speed: NA"
                     ], 
-                    "stroke": 1, 
-                    "dns server": "localhost.bl.pvt", 
+                    "mac": " ", 
                     "type": "nic", 
                     "speed": "NA"
                 }, 
                 {
+                    "dns_server": "blc01.bl.pvt", 
                     "name": "eth0", 
                     "ip": "10.0.1.111", 
-                    "mac": "ac:1f:6b:2d:03:f8", 
+                    "stroke": 10, 
                     "tt_info": [
                         "Name: eth0", 
                         "Ip: 10.0.1.111", 
                         "Mac: ac:1f:6b:2d:03:f8", 
                         "Speed: 1000"
                     ], 
-                    "stroke": 10, 
-                    "dns server": "blc01.bl.pvt", 
+                    "mac": "ac:1f:6b:2d:03:f8", 
                     "type": "nic", 
                     "speed": "1000"
                 }

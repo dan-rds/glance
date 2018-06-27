@@ -1,2 +1,7 @@
-Vendor,Network,Bios Version,Hostname,Stroke,Path,Type
-American Megatrends Inc.,Digilab,2.0,blh0,1,Digilab --> blh0,HEAD
+Dns_Server,Name,Ip,Mac,Stroke,Path,Type,Speed
+acmeh2.digilab.pvt,eth0,10.11.0.153,00:25:90:fb:92:14,10,Digilab --> blh0,nic,1000
+blh1.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:15,100,Digilab --> blh0,nic,10000
+ ,eth2, ,00:25:90:fb:92:16,1,Digilab --> blh0,nic,NA
+ ,eth3, ,00:25:90:fb:92:17,1,Digilab --> blh0,nic,NA
+localhost.bl.pvt,lo,127.0.0.1, ,1,Digilab --> blh0,nic,NA
+ ,tun0,10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,0,Digilab --> blh0,nic,10
