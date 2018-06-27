@@ -196,9 +196,9 @@ def get_disks(csv_rows):
       
       all_disks =  []
       try:
-        all_disks = sudo["/usr/local/sbin/megacli"]('-pdlist -a0').split("\n\n")
+        all_disks = sudo["/usr/local/bin/megacli"]('-pdlist -a0').split("\n\n")
       except:
-        all_disks = sudo["/usr/local/bin/megacli"]('-pdlist -a0').split("\n\n")      
+        all_disks = sudo["/usr/local/sbin/megacli"]('-pdlist -a0').split("\n\n")      
       disk_array = []
       
       for x in all_disks[:-1]:
