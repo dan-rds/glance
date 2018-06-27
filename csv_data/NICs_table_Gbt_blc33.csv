@@ -1,0 +1,8 @@
+dns_server,name,ip,mac,Path,speed
+blc33.bl.pvt,eth0,10.0.1.106,0c:c4:7a:8f:fe:dc,Gbt --> blc33,1000
+ ,eth1, ,0c:c4:7a:8f:fe:dd,Gbt --> blc33,NA
+ ,eth2, ,0c:c4:7a:8f:fe:de,Gbt --> blc33,NA
+ ,eth3, ,0c:c4:7a:8f:fe:df,Gbt --> blc33,NA
+blc33-10-0.gb.nrao.edu,eth4,10.17.2.43,02:02:0a:11:02:2b,Gbt --> blc33,10000
+blc33-10-1.gb.nrao.edu,eth5,10.17.2.171,02:02:0a:11:02:ab,Gbt --> blc33,-1
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc33,NA

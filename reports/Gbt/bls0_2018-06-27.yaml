@@ -1,0 +1,203 @@
+device:
+  CPU:
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 12
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 0
+    threads per core: '2'
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 12
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 1
+    threads per core: '2'
+  Disks:
+  - firmware: FP2A
+    id: '46'
+    serial: 85OAK9VIFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '57'
+    serial: 85O9KB4JFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '51'
+    serial: 9563KNF6FSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '50'
+    serial: 954BK50CFSBATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '56'
+    serial: 85O9KB4GFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '47'
+    serial: 954BK50BFSBATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '53'
+    serial: 85V7KEC9FSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '52'
+    serial: 85V7KECAFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '54'
+    serial: 9562KQ6EFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '55'
+    serial: 85L3KC1OF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '58'
+    serial: 954BK50EFSBATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '61'
+    serial: 85O9KB4IFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '59'
+    serial: 9549KBTIFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '60'
+    serial: 9547KEQ0FSBATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '63'
+    serial: 9549KBTTFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '65'
+    serial: 85T3KN1ZFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '68'
+    serial: 85V7KEC5FSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '72'
+    serial: 954BK50DFSBATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '67'
+    serial: 954BK4XTFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '80'
+    serial: 85V7KEC6FSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '69'
+    serial: 9548K9THFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '73'
+    serial: 85T3KN1XFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '70'
+    serial: 85T3KN25FSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '76'
+    serial: 9557KETQFSAATOSHIBA MD04ACA400                      FP2A
+    size: 3.638 TB [0x1d1c0beb0 Sectors]
+  - firmware: FP2A
+    id: '49'
+    serial: 85AAK45IF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '64'
+    serial: 85A9K4ZHF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '74'
+    serial: 85M3KC3GF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '62'
+    serial: 85J6KB9JF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '78'
+    serial: 85K4K6XYF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '79'
+    serial: 85I1K5AKF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '75'
+    serial: 85J1K5B3F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '48'
+    serial: 85K3KBZPF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '77'
+    serial: 85A9K4ZGF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '66'
+    serial: 85L9K5E7F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '71'
+    serial: 85J5K31YF57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '81'
+    serial: 85M2KDD2F57DTOSHIBA HDWE150                         FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  GPU(s): []
+  Memory:
+    total: 65865880 kB
+  NICs:
+  - dns_server: bls0.bl.pvt
+    ip: 10.0.1.82
+    mac: 0c:c4:7a:bd:81:00
+    name: eth0
+    speed: '1000'
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:bd:81:01
+    name: eth1
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:bd:81:02
+    name: eth2
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:bd:81:03
+    name: eth3
+    speed: NA
+  - dns_server: bls0-10-0.gb.nrao.edu
+    ip: 10.17.2.104
+    mac: 02:02:0a:11:02:68
+    name: eth4
+    speed: '10000'
+  - dns_server: bls0-10-1.gb.nrao.edu
+    ip: 10.17.2.132
+    mac: 02:02:0a:11:02:84
+    name: eth5
+    speed: '-1'
+  - dns_server: localhost.bl.pvt
+    ip: 127.0.0.1
+    mac: ' '
+    name: lo
+    speed: NA
+  bios version: 1.0b
+  hostname: bls0
+  network: Gbt
+  type: STORAGE
+  vendor: American Megatrends Inc.
