@@ -24,7 +24,7 @@ import datetime
 import os
 import sys
 import re
-
+import csv
 
 def double_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
@@ -148,8 +148,10 @@ def get_sys():
 
 
 def write_arr_to_csv(arr, hw_class, network, name):
-  if len(arr) <1:
+  if arr == None or len(arr) <1:
     return
+  if type(arr) != list:
+      arr = [arr]
   for i in arr:
     #print i
     i["Path"] = network + " --> " + name
@@ -169,6 +171,8 @@ nic_info_dict = get_nics()
 gpu_info_dict = get_gpus()
 cpu_info_dict = get_cpus()
 mem_info_dict = get_mem()
+
+print mem_info_dict
 sys_info_dict = get_sys()
 copy_sys = sys_info_dict.copy()
 
@@ -176,7 +180,7 @@ sys_info_dict.update({"GPU(s)":gpu_info_dict})
 sys_info_dict.update({"NICs":nic_info_dict})
 sys_info_dict.update({"CPU":cpu_info_dict})
 sys_info_dict.update({"Memory":mem_info_dict})
-
+disk_info_dict = {}
 if 'h' not in sys_info_dict['hostname']: #Head nodes dont have megacli >:(
       disk_info_dict = get_disks()
       sys_info_dict.update({"Disks": disk_info_dict})
