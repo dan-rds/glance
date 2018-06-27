@@ -58,7 +58,7 @@ def get_nics(csv_rows):
       for i in interfaces[:-1]:
               row = csv_fields.copy()
               output = local['ifconfig'](i).encode('ascii')
-              nic_fields = {'name':i, "ip":' ', "dns_server", " ", "mac": ' ', "speed": ' '}
+              nic_fields = {'name':i, "ip":' ', "dns_server": ' ', " ", "mac": ' ', "speed": ' '}
 
               # row["Name"] = nic_fields['name']
               nic_fields['stroke'] = 1
@@ -71,7 +71,7 @@ def get_nics(csv_rows):
                     dns_lookup = nslookup(nic_fields["ip"])
 
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
-                    nic_fields["dns server"] = dns_server_name
+                    nic_fields["dns_server"] = dns_server_name
               except:
                     pass
               try:
