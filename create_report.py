@@ -36,12 +36,12 @@ def get_nics():
       net_arr = []
       for i in interfaces[:-1]:
 	      output = local['ifconfig'](i).encode('ascii')
-              nic_fields = {'name':i}
+              nic_fields = {'name':i, "ip":' ', "dns_server", " ", "mac": ' ', "speed": ' '}
               try:
                     nic_fields['ip'] = double_split('inet addr:', '  ', output)
                     dns_lookup = nslookup(nic_fields["ip"])
                     dns_server_name = double_split("= ", ".\n", dns_lookup)
-                    nic_fields["dns server"] = dns_server_name
+                    nic_fields["dns_server"] = dns_server_name
               except:
                     pass
               try:
