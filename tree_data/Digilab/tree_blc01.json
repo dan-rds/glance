@@ -8,7 +8,6 @@
         "Network: Digilab", 
         "Bios Version: 2.0b", 
         "Hostname: blc01", 
-        "Stroke: 1", 
         "Type: COMPUTE"
     ], 
     "stroke": 1, 
@@ -23,6 +22,21 @@
             "stroke": 1, 
             "name": "NICs", 
             "children": [
+                {
+                    "name": "eth4", 
+                    "ip": "10.10.10.6", 
+                    "mac": "02:02:0a:0a:0a:06", 
+                    "tt_info": [
+                        "Name: eth4", 
+                        "Ip: 10.10.10.6", 
+                        "Mac: 02:02:0a:0a:0a:06", 
+                        "Speed: -1"
+                    ], 
+                    "stroke": -1, 
+                    "dns server": "blc01-4.tenge.pvt", 
+                    "type": "nic", 
+                    "speed": "-1"
+                }, 
                 {
                     "name": "eth5", 
                     "ip": "10.10.10.134", 
@@ -115,21 +129,6 @@
                     "dns server": "blc01.bl.pvt", 
                     "type": "nic", 
                     "speed": "1000"
-                }, 
-                {
-                    "name": "eth4", 
-                    "ip": "10.10.10.6", 
-                    "mac": "02:02:0a:0a:0a:06", 
-                    "tt_info": [
-                        "Name: eth4", 
-                        "Ip: 10.10.10.6", 
-                        "Mac: 02:02:0a:0a:0a:06", 
-                        "Speed: 40000"
-                    ], 
-                    "stroke": 400, 
-                    "dns server": "blc01-4.tenge.pvt", 
-                    "type": "nic", 
-                    "speed": "40000"
                 }
             ]
         }, 

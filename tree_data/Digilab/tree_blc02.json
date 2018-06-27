@@ -8,7 +8,6 @@
         "Network: Digilab", 
         "Bios Version: 2.0b", 
         "Hostname: blc02", 
-        "Stroke: 1", 
         "Type: COMPUTE"
     ], 
     "stroke": 1, 
@@ -35,7 +34,7 @@
                 {
                     "name": "TITAN V", 
                     "bios version": "88.00.41.00.03", 
-                    "pciid": "00000000:82:00.0", 
+                    "pciid": "00000000:81:00.0", 
                     "stroke": 1, 
                     "tt_info": [
                         "Name: TITAN V", 
@@ -53,31 +52,16 @@
             "name": "NICs", 
             "children": [
                 {
-                    "name": "eth5", 
-                    "ip": "10.10.10.135", 
-                    "mac": "02:02:0a:0a:0a:87", 
-                    "tt_info": [
-                        "Name: eth5", 
-                        "Ip: 10.10.10.135", 
-                        "Mac: 02:02:0a:0a:0a:87", 
-                        "Speed: -1"
-                    ], 
-                    "stroke": -1, 
-                    "dns server": "blc02-5.tenge.pvt", 
-                    "type": "nic", 
-                    "speed": "-1"
-                }, 
-                {
                     "name": "docker0", 
                     "ip": "172.17.0.1", 
                     "stroke": 1, 
                     "tt_info": [
                         "Name: docker0", 
                         "Ip: 172.17.0.1", 
-                        "Mac: 02:42:d5:7d:48:c0", 
+                        "Mac: 02:42:8a:99:32:83", 
                         "Speed: NA"
                     ], 
-                    "mac": "02:42:d5:7d:48:c0", 
+                    "mac": "02:42:8a:99:32:83", 
                     "type": "nic", 
                     "speed": "NA"
                 }, 
@@ -144,21 +128,6 @@
                     "dns server": "blc02.bl.pvt", 
                     "type": "nic", 
                     "speed": "1000"
-                }, 
-                {
-                    "name": "eth4", 
-                    "ip": "10.10.10.7", 
-                    "mac": "02:02:0a:0a:0a:07", 
-                    "tt_info": [
-                        "Name: eth4", 
-                        "Ip: 10.10.10.7", 
-                        "Mac: 02:02:0a:0a:0a:07", 
-                        "Speed: 40000"
-                    ], 
-                    "stroke": 400, 
-                    "dns server": "blc02-4.tenge.pvt", 
-                    "type": "nic", 
-                    "speed": "40000"
                 }
             ]
         }, 
