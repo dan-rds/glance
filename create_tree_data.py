@@ -14,7 +14,6 @@ from plumbum.cmd import echo, nslookup, sudo
 from operator import itemgetter
 import yaml
 import json
-from beeprint import pp
 import os
 import sys
 import re

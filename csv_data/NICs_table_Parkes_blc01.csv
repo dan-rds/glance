@@ -1,0 +1,8 @@
+dns_server,name,ip,mac,Path,speed
+blc01.bl.pvt,eth0,10.0.1.82,0c:c4:7a:eb:ac:54,Parkes --> blc01,1000
+ ,eth1, ,0c:c4:7a:eb:ac:55,Parkes --> blc01,NA
+ ,eth2, ,0c:c4:7a:eb:ac:56,Parkes --> blc01,NA
+ ,eth3, ,0c:c4:7a:eb:ac:57,Parkes --> blc01,NA
+blc01-4.tenge.pvt,eth4,10.10.10.12,02:02:0a:0a:0a:0c,Parkes --> blc01,10000
+blc01-5.tenge.pvt,eth5,10.10.10.140,02:02:0a:0a:0a:8c,Parkes --> blc01,-1
+localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc01,NA
