@@ -1,4 +1,4 @@
-dns_server,name,ip,mac,Path,speed
+Dns_Server,Name,IP,MAC,Path,Speed
 acmeh2.digilab.pvt,eth0,10.11.0.153,00:25:90:fb:92:14,Digilab --> blh0,1000
 blh1.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:15,Digilab --> blh0,10000
  ,eth2, ,00:25:90:fb:92:16,Digilab --> blh0,NA

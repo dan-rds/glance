@@ -33,10 +33,11 @@ def double_split(start, end, string_cmd):
 def format_table(dic):
       output = {}
       for k, v in dic.iteritems():
-            new_key = k.title() if len(k) >4 else k.upper
-            while '  ' in v:
+            new_key = k.title() if len(k) > 3 else k.upper()
+            while type(v) == str and '  ' in v:
                       v = v.replace('  ', ' ')
-            output[k] = v
+            output[new_key] = v
+      print output
       return output
 
 def get_nics():
@@ -161,13 +162,15 @@ def write_arr_to_csv(arr, hw_class, network, name):
     return
   if type(arr) != list:
       arr = [arr]
+  list_rows = []
   for i in arr:
-    #print i
+    print "========", i
     i["Path"] = network + " --> " + name
+    list_rows.append(format_table(i))
   with open("csv_data/" + hw_class + "_table_" + network + "_" + name +'.csv', 'wb') as f:  # Just use 'w' mode in 3.x
-      w = csv.DictWriter(f, arr[0].keys())
+      w = csv.DictWriter(f, list_rows[0].keys())
       w.writeheader()
-      for r in arr:
+      for r in list_rows:
         
         try:
             w.writerow(r)
@@ -181,7 +184,7 @@ gpu_info_dict = get_gpus()
 cpu_info_dict = get_cpus()
 mem_info_dict = get_mem()
 
-print mem_info_dict
+
 sys_info_dict = get_sys()
 copy_sys = sys_info_dict.copy()
 

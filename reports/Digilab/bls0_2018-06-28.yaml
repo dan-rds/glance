@@ -39,7 +39,7 @@ device:
       \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
       Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
       \ 6.0Gb/s \nLink Speed: 6.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :42C (107.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
+      \ :41C (105.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
       \  No\nPI: No PI\nDrive's write cache : Disabled\nDrive's NCQ setting : Enabled\n\
       Port-0 :\nPort status: Active\nPort's Linkspeed: 6.0Gb/s \nDrive has flagged\
       \ a S.M.A.R.T alert : No"

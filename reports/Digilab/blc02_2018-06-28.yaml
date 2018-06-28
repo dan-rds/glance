@@ -83,8 +83,8 @@ device:
       \ Port Number: 0(path0) \nInquiry Data:       JK11A5B8J0RL0XHitachi HDS722020ALA330\
       \                 JKAOA3MA\nFDE Enable: Disable\nSecured: Unsecured\nLocked:\
       \ Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed: 3.0Gb/s\
-      \ \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature :30C\
-      \ (86.00 F)\nPI Eligibility:  No \nDrive is formatted for PI information:  No\n\
+      \ \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature :29C\
+      \ (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:  No\n\
       PI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\nPort-0\
       \ :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged a S.M.A.R.T\
       \ alert : No"
@@ -143,8 +143,8 @@ device:
       \ Port Number: 0(path0) \nInquiry Data:       JK11A5B8J36AMXHitachi HDS722020ALA330\
       \                 JKAOA3MA\nFDE Enable: Disable\nSecured: Unsecured\nLocked:\
       \ Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed: 3.0Gb/s\
-      \ \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature :32C\
-      \ (89.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:  No\n\
+      \ \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature :31C\
+      \ (87.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:  No\n\
       PI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\nPort-0\
       \ :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged a S.M.A.R.T\
       \ alert : No"
@@ -188,8 +188,8 @@ device:
       \ Port Number: 0(path0) \nInquiry Data:       JK11A4B8JR267WHitachi HDS722020ALA330\
       \                 JKAOA3MA\nFDE Enable: Disable\nSecured: Unsecured\nLocked:\
       \ Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed: 3.0Gb/s\
-      \ \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature :29C\
-      \ (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:  No\n\
+      \ \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature :28C\
+      \ (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:  No\n\
       PI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\nPort-0\
       \ :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged a S.M.A.R.T\
       \ alert : No"
@@ -324,7 +324,7 @@ device:
       \                         1AQ10001\nFDE Enable: Disable\nSecured: Unsecured\n\
       Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
       \ 3.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :24C (75.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
+      \ :23C (73.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
       \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
       Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
       \ a S.M.A.R.T alert : No"

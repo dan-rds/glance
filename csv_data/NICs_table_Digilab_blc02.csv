@@ -1,4 +1,4 @@
-dns_server,name,ip,mac,Path,speed
+Dns_Server,Name,IP,MAC,Path,Speed
  ,docker0,172.17.0.1,02:42:8a:99:32:83,Digilab --> blc02,NA
 blc02.bl.pvt,eth0,10.0.1.112,ac:1f:6b:2d:01:f0,Digilab --> blc02,1000
  ,eth1, ,ac:1f:6b:2d:01:f1,Digilab --> blc02,NA
