@@ -1,4 +1,4 @@
-dns_server,name,ip,mac,Path,speed
+Dns_Server,Name,IP,MAC,Path,Speed
 blc24.bl.pvt,eth0,10.0.1.98,ac:1f:6b:2c:01:70,Parkes --> blc24,1000
  ,eth1, ,ac:1f:6b:2c:01:71,Parkes --> blc24,NA
  ,eth2, ,ac:1f:6b:2c:01:72,Parkes --> blc24,NA
