@@ -1,4 +1,4 @@
-dns_server,name,ip,mac,Path,speed
+Dns_Server,Name,IP,MAC,Path,Speed
 blc33.bl.pvt,eth0,10.0.1.106,0c:c4:7a:8f:fe:dc,Gbt --> blc33,1000
  ,eth1, ,0c:c4:7a:8f:fe:dd,Gbt --> blc33,NA
  ,eth2, ,0c:c4:7a:8f:fe:de,Gbt --> blc33,NA

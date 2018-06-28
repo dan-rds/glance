@@ -1,4 +1,4 @@
-dns_server,name,ip,mac,Path,speed
+Dns_Server,Name,IP,MAC,Path,Speed
 bl-head.gb.nrao.edu,eth0,10.16.98.99,00:25:90:fb:92:08,Gbt --> blh0,1000
 blh0.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:09,Gbt --> blh0,10000
  ,eth2, ,00:25:90:fb:92:0a,Gbt --> blh0,NA
