@@ -1,4 +1,5 @@
-'''-------------------------------------
+'''
+-------------------------------------
 create_report.py
 
 The basic structure is as follows:
@@ -11,7 +12,7 @@ The basic structure is as follows:
     by Daniel Richards (ddrichar@ucsc.edu)
        on 6-23-2018
 
-P.S. After working with files whose naming conventions I wouldn't wish on my 
+P.S. After working with files whose naming conventions I wouldn't wish on my
 worst enemy, I wrote these programs with VERY specific naming.  
 --------------------------------------
 '''
@@ -29,6 +30,14 @@ import csv
 def double_split(start, end, string_cmd):
       return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
 
+def format_table(dic):
+      output = {}
+      for k, v in dic.iteritems():
+            new_key = k.title() if len(k) >4 else k.upper
+            while '  ' in v:
+                      v = v.replace('  ', ' ')
+            output[k] = v
+      return output
 
 def get_nics():
       inters = local["ls"]("/sys/class/net").encode("ascii")
@@ -119,7 +128,7 @@ def get_disks():
                         disk_info = {}
                         disk_info["id"] = double_split("evice Id:", "\n", x)
                         disk_info["firmware"] = double_split("Firmware Level:", "\n", x)
-                        disk_info["size"] = double_split("Raw Size:", "\n", x)
+                        disk_info["size"] = double_split("Raw Size:", "[|\n", x)
                         disk_info["serial"] = double_split("Inquiry Data:", "\n", x)
                         disk_array.append(disk_info)
                         n+=1
