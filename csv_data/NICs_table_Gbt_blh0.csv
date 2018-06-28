@@ -1,0 +1,7 @@
+dns_server,name,ip,mac,Path,speed
+bl-head.gb.nrao.edu,eth0,10.16.98.99,00:25:90:fb:92:08,Gbt --> blh0,1000
+blh0.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:09,Gbt --> blh0,10000
+ ,eth2, ,00:25:90:fb:92:0a,Gbt --> blh0,NA
+ ,eth3, ,00:25:90:fb:92:0b,Gbt --> blh0,NA
+localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blh0,NA
+ ,tun0,10.254.254.2,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,Gbt --> blh0,10

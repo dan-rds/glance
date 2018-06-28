@@ -1,0 +1,186 @@
+device:
+  CPU:
+  - architecture: x86_64
+    clock: '3000.0000'
+    cores: 16
+    model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    socket: 0
+    threads per core: '2'
+  - architecture: x86_64
+    clock: '3000.0000'
+    cores: 16
+    model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    socket: 1
+    threads per core: '2'
+  Disks:
+  - firmware: FS2A
+    id: '10'
+    serial: 27P7KDOSFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '14'
+    serial: 27PCK41WFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '11'
+    serial: 27PCK41SFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '13'
+    serial: 27PCK41VFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '12'
+    serial: 17NTK08IFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '19'
+    serial: 17NTK08GFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '20'
+    serial: 27P7KDORFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '21'
+    serial: 27PCK41QFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '22'
+    serial: 27PCK41YFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '23'
+    serial: 27P7KDOLFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '24'
+    serial: 17NTK086FFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '26'
+    serial: 27PCK41PFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '27'
+    serial: 27PCK41XFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '28'
+    serial: 17NGK1X9FFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '29'
+    serial: 17NTK08FFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '30'
+    serial: 17NTK084FFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '31'
+    serial: 17NTK089FFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '32'
+    serial: 27PCK41UFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '33'
+    serial: 27PCK41TFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '34'
+    serial: 17NTK08EFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '36'
+    serial: 17NTK087FFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '35'
+    serial: 17NTK08DFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '2'
+    serial: 17NTK08BFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '5'
+    serial: 17NTK08HFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '3'
+    serial: 17NUK0AHFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '7'
+    serial: 17NTK08CFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '4'
+    serial: 17NUK0AJFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '8'
+    serial: 17NTK08AFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '6'
+    serial: 17NUK0AIFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '9'
+    serial: 17NUK0AKFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '15'
+    serial: Z681KCJTFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '16'
+    serial: Z681KCK0FFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  - firmware: FS2A
+    id: '17'
+    serial: Z682KB9DFFQCTOSHIBA MD04ACA600                      FS2A
+    size: 5.458 TB [0x2baa0f4b0 Sectors]
+  GPU(s): []
+  Memory:
+    total: 65858516 kB
+  NICs:
+  - dns_server: bls1.bl.pvt
+    ip: 10.0.1.103
+    mac: ac:1f:6b:2c:01:78
+    name: eth0
+    speed: '1000'
+  - dns_server: ' '
+    ip: ' '
+    mac: ac:1f:6b:2c:01:79
+    name: eth1
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: ac:1f:6b:2c:01:7a
+    name: eth2
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: ac:1f:6b:2c:01:7b
+    name: eth3
+    speed: NA
+  - dns_server: bls1-4.tenge.pvt
+    ip: 10.10.10.33
+    mac: 02:02:0a:0a:0a:21
+    name: eth4
+    speed: '40000'
+  - dns_server: localhost.bl.pvt
+    ip: 127.0.0.1
+    mac: ' '
+    name: lo
+    speed: NA
+  bios version: 2.0a
+  hostname: bls1
+  network: Parkes
+  type: STORAGE
+  vendor: American Megatrends Inc.

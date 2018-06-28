@@ -1,0 +1,53 @@
+device:
+  CPU:
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 12
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 0
+    threads per core: '2'
+  - architecture: x86_64
+    clock: '3200.0000'
+    cores: 12
+    model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    socket: 1
+    threads per core: '2'
+  GPU(s): []
+  Memory:
+    total: 131925920 kB
+  NICs:
+  - dns_server: bl-head.atnf.csiro.au
+    ip: 130.155.181.233
+    mac: 00:25:90:fb:92:b4
+    name: eth0
+    speed: '1000'
+  - dns_server: blh0.bl.pvt
+    ip: 10.0.1.1
+    mac: 00:25:90:fb:92:b5
+    name: eth1
+    speed: '10000'
+  - dns_server: ' '
+    ip: ' '
+    mac: 00:25:90:fb:92:b6
+    name: eth2
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: 00:25:90:fb:92:b7
+    name: eth3
+    speed: NA
+  - dns_server: localhost.bl.pvt
+    ip: 127.0.0.1
+    mac: ' '
+    name: lo
+    speed: NA
+  - dns_server: ' '
+    ip: 10.254.254.3
+    mac: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+    name: tun0
+    speed: '10'
+  bios version: '1.1'
+  hostname: blh0
+  network: Parkes
+  type: HEAD
+  vendor: American Megatrends Inc.

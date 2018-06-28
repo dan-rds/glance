@@ -1,0 +1,152 @@
+device:
+  CPU:
+  - architecture: x86_64
+    clock: '3000.0000'
+    cores: 8
+    model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    socket: 0
+    threads per core: '1'
+  - architecture: x86_64
+    clock: '3000.0000'
+    cores: 8
+    model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+    socket: 1
+    threads per core: '1'
+  Disks:
+  - firmware: FP2A
+    id: '3'
+    serial: 56U1KBMDFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '6'
+    serial: 56U1KBM4FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '10'
+    serial: 56U1KBMCFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '16'
+    serial: 56UEKDHZFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '19'
+    serial: 56TEKDHDFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '23'
+    serial: 56UEKDHWFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '4'
+    serial: 56TEKDHGFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '7'
+    serial: 56U1KBM2FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '13'
+    serial: 56U1KBMEFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '20'
+    serial: 56UEKDHUFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '24'
+    serial: 56UEKDHSFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '5'
+    serial: 56U4K9TVFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '9'
+    serial: 56U1KBM0FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '14'
+    serial: 56U1KBM1FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '17'
+    serial: 56U1KBM9FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '21'
+    serial: 56UEKDI5FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '25'
+    serial: 56UEKDHTFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '8'
+    serial: 56U1KBM3FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '12'
+    serial: 56U1KBM7FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '11'
+    serial: 56U1KBLZFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '18'
+    serial: 56TEKDHCFS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  - firmware: FP2A
+    id: '22'
+    serial: 56UEKDI6FS9ATOSHIBA MD04ACA500                      FP2A
+    size: 4.547 TB [0x24630d9b0 Sectors]
+  GPU(s):
+  - bios version: 86.04.17.00.66
+    memory: '8114'
+    name: GeForce GTX 1080
+    pciid: 0000:82:00.0
+    serial: '[Not Supported]'
+  Memory:
+    total: 65860648 kB
+  NICs:
+  - dns_server: blc21.bl.pvt
+    ip: 10.0.1.78
+    mac: 0c:c4:7a:8e:c5:28
+    name: eth0
+    speed: '1000'
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:8e:c5:29
+    name: eth1
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:8e:c5:2a
+    name: eth2
+    speed: NA
+  - dns_server: ' '
+    ip: ' '
+    mac: 0c:c4:7a:8e:c5:2b
+    name: eth3
+    speed: NA
+  - dns_server: blc21-4.tenge.pvt
+    ip: 10.10.10.8
+    mac: 02:02:0a:0a:0a:08
+    name: eth4
+    speed: '10000'
+  - dns_server: blc21-5.tenge.pvt
+    ip: 10.10.10.136
+    mac: 02:02:0a:0a:0a:88
+    name: eth5
+    speed: '-1'
+  - dns_server: localhost.bl.pvt
+    ip: 127.0.0.1
+    mac: ' '
+    name: lo
+    speed: NA
+  bios version: '2.0'
+  hostname: blc21
+  network: Parkes
+  type: COMPUTE
+  vendor: American Megatrends Inc.

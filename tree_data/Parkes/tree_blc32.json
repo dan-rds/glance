@@ -1,0 +1,507 @@
+{
+    "vendor": "American Megatrends Inc.", 
+    "network": "Parkes", 
+    "bios version": "2.0", 
+    "hostname": "blc32", 
+    "tt_info": [
+        "Vendor: American Megatrends Inc.", 
+        "Network: Parkes", 
+        "Bios Version: 2.0", 
+        "Hostname: blc32", 
+        "Type: COMPUTE"
+    ], 
+    "stroke": 1, 
+    "type": "COMPUTE", 
+    "children": [
+        {
+            "stroke": 1, 
+            "name": "GPUs", 
+            "children": [
+                {
+                    "name": "GeForce GTX 1080", 
+                    "bios version": "86.04.17.00.66", 
+                    "pciid": "0000:82:00.0", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: GeForce GTX 1080", 
+                        "Serial: [Not Supported]"
+                    ], 
+                    "node_type": "leaf", 
+                    "memory": "8114", 
+                    "serial": "[Not Supported]", 
+                    "type": "gpu"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "NICs", 
+            "children": [
+                {
+                    "dns_server": "blc32-5.tenge.pvt", 
+                    "name": "eth5", 
+                    "ip": "10.10.10.134", 
+                    "stroke": -1, 
+                    "tt_info": [
+                        "Name: eth5", 
+                        "Ip: 10.10.10.134", 
+                        "Mac: 02:02:0a:0a:0a:86", 
+                        "Speed: -1"
+                    ], 
+                    "mac": "02:02:0a:0a:0a:86", 
+                    "type": "nic", 
+                    "speed": "-1"
+                }, 
+                {
+                    "dns_server": " ", 
+                    "name": "eth1", 
+                    "ip": " ", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: eth1", 
+                        "Ip:  ", 
+                        "Mac: 0c:c4:7a:8e:4b:a5", 
+                        "Speed: NA"
+                    ], 
+                    "mac": "0c:c4:7a:8e:4b:a5", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "dns_server": " ", 
+                    "name": "eth2", 
+                    "ip": " ", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: eth2", 
+                        "Ip:  ", 
+                        "Mac: 0c:c4:7a:8e:4b:a6", 
+                        "Speed: NA"
+                    ], 
+                    "mac": "0c:c4:7a:8e:4b:a6", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "dns_server": " ", 
+                    "name": "eth3", 
+                    "ip": " ", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: eth3", 
+                        "Ip:  ", 
+                        "Mac: 0c:c4:7a:8e:4b:a7", 
+                        "Speed: NA"
+                    ], 
+                    "mac": "0c:c4:7a:8e:4b:a7", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "dns_server": "localhost.bl.pvt", 
+                    "name": "lo", 
+                    "ip": "127.0.0.1", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: lo", 
+                        "Ip: 127.0.0.1", 
+                        "Mac:  ", 
+                        "Speed: NA"
+                    ], 
+                    "mac": " ", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "dns_server": "blc32.bl.pvt", 
+                    "name": "eth0", 
+                    "ip": "10.0.1.76", 
+                    "stroke": 10, 
+                    "tt_info": [
+                        "Name: eth0", 
+                        "Ip: 10.0.1.76", 
+                        "Mac: 0c:c4:7a:8e:4b:a4", 
+                        "Speed: 1000"
+                    ], 
+                    "mac": "0c:c4:7a:8e:4b:a4", 
+                    "type": "nic", 
+                    "speed": "1000"
+                }, 
+                {
+                    "dns_server": "blc32-4.tenge.pvt", 
+                    "name": "eth4", 
+                    "ip": "10.10.10.6", 
+                    "stroke": 100, 
+                    "tt_info": [
+                        "Name: eth4", 
+                        "Ip: 10.10.10.6", 
+                        "Mac: 02:02:0a:0a:0a:06", 
+                        "Speed: 10000"
+                    ], 
+                    "mac": "02:02:0a:0a:0a:06", 
+                    "type": "nic", 
+                    "speed": "10000"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "CPUs", 
+            "children": [
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "clock": "3000.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000.0000", 
+                        "Cores: 8", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 8, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "threads per core": "1", 
+                    "type": "cpu", 
+                    "socket": 0
+                }, 
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "clock": "3000.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000.0000", 
+                        "Cores: 8", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 8, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "threads per core": "1", 
+                    "type": "cpu", 
+                    "socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Memory: 65860648 kB", 
+            "stroke": 1, 
+            "name": "Memory"
+        }, 
+        {
+            "stroke": 1, 
+            "name": "Disks", 
+            "children": [
+                {
+                    "name": "Disk: 26", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 26", 
+                        "Serial: 56S1KBKKFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 26"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S1KBKKFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "26", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 6", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 6", 
+                        "Serial: 56TEKDHAFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 6"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56TEKDHAFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "6", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 10", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 10", 
+                        "Serial: 56S5K52QFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 10"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52QFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "10", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 14", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 14", 
+                        "Serial: 56S5K52SFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 14"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52SFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "14", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 25", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 25", 
+                        "Serial: 56TEKDGJFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 25"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56TEKDGJFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "25", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 3", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 3", 
+                        "Serial: 56T9K8J9FS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 3"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56T9K8J9FS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "3", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 7", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 7", 
+                        "Serial: 56T9K8J4FS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 7"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56T9K8J4FS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "7", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 11", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 11", 
+                        "Serial: 56S5K52OFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 11"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52OFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "11", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 15", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 15", 
+                        "Serial: 56S5K52YFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 15"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52YFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "15", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 19", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 19", 
+                        "Serial: 56TEKDGEFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 19"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56TEKDGEFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "19", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 4", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 4", 
+                        "Serial: 56S1KBKJFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 4"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S1KBKJFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "4", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 8", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 8", 
+                        "Serial: 56S1KBKLFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 8"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S1KBKLFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "8", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 12", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 12", 
+                        "Serial: 56S5K52NFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 12"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52NFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "12", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 16", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 16", 
+                        "Serial: 56S5K52KFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 16"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52KFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "16", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 20", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 20", 
+                        "Serial: 56TEKDGLFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 20"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56TEKDGLFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "20", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 23", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 23", 
+                        "Serial: 56THKBCMFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 23"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56THKBCMFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "23", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 5", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 5", 
+                        "Serial: 56S5K52PFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 5"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52PFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "5", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 9", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 9", 
+                        "Serial: 56S5K52TFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 9"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52TFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "9", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 13", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 13", 
+                        "Serial: 56S1KBKIFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 13"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S1KBKIFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "13", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 17", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 17", 
+                        "Serial: 56S5K52UFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 17"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56S5K52UFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "17", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 21", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 21", 
+                        "Serial: 56TEKDHBFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 21"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56TEKDHBFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "21", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }, 
+                {
+                    "name": "Disk: 22", 
+                    "firmware": "FP2A", 
+                    "tt_info": [
+                        "Name: Disk: 22", 
+                        "Serial: 56TEKDGMFS9ATOSHIBA MD04ACA500                      FP2A", 
+                        "Diskid: 22"
+                    ], 
+                    "stroke": 1, 
+                    "serial": "56TEKDGMFS9ATOSHIBA MD04ACA500                      FP2A", 
+                    "type": "disk", 
+                    "diskID": "22", 
+                    "size": "4.547 TB [0x24630d9b0 Sectors]"
+                }
+            ]
+        }
+    ]
+}
