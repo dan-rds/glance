@@ -16,333 +16,91 @@ device:
   - firmware: FP2A
     id: '9'
     serial: 17TTK1OXFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f40\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1OXFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :17C (62.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '16'
     serial: 17TTK1P1FS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f41\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1P1FS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :17C (62.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '11'
     serial: 17TPK0H6FS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f42\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TPK0H6FS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :16C (60.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '14'
     serial: 17TTK1OSFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f43\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1OSFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :15C (59.00 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '13'
     serial: 17TTK1OZFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f44\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1OZFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :15C (59.00 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '2'
     serial: 17TTK1P0FS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f45\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1P0FS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :16C (60.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '8'
     serial: 17TTK1OVFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f46\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1OVFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :19C (66.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '18'
     serial: 17TTK1OTFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f47\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1OTFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :18C (64.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '15'
     serial: 17TTK1OWFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f48\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TTK1OWFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :18C (64.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '21'
     serial: 17TUK14OFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f49\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17TUK14OFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :17C (62.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '12'
     serial: 17S3KIKLFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f4a\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKLFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :16C (60.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '17'
     serial: 17S3KIKJFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f5c\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKJFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :19C (66.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '20'
     serial: 17S3KIKKFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f5d\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKKFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :18C (64.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '10'
     serial: 17S3KIKEFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f5e\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKEFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :17C (62.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '24'
     serial: 17S3KIKDFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f5f\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKDFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :18C (64.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '4'
     serial: 17S3KIKFFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f60\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKFFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :16C (60.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '7'
     serial: 17S3KIKHFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f61\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKHFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :16C (60.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '23'
     serial: 17S3KIKGFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f62\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKGFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :19C (66.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '22'
     serial: 17S3KIKIFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f63\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S3KIKIFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :18C (64.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '19'
     serial: 17S5K665FS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f64\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S5K665FS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :17C (62.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '25'
     serial: 17S1KEMEFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f65\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S1KEMEFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :17C (62.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   - firmware: FP2A
     id: '5'
     serial: 17S1KEMCFS9ATOSHIBA MD04ACA500                      FP2A
-    size: "4.547 TB [0x24630d9b0 Sectors]\nNon Coerced Size: 4.547 TB [0x24620d9b0\
-      \ Sectors]\nCoerced Size: 4.547 TB [0x246200000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FP2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x5003048017c15f66\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         17S1KEMCFS9ATOSHIBA\
-      \ MD04ACA500                      FP2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :15C (59.00 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 4.547 TB
   GPU(s):
   - bios version: 86.04.17.00.80
     memory: '8114'
