@@ -1,7 +1,0 @@
-dns_server,name,ip,mac,Path,speed
-bl-head.atnf.csiro.au,eth0,130.155.181.233,00:25:90:fb:92:b4,Parkes --> blh0,1000
-blh0.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:b5,Parkes --> blh0,10000
- ,eth2, ,00:25:90:fb:92:b6,Parkes --> blh0,NA
- ,eth3, ,00:25:90:fb:92:b7,Parkes --> blh0,NA
-localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blh0,NA
- ,tun0,10.254.254.3,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,Parkes --> blh0,10
