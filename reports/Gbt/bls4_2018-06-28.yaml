@@ -16,498 +16,135 @@ device:
   - firmware: FS2A
     id: '43'
     serial: 27R3KAU4F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0540\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAU4F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :28C (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '44'
     serial: 27RAKAS5F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0541\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RAKAS5F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :27C (80.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '45'
     serial: 27RAKAS4F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0542\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RAKAS4F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :28C (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '53'
     serial: 27RHK81VF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0543\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RHK81VF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :27C (80.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '46'
     serial: 27R3KAU0F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0544\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAU0F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :26C (78.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '54'
     serial: 27RFK40PF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0545\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RFK40PF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :23C (73.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '47'
     serial: 27R9K93ZF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0546\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R9K93ZF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :29C (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '55'
     serial: 27RHK81RF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0547\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RHK81RF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :30C (86.00 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '52'
     serial: 27R1KFUFF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0548\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R1KFUFF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :29C (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '56'
     serial: 27R3KAUBF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0549\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAUBF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :28C (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '49'
     serial: 27RHK81NF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c054a\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RHK81NF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :26C (78.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '62'
     serial: 27R8K5NFF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c055c\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R8K5NFF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :27C (80.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '63'
     serial: 27R3KASMF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c055d\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KASMF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :26C (78.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '64'
     serial: 27R3KATPF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c055e\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KATPF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :28C (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '65'
     serial: 27R3KATZF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c055f\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KATZF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :25C (77.00 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '66'
     serial: 27RAKAS1F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0560\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RAKAS1F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :24C (75.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '67'
     serial: 27R3KAU5F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0561\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAU5F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :22C (71.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '68'
     serial: 27R3KAUAF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0562\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAUAF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :27C (80.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '69'
     serial: 27RDK3FFF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0563\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RDK3FFF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :27C (80.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '70'
     serial: 27RDK3FHF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0564\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RDK3FHF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :26C (78.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '71'
     serial: 27RDK3FIF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0565\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RDK3FIF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :26C (78.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '72'
     serial: 27R3KAU7F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x50030480185c0566\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAU7F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :23C (73.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '38'
     serial: 27RHK81TF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c0\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RHK81TF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :28C (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '41'
     serial: 27R1KFUGF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c1\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R1KFUGF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :29C (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '48'
     serial: 27R3KAU9F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c2\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAU9F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :27C (80.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '39'
     serial: 27RHK81MF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c3\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RHK81MF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :29C (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '50'
     serial: 278WK086F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c4\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         278WK086F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :30C (86.00 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '51'
     serial: 27RAKAS2F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c5\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27RAKAS2F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :29C (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '42'
     serial: 27R3KATOF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c6\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KATOF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :32C (89.60 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '58'
     serial: 27R3KAU6F56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c7\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAU6F56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :31C (87.80 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '60'
     serial: 27R9K93VF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c8\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R9K93VF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :28C (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '40'
     serial: 27R3KATXF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915c9\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KATXF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :29C (84.20 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   - firmware: FS2A
     id: '57'
     serial: 27R3KAUCF56DTOSHIBA HDWE160                         FS2A
-    size: "5.458 TB [0x2baa0f4b0 Sectors]\nNon Coerced Size: 5.457 TB [0x2ba90f4b0\
-      \ Sectors]\nCoerced Size: 5.457 TB [0x2ba900000 Sectors]\nFirmware state: Online,\
-      \ Spun Up\nCommissioned Spare : No\nDevice Firmware Level: FS2A\nShield Counter:\
-      \ 0\nSuccessful diagnostics completion on :  N/A\nSAS Address(0): 0x500304801e8915ca\n\
-      Connected Port Number: 0(path0) \nInquiry Data:         27R3KAUCF56DTOSHIBA\
-      \ HDWE160                         FS2A    \nFDE Enable: Disable\nSecured: Unsecured\n\
-      Locked: Unlocked\nNeeds EKM Attention: No\nForeign State: None \nDevice Speed:\
-      \ 6.0Gb/s \nLink Speed: 12.0Gb/s \nMedia Type: Hard Disk Device\nDrive Temperature\
-      \ :28C (82.40 F)\nPI Eligibility:  No \nDrive is formatted for PI information:\
-      \  No\nPI: No PI\nDrive's write cache : Enabled\nDrive's NCQ setting : Enabled\n\
-      Port-0 :\nPort status: Active\nPort's Linkspeed: 12.0Gb/s \nDrive has flagged\
-      \ a S.M.A.R.T alert : No"
+    size: 5.458 TB
   GPU(s): []
   Memory:
     total: 65858348 kB
