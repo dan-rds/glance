@@ -2,7 +2,7 @@
 
 in_group=( `cat local_group.txt`)
 parent=(`hostname`)
-obs=('/home/obs/bin/whereami')
+obs=(`/home/obs/bin/whereami`)
 k=1
 for i in "${in_group[@]}" 
 do
