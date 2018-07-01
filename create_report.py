@@ -171,7 +171,6 @@ def write_arr_to_csv(arr, hw_class, network, name):
       w = csv.DictWriter(f, list_rows[0].keys())
       w.writeheader()
       for r in list_rows:
-        
         try:
             w.writerow(r)
         except:
