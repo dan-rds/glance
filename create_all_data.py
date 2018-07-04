@@ -58,7 +58,7 @@ def add_tree_specific_fields(array_dic, hw_type):
           entry["type"] = hw_type
       return output
 
-def add_system_fields(array_dic, hw_type):
+def add_system_fields(array_dic):
       output = copy.deepcopy(array_dic)
       tooltip =[]
       for k, v in output.iteritems():
