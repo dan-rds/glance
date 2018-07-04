@@ -261,8 +261,8 @@ gpu_yaml, gpu_csv, gpu_tree = get_gpus()
 cpu_yaml, cpu_csv, cpu_tree = get_cpus()
 mem_yaml, mem_csv, mem_tree = get_mem()
 disk_yaml, disk_csv, disk_tree = get_disks()
-#print(hostname)
-print(type(disk_yaml))
+print(hostname)
+print(disk_yaml)
 for i in disk_yaml["Disks"]:
     for k,v in i.iteritems():
         print(k , v)
