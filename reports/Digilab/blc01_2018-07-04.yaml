@@ -8,31 +8,39 @@ device:
   - NICs:
     - IP: 172.17.0.1
       MAC: 02:42:49:b6:df:88
+      Name: docker0
       Speed: '0'
     - DNS Server: blc01.bl.pvt
       IP: 10.0.1.111
       MAC: ac:1f:6b:2d:03:f8
+      Name: eth0
       Speed: '1000'
     - IP: ' '
       MAC: ac:1f:6b:2d:03:f9
+      Name: eth1
       Speed: '0'
     - IP: ' '
       MAC: ac:1f:6b:2d:03:fa
+      Name: eth2
       Speed: '0'
     - IP: ' '
       MAC: ac:1f:6b:2d:03:fb
+      Name: eth3
       Speed: '0'
     - DNS Server: blc01-4.tenge.pvt
       IP: 10.10.10.6
       MAC: 02:02:0a:0a:0a:06
+      Name: eth4
       Speed: '-1'
     - DNS Server: blc01-5.tenge.pvt
       IP: 10.10.10.134
       MAC: 02:02:0a:0a:0a:86
+      Name: eth5
       Speed: '-1'
     - DNS Server: localhost.bl.pvt
       IP: 127.0.0.1
       MAC: ' '
+      Name: lo
       Speed: '0'
   - CPUs:
     - Architecture: x86_64

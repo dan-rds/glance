@@ -15,22 +15,26 @@
             "Name": "NICs", 
             "children": [
                 {
+                    "Name": "docker0", 
+                    "IP": "172.17.0.1", 
                     "tt_info": [
                         "IP: 172.17.0.1", 
                         "MAC: 02:42:49:b6:df:88", 
-                        "Speed: 0"
+                        "Speed: 0", 
+                        "Name: docker0"
                     ], 
-                    "IP": "172.17.0.1", 
                     "MAC": "02:42:49:b6:df:88", 
-                    "Speed": "0", 
-                    "type": "nic"
+                    "type": "nic", 
+                    "Speed": "0"
                 }, 
                 {
+                    "Name": "eth0", 
                     "IP": "10.0.1.111", 
                     "tt_info": [
                         "IP: 10.0.1.111", 
                         "MAC: ac:1f:6b:2d:03:f8", 
                         "DNS Server: blc01.bl.pvt", 
+                        "Name: eth0", 
                         "Speed: 1000"
                     ], 
                     "MAC": "ac:1f:6b:2d:03:f8", 
@@ -39,44 +43,52 @@
                     "Speed": "1000"
                 }, 
                 {
+                    "Name": "eth1", 
+                    "IP": " ", 
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:03:f9", 
-                        "Speed: 0"
+                        "Speed: 0", 
+                        "Name: eth1"
                     ], 
-                    "IP": " ", 
                     "MAC": "ac:1f:6b:2d:03:f9", 
-                    "Speed": "0", 
-                    "type": "nic"
+                    "type": "nic", 
+                    "Speed": "0"
                 }, 
                 {
+                    "Name": "eth2", 
+                    "IP": " ", 
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:03:fa", 
-                        "Speed: 0"
+                        "Speed: 0", 
+                        "Name: eth2"
                     ], 
-                    "IP": " ", 
                     "MAC": "ac:1f:6b:2d:03:fa", 
-                    "Speed": "0", 
-                    "type": "nic"
+                    "type": "nic", 
+                    "Speed": "0"
                 }, 
                 {
+                    "Name": "eth3", 
+                    "IP": " ", 
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:03:fb", 
-                        "Speed: 0"
+                        "Speed: 0", 
+                        "Name: eth3"
                     ], 
-                    "IP": " ", 
                     "MAC": "ac:1f:6b:2d:03:fb", 
-                    "Speed": "0", 
-                    "type": "nic"
+                    "type": "nic", 
+                    "Speed": "0"
                 }, 
                 {
+                    "Name": "eth4", 
                     "IP": "10.10.10.6", 
                     "tt_info": [
                         "IP: 10.10.10.6", 
                         "MAC: 02:02:0a:0a:0a:06", 
                         "DNS Server: blc01-4.tenge.pvt", 
+                        "Name: eth4", 
                         "Speed: -1"
                     ], 
                     "MAC": "02:02:0a:0a:0a:06", 
@@ -85,11 +97,13 @@
                     "Speed": "-1"
                 }, 
                 {
+                    "Name": "eth5", 
                     "IP": "10.10.10.134", 
                     "tt_info": [
                         "IP: 10.10.10.134", 
                         "MAC: 02:02:0a:0a:0a:86", 
                         "DNS Server: blc01-5.tenge.pvt", 
+                        "Name: eth5", 
                         "Speed: -1"
                     ], 
                     "MAC": "02:02:0a:0a:0a:86", 
@@ -98,11 +112,13 @@
                     "Speed": "-1"
                 }, 
                 {
+                    "Name": "lo", 
                     "IP": "127.0.0.1", 
                     "tt_info": [
                         "IP: 127.0.0.1", 
                         "MAC:  ", 
                         "DNS Server: localhost.bl.pvt", 
+                        "Name: lo", 
                         "Speed: 0"
                     ], 
                     "MAC": " ", 

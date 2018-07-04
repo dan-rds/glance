@@ -27,3 +27,19 @@ IP,MAC,Dns Server,Speed,Path
  ,0c:c4:7a:bc:96:bd,0,Digilab --> bls0
  ,0c:c4:7a:bc:96:be,0,Digilab --> bls0
  ,0c:c4:7a:bc:96:bf,0,Digilab --> bls0
+172.17.0.1,02:42:06:bf:57:87,0,docker0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ad,0,eth1,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ae,0,eth2,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:af,0,eth3,Digilab --> blc00
+172.17.0.1,02:42:49:b6:df:88,0,docker0,Digilab --> blc01
+ ,ac:1f:6b:2d:03:f9,0,eth1,Digilab --> blc01
+ ,ac:1f:6b:2d:03:fa,0,eth2,Digilab --> blc01
+ ,ac:1f:6b:2d:03:fb,0,eth3,Digilab --> blc01
+172.17.0.1,02:42:8a:99:32:83,0,docker0,Digilab --> blc02
+ ,ac:1f:6b:2d:01:f1,0,eth1,Digilab --> blc02
+ ,ac:1f:6b:2d:01:f2,0,eth2,Digilab --> blc02
+ ,ac:1f:6b:2d:01:f3,0,eth3,Digilab --> blc02
+172.17.0.1,02:42:e6:0f:eb:67,0,docker0,Digilab --> bls0
+ ,0c:c4:7a:bc:96:bd,0,eth1,Digilab --> bls0
+ ,0c:c4:7a:bc:96:be,0,eth2,Digilab --> bls0
+ ,0c:c4:7a:bc:96:bf,0,eth3,Digilab --> bls0

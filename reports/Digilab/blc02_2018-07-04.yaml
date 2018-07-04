@@ -8,23 +8,29 @@ device:
   - NICs:
     - IP: 172.17.0.1
       MAC: 02:42:8a:99:32:83
+      Name: docker0
       Speed: '0'
     - DNS Server: blc02.bl.pvt
       IP: 10.0.1.112
       MAC: ac:1f:6b:2d:01:f0
+      Name: eth0
       Speed: '1000'
     - IP: ' '
       MAC: ac:1f:6b:2d:01:f1
+      Name: eth1
       Speed: '0'
     - IP: ' '
       MAC: ac:1f:6b:2d:01:f2
+      Name: eth2
       Speed: '0'
     - IP: ' '
       MAC: ac:1f:6b:2d:01:f3
+      Name: eth3
       Speed: '0'
     - DNS Server: localhost.bl.pvt
       IP: 127.0.0.1
       MAC: ' '
+      Name: lo
       Speed: '0'
   - GPUs:
     - Memory: '12196'
