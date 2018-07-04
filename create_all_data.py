@@ -47,23 +47,26 @@ def format_table(dic):
       #print output
       return output
 
-def add_tree_specific_fields(array_dic):
+def add_tree_specific_fields(array_dic, hw_type):
       output = copy.deepcopy(array_dic)
       for entry in output:
           tooltip = []
+          entry["type"] = hw_type
           for k, v in entry.iteritems():
             if k != 'children':
                 tooltip.append(str(k) + ": " + str(v))
           entry["tt_info"] = tooltip
       return output
 
-def add_system_fields(array_dic):
+def add_system_fields(array_dic, hw_type):
       output = copy.deepcopy(array_dic)
       tooltip =[]
       for k, v in output.iteritems():
+
         if k != 'children':
             tooltip.append(str(k) + ": " + str(v))
       output["tt_info"] = tooltip
+      output["type"] = hw_type
       return output
 
 def get_nics():
@@ -92,7 +95,7 @@ def get_nics():
                   nic_fields['Speed'] = "0"
               nic_array.append(nic_fields)
 
-      return  {"NICs": nic_array}, nic_array, {"Name": "NICs", "children": add_tree_specific_fields(nic_array)}
+      return  {"NICs": nic_array}, nic_array, {"Name": "NICs", "children": add_tree_specific_fields(nic_array, 'nic')}
             
 def get_gpus():
       gpu_count = local["lspci"]().count("VGA") #BEWARE this doesn't reflect true gpu count remember the ASPEED device in lspci
@@ -115,7 +118,7 @@ def get_gpus():
 
             gpu_array.append(gpu_fields)
          
-      return  {"GPUs": gpu_array}, gpu_array, {"Name": "GPUs", "children": add_tree_specific_fields(gpu_array)}
+      return  {"GPUs": gpu_array}, gpu_array, {"Name": "GPUs", "children": add_tree_specific_fields(gpu_array, 'gpu')}
 
 def get_cpus():
       
@@ -135,7 +138,7 @@ def get_cpus():
             cpu_fields["Socket"] = soc
             cpu_array.append(cpu_fields.copy())
      
-      return  {"CPUs": cpu_array}, cpu_array, {"Name": "CPUs", "children": add_tree_specific_fields(cpu_array)}
+      return  {"CPUs": cpu_array}, cpu_array, {"Name": "CPUs", "children": add_tree_specific_fields(cpu_array, 'cpu')}
 
 def get_mem():
       mem_fields = {}
@@ -170,7 +173,7 @@ def get_disks():
               except:
                      print "\n\nERROR IN DISK READ\n"
 
-      return {"Disks": disk_array}, disk_array, {"Name": "Disks", "children": add_tree_specific_fields(disk_array)}
+      return {"Disks": disk_array}, disk_array, {"Name": "Disks", "children": add_tree_specific_fields(disk_array, 'disk')}
 
 def get_sys():
       global hostname 
@@ -193,10 +196,10 @@ def get_sys():
             task_type = 'HEAD'
       else:
             task_type = 'STORAGE' 
-
+      sys_fields["type"] = task_type
       output =  {"Name": hostname, 'children': []}
       output.update(sys_fields)
-      return output, sys_fields, add_system_fields(sys_fields)
+      return output, sys_fields, add_system_fields(sys_fields, 'sys')
 
 def write_arr_to_csv(arr, hw_class):
 
@@ -237,19 +240,14 @@ def add_hardware(host, *args):
 
 sys_yaml, sys_csv, sys_tree = get_sys()
 
-
 nic_yaml, nic_csv, nic_tree = get_nics()
 gpu_yaml, gpu_csv, gpu_tree = get_gpus()
-
 cpu_yaml, cpu_csv, cpu_tree = get_cpus()
 mem_yaml, mem_csv, mem_tree = get_mem()
-
 disk_yaml, disk_csv, disk_tree = get_disks()
 
 add_hardware(sys_yaml, nic_yaml, gpu_yaml, cpu_yaml, mem_yaml, disk_yaml)
-
 add_hardware(sys_tree, nic_tree, gpu_tree, cpu_tree, mem_tree, disk_tree)
-##print "-------------------", sys_yaml["Hostname"]
 
 today = str(datetime.date.today())
 name  = hostname 
