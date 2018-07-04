@@ -41,15 +41,15 @@ def double_split(start, end, string_cmd):
     except:
         return ' '
 
-def format_table(dic):
-      output = {}
-      for k, v in dic.iteritems():
-            new_key = k.title() if len(k) > 3 else k.upper()
-            while type(v) == str and '  ' in v:
-                      v = v.replace('  ', ' ')
-            output[new_key] = v
-      #print output
-      return output
+# def format_table(dic):
+#       output = {}
+#       for k, v in dic.iteritems():
+#             new_key = k if len(k) > 3 else k.upper()
+#             while type(v) == str and '  ' in v:
+#                       v = v.replace('  ', ' ')
+#             output[new_key] = v
+#       #print output
+#       return output
 
 def add_tree_specific_fields(array_dic, hw_type):
       output = copy.deepcopy(array_dic)
@@ -174,7 +174,7 @@ def get_disks():
                     disk_fields["Serial"] = double_split("Inquiry Data: ", "\n", x)
     
                     disk_array.append(disk_fields)
-                    if disk_fields["DiskID"] == '':
+                    if disk_fields["DiskID"] == ' ':
                       print x
               except:
                      print "\n\nERROR IN DISK READ\n"
@@ -218,7 +218,7 @@ def write_arr_to_csv(arr, hw_class):
   list_rows = []
   for i in arr:
     i["Path"] = network + " --> " + hostname
-    list_rows.append(format_table(i))
+    #list_rows.append(format_table(i))
   filename = "csv_data/" + hw_class + '.csv'
 
   try:
