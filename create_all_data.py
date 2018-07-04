@@ -19,6 +19,7 @@ worst enemy, I wrote these programs with VERY specific naming.
 from plumbum import local
 from plumbum.cmd import echo, nslookup, sudo, grep
 from operator import itemgetter
+import operator
 import yaml
 import copy
 import json
@@ -94,7 +95,7 @@ def get_nics():
               except:
                   nic_fields['Speed'] = "0"
               nic_array.append(nic_fields)
-
+      nic_array = sorted(nic_array, key=lambda k: k['Speed'])
       return  {"NICs": nic_array}, nic_array, {"Name": "NICs", "children": add_tree_specific_fields(nic_array, 'nic')}
             
 def get_gpus():
@@ -172,7 +173,7 @@ def get_disks():
                     disk_array.append(disk_fields)
               except:
                      print "\n\nERROR IN DISK READ\n"
-
+      disk_array =  sorted(disk_array, key=lambda k: k['DiskID'])
       return {"Disks": disk_array}, disk_array, {"Name": "Disks", "children": add_tree_specific_fields(disk_array, 'disk')}
 
 def get_sys():
@@ -249,10 +250,13 @@ def add_hardware(host, *args):
 sys_yaml, sys_csv, sys_tree = get_sys()
 
 nic_yaml, nic_csv, nic_tree = get_nics()
+
+
 gpu_yaml, gpu_csv, gpu_tree = get_gpus()
 cpu_yaml, cpu_csv, cpu_tree = get_cpus()
 mem_yaml, mem_csv, mem_tree = get_mem()
 disk_yaml, disk_csv, disk_tree = get_disks()
+
 
 add_hardware(sys_yaml, nic_yaml, gpu_yaml, cpu_yaml, mem_yaml, disk_yaml)
 add_hardware(sys_tree, nic_tree, gpu_tree, cpu_tree, mem_tree, disk_tree)
