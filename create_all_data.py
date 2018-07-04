@@ -154,7 +154,7 @@ def get_mem():
 def get_disks():
       global hostname
       if 'h' in hostname: #Head nodes dont have megacli >:(
-      print "quitting"
+          print "quitting"
           return None, None, None
 
       all_disks =  []
