@@ -1,8 +1,0 @@
-Dns_Server,Name,IP,MAC,Path,Speed
-blc12.bl.pvt,eth0,10.0.1.91,0c:c4:7a:eb:b0:d0,Parkes --> blc12,1000
- ,eth1, ,0c:c4:7a:eb:b0:d1,Parkes --> blc12,NA
- ,eth2, ,0c:c4:7a:eb:b0:d2,Parkes --> blc12,NA
- ,eth3, ,0c:c4:7a:eb:b0:d3,Parkes --> blc12,NA
-blc12-4.tenge.pvt,eth4,10.10.10.21,02:02:0a:0a:0a:15,Parkes --> blc12,10000
-blc12-5.tenge.pvt,eth5,10.10.10.149,02:02:0a:0a:0a:95,Parkes --> blc12,-1
-localhost.bl.pvt,lo,127.0.0.1, ,Parkes --> blc12,NA

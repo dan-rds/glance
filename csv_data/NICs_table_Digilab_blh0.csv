@@ -1,7 +1,0 @@
-Dns_Server,Name,IP,MAC,Path,Speed
-acmeh2.digilab.pvt,eth0,10.11.0.153,00:25:90:fb:92:14,Digilab --> blh0,1000
-blh1.bl.pvt,eth1,10.0.1.1,00:25:90:fb:92:15,Digilab --> blh0,10000
- ,eth2, ,00:25:90:fb:92:16,Digilab --> blh0,NA
- ,eth3, ,00:25:90:fb:92:17,Digilab --> blh0,NA
-localhost.bl.pvt,lo,127.0.0.1, ,Digilab --> blh0,NA
- ,tun0,10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,Digilab --> blh0,10

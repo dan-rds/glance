@@ -1,8 +1,0 @@
-Dns_Server,Name,IP,MAC,Path,Speed
-blc20.bl.pvt,eth0,10.0.1.95,0c:c4:7a:8f:f3:e0,Gbt --> blc20,1000
- ,eth1, ,0c:c4:7a:8f:f3:e1,Gbt --> blc20,NA
- ,eth2, ,0c:c4:7a:8f:f3:e2,Gbt --> blc20,NA
- ,eth3, ,0c:c4:7a:8f:f3:e3,Gbt --> blc20,NA
-blc20-10-0.gb.nrao.edu,eth4,10.17.2.32,02:02:0a:11:02:20,Gbt --> blc20,10000
-blc20-10-1.gb.nrao.edu,eth5,10.17.2.160,02:02:0a:11:02:a0,Gbt --> blc20,-1
-localhost.bl.pvt,lo,127.0.0.1, ,Gbt --> blc20,NA
