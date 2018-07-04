@@ -10,11 +10,6 @@ device:
       MAC: 02:42:8a:99:32:83
       Name: docker0
       Speed: '0'
-    - DNS Server: blc02.bl.pvt
-      IP: 10.0.1.112
-      MAC: ac:1f:6b:2d:01:f0
-      Name: eth0
-      Speed: '1000'
     - IP: ' '
       MAC: ac:1f:6b:2d:01:f1
       Name: eth1
@@ -32,6 +27,11 @@ device:
       MAC: ' '
       Name: lo
       Speed: '0'
+    - DNS Server: blc02.bl.pvt
+      IP: 10.0.1.112
+      MAC: ac:1f:6b:2d:01:f0
+      Name: eth0
+      Speed: '1000'
   - GPUs:
     - Memory: '12196'
       Name: TITAN Xp
@@ -61,40 +61,15 @@ device:
   - Memory:
       Total: 396161920 kB
   - Disks:
-    - DiskID: '2'
+    - DiskID: ' '
+      Firmware: ' '
+      Name: 'Disk:  '
+      Serial: ' '
+      Size: ' '
+    - DiskID: '10'
       Firmware: A3MA
-      Name: 'Disk: 2'
-      Serial: JK11A4B8JR6XHWHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '4'
-      Firmware: A3MA
-      Name: 'Disk: 4'
-      Serial: JK11A5B8J0RLUXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '3'
-      Firmware: A3MA
-      Name: 'Disk: 3'
-      Serial: JK11A4B8JR24MWHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '6'
-      Firmware: '0001'
-      Name: 'Disk: 6'
-      Serial: S2H7JD1B220323      SAMSUNG HD204UI                         1AQ10001
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '5'
-      Firmware: A3MA
-      Name: 'Disk: 5'
-      Serial: JK11A5B8J0RL0XHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '7'
-      Firmware: A3MA
-      Name: 'Disk: 7'
-      Serial: JK11A4B8JHRN2WHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '13'
-      Firmware: A3MA
-      Name: 'Disk: 13'
-      Serial: JK11A4B8JR2AYWHitachi HDS722020ALA330                 JKAOA3MA
+      Name: 'Disk: 10'
+      Serial: JK11A5B8J37BSXHitachi HDS722020ALA330                 JKAOA3MA
       Size: 1.819 TB [0xe8e088b0 Sectors]
     - DiskID: '11'
       Firmware: A3MA
@@ -106,35 +81,25 @@ device:
       Name: 'Disk: 12'
       Serial: JK11A5B8J36AMXHitachi HDS722020ALA330                 JKAOA3MA
       Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '10'
+    - DiskID: '13'
       Firmware: A3MA
-      Name: 'Disk: 10'
-      Serial: JK11A5B8J37BSXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '8'
-      Firmware: '0001'
-      Name: 'Disk: 8'
-      Serial: S2H7JD1B113002      SAMSUNG HD204UI                         1AQ10001
-      Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '9'
-      Firmware: A3MA
-      Name: 'Disk: 9'
-      Serial: JK11A4B8JR267WHitachi HDS722020ALA330                 JKAOA3MA
+      Name: 'Disk: 13'
+      Serial: JK11A4B8JR2AYWHitachi HDS722020ALA330                 JKAOA3MA
       Size: 1.819 TB [0xe8e088b0 Sectors]
     - DiskID: '14'
       Firmware: A3MA
       Name: 'Disk: 14'
       Serial: JK11A4B8J8NSTWHitachi HDS722020ALA330                 JKAOA3MA
       Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: '16'
-      Firmware: A3MA
-      Name: 'Disk: 16'
-      Serial: JK11A5B8J0RSAXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
     - DiskID: '15'
       Firmware: A3MA
       Name: 'Disk: 15'
       Serial: JK11A5B8J0083XHitachi HDS722020ALA330                 JKAOA3MA
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '16'
+      Firmware: A3MA
+      Name: 'Disk: 16'
+      Serial: JK11A5B8J0RSAXHitachi HDS722020ALA330                 JKAOA3MA
       Size: 1.819 TB [0xe8e088b0 Sectors]
     - DiskID: '17'
       Firmware: A3MA
@@ -151,6 +116,16 @@ device:
       Name: 'Disk: 19'
       Serial: ATA     Hitachi HDS72202A3MA      JK11A5B8J37BLX
       Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '2'
+      Firmware: A3MA
+      Name: 'Disk: 2'
+      Serial: JK11A4B8JR6XHWHitachi HDS722020ALA330                 JKAOA3MA
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '21'
+      Firmware: '0001'
+      Name: 'Disk: 21'
+      Serial: S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001
+      Size: 1.819 TB [0xe8e088b0 Sectors]
     - DiskID: '23'
       Firmware: '0001'
       Name: 'Disk: 23'
@@ -161,13 +136,38 @@ device:
       Name: 'Disk: 24'
       Serial: JK11A5B8J0RKSXHitachi HDS722020ALA330                 JKAOA3MA
       Size: 1.819 TB [0xe8e088b0 Sectors]
-    - DiskID: ' '
-      Firmware: ' '
-      Name: 'Disk:  '
-      Serial: ' '
-      Size: ' '
-    - DiskID: '21'
+    - DiskID: '3'
+      Firmware: A3MA
+      Name: 'Disk: 3'
+      Serial: JK11A4B8JR24MWHitachi HDS722020ALA330                 JKAOA3MA
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '4'
+      Firmware: A3MA
+      Name: 'Disk: 4'
+      Serial: JK11A5B8J0RLUXHitachi HDS722020ALA330                 JKAOA3MA
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '5'
+      Firmware: A3MA
+      Name: 'Disk: 5'
+      Serial: JK11A5B8J0RL0XHitachi HDS722020ALA330                 JKAOA3MA
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '6'
       Firmware: '0001'
-      Name: 'Disk: 21'
-      Serial: S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001
+      Name: 'Disk: 6'
+      Serial: S2H7JD1B220323      SAMSUNG HD204UI                         1AQ10001
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '7'
+      Firmware: A3MA
+      Name: 'Disk: 7'
+      Serial: JK11A4B8JHRN2WHitachi HDS722020ALA330                 JKAOA3MA
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '8'
+      Firmware: '0001'
+      Name: 'Disk: 8'
+      Serial: S2H7JD1B113002      SAMSUNG HD204UI                         1AQ10001
+      Size: 1.819 TB [0xe8e088b0 Sectors]
+    - DiskID: '9'
+      Firmware: A3MA
+      Name: 'Disk: 9'
+      Serial: JK11A4B8JR267WHitachi HDS722020ALA330                 JKAOA3MA
       Size: 1.819 TB [0xe8e088b0 Sectors]
