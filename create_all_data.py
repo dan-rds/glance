@@ -164,6 +164,7 @@ def get_disks():
       disk_array = []
       
       for x in all_disks[0:-1]:
+          print x
           if "Port status: Active" in x and "Media Type: Hard Disk Device" in x:
               try:
                     disk_fields = {}
