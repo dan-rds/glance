@@ -1,3 +1,4 @@
+Name,IP,MAC,DNS Server,Path,Speed
 docker0,172.17.0.1,02:42:06:bf:57:87, ,Digilab --> blc00,0
 eth1, ,0c:c4:7a:8e:0b:ad, ,Digilab --> blc00,0
 eth2, ,0c:c4:7a:8e:0b:ae, ,Digilab --> blc00,0
