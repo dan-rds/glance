@@ -66,7 +66,6 @@ def add_system_fields(array_dic, hw_type):
         if k != 'children':
             tooltip.append(str(k) + ": " + str(v))
       output["tt_info"] = tooltip
-      output["type"] = hw_type
       return output
 
 def get_nics():
@@ -196,10 +195,10 @@ def get_sys():
             task_type = 'HEAD'
       else:
             task_type = 'STORAGE' 
-      
+      output["type"] = task_type
       output =  {"Name": hostname, 'children': []}
       output.update(sys_fields)
-      return output, sys_fields, add_system_fields(sys_fields, 'sys')
+      return output, sys_fields, add_system_fields(sys_fields)
 
 def write_arr_to_csv(arr, hw_class):
 
