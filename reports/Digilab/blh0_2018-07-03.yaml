@@ -44,3 +44,4 @@ device:
       Threads Per Core: '1'
   - Memory:
       Total: 131922836 kB
+  type: HEAD

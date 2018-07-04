@@ -52,3 +52,4 @@ device:
   - Memory:
       Total: 65860620 kB
   - Disks: []
+  type: COMPUTE
