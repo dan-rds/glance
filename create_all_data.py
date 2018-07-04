@@ -34,7 +34,10 @@ network = ''
 
 def double_split(start, end, string_cmd):
     try:
-        return string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
+        output = string_cmd.split(start)[1].split(end)[0].encode("ascii").strip()
+        while type(output) == str and '  ' in output:
+            output = output.replace('  ', ' ')
+        return output
     except:
         return ' '
 
@@ -77,7 +80,7 @@ def get_nics():
 
       for i in interfaces[:-1]:
               output = local['ifconfig'](i).encode('ascii')
-              nic_fields = {"Name": i}
+              nic_fields = {"Name": i, "DNS Server":' '}
 
               nic_fields['IP'] = double_split('inet addr:', '  ', output)
               #print nic_fields["IP"]
@@ -151,7 +154,7 @@ def get_mem():
 def get_disks():
       global hostname
       if 'h' in hostname: #Head nodes dont have megacli >:(
-          return [], [], []
+          return None, None, None
 
       all_disks =  []
       try:
@@ -167,7 +170,7 @@ def get_disks():
                     disk_fields["DiskID"] = double_split("evice Id:", "\n", x)
                     disk_fields["Name"] = "Disk: " + disk_fields["DiskID"]
                     disk_fields["Firmware"] = double_split("Firmware Level:", "\n", x)
-                    disk_fields["Size"] = double_split("Raw Size:", "\n", x)
+                    disk_fields["Size"] = (double_split("Raw Size:", "[", x))
                     disk_fields["Serial"] = double_split("Inquiry Data: ", "\n", x)
     
                     disk_array.append(disk_fields)
@@ -242,8 +245,6 @@ def add_hardware(host, *args):
     if "children" not in host.keys():
         host["children"] = []
     for hw in args:
-        if type(hw) == dict:
-          print hw
         if hw:
           host["children"].append(hw)
 
@@ -256,7 +257,11 @@ gpu_yaml, gpu_csv, gpu_tree = get_gpus()
 cpu_yaml, cpu_csv, cpu_tree = get_cpus()
 mem_yaml, mem_csv, mem_tree = get_mem()
 disk_yaml, disk_csv, disk_tree = get_disks()
-
+print(hostname)
+print(type(disk_yaml))
+for i in disk_yaml["Disks"]:
+    for k,v in i.iteritems():
+        print(k , v)
 
 add_hardware(sys_yaml, nic_yaml, gpu_yaml, cpu_yaml, mem_yaml, disk_yaml)
 add_hardware(sys_tree, nic_tree, gpu_tree, cpu_tree, mem_tree, disk_tree)
