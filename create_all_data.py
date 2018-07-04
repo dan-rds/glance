@@ -58,7 +58,7 @@ def add_tree_specific_fields(array_dic, hw_type):
           entry["type"] = hw_type
       return output
 
-def add_system_fields(array_dic):
+def add_system_fields(array_dic, hw_type):
       output = copy.deepcopy(array_dic)
       tooltip =[]
       for k, v in output.iteritems():
@@ -66,6 +66,7 @@ def add_system_fields(array_dic):
         if k != 'children':
             tooltip.append(str(k) + ": " + str(v))
       output["tt_info"] = tooltip
+      output["type"] = hw_type
       return output
 
 def get_nics():
@@ -198,8 +199,8 @@ def get_sys():
       
       output =  {"Name": hostname, 'children': []}
       output.update(sys_fields)
-      output["type"] = task_type
-      return output, sys_fields, add_system_fields(sys_fields)
+      
+      return output, sys_fields, add_system_fields(sys_fields, task_type)
 
 def write_arr_to_csv(arr, hw_class):
 
@@ -255,6 +256,7 @@ network = network
 
 with open("reports/" + network +"/"+ name +'_'+ today +'.yaml', 'w') as outfile:
       yaml.dump({"device":sys_yaml}, outfile, default_flow_style=False)
+
 
 with open("tree_data/"+ network +"/"+ name +'_'+ today + ".json", 'w') as outfile:
       json.dump(sys_tree, outfile, indent=4)

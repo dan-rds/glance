@@ -8,7 +8,7 @@ for i in "${in_group[@]}"
 do
     printf "_________ %s __________ %d of %d\n" "$i" "$k" "${#in_group[@]}"
     ((k++))
-    ssh $i "cd ~/glance && python create_all_data.py" 
+    ssh $i "cd ~/glance && python create_all_data.py && cat tree_data/Digilab/*h*" 
 done
 
 rm -f MegaSAS.log
