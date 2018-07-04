@@ -262,7 +262,7 @@ with open("tree_data/"+ network +"/"+ name +'_'+ today + ".json", 'w') as outfil
       json.dump(sys_tree, outfile, indent=4)
 
 
-csvs = {"Memory": mem_csv, "CPUs": cpu_csv, "GPUs": gpu_csv, "NICs": nic_csv, "System": sys_csv}
+csvs = {"Memory": mem_csv, "CPUs": cpu_csv, "GPUs": gpu_csv, "NICs": nic_csv, "System": sys_csv, "Disks": disk_csv}
 
 for k,v in csvs.iteritems():
     write_arr_to_csv(v, k)
