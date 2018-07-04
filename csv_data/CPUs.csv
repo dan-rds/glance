@@ -1,0 +1,19 @@
+Name,Clock,Architecture,Cores,Path,Model,Threads Per Core,Socket
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,6,Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0
+Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,x86_64,12,Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1

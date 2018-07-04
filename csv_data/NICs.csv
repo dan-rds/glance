@@ -1,0 +1,45 @@
+IP,MAC,Dns Server,Speed,Path
+10.11.0.153,00:25:90:fb:92:14,acmeh2.digilab.pvt,1000,Digilab --> blh0
+10.0.1.1,00:25:90:fb:92:15,blh1.bl.pvt,10000,Digilab --> blh0
+ ,00:25:90:fb:92:16,,0,Digilab --> blh0
+ ,00:25:90:fb:92:17,,0,Digilab --> blh0
+127.0.0.1, ,localhost.bl.pvt,0,Digilab --> blh0
+10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,,10,Digilab --> blh0
+172.17.0.1,02:42:06:bf:57:87,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ad,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ae,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:af,0,Digilab --> blc00
+172.17.0.1,02:42:06:bf:57:87,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ad,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ae,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:af,0,Digilab --> blc00
+10.11.0.153,00:25:90:fb:92:14,acmeh2.digilab.pvt,1000,Digilab --> blh0
+10.0.1.1,00:25:90:fb:92:15,blh1.bl.pvt,10000,Digilab --> blh0
+ ,00:25:90:fb:92:16,,0,Digilab --> blh0
+ ,00:25:90:fb:92:17,,0,Digilab --> blh0
+127.0.0.1, ,localhost.bl.pvt,0,Digilab --> blh0
+10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,,10,Digilab --> blh0
+172.17.0.1,02:42:06:bf:57:87,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ad,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ae,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:af,0,Digilab --> blc00
+10.11.0.153,00:25:90:fb:92:14,acmeh2.digilab.pvt,1000,Digilab --> blh0
+10.0.1.1,00:25:90:fb:92:15,blh1.bl.pvt,10000,Digilab --> blh0
+ ,00:25:90:fb:92:16,,0,Digilab --> blh0
+ ,00:25:90:fb:92:17,,0,Digilab --> blh0
+127.0.0.1, ,localhost.bl.pvt,0,Digilab --> blh0
+10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,,10,Digilab --> blh0
+172.17.0.1,02:42:06:bf:57:87,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ad,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ae,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:af,0,Digilab --> blc00
+10.11.0.153,00:25:90:fb:92:14,acmeh2.digilab.pvt,1000,Digilab --> blh0
+10.0.1.1,00:25:90:fb:92:15,blh1.bl.pvt,10000,Digilab --> blh0
+ ,00:25:90:fb:92:16,,0,Digilab --> blh0
+ ,00:25:90:fb:92:17,,0,Digilab --> blh0
+127.0.0.1, ,localhost.bl.pvt,0,Digilab --> blh0
+10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,,10,Digilab --> blh0
+172.17.0.1,02:42:06:bf:57:87,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ad,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ae,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:af,0,Digilab --> blc00

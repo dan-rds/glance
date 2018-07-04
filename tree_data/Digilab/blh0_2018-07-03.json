@@ -1,0 +1,125 @@
+{
+    "Vendor": "American Megatrends Inc.", 
+    "Network": "Digilab", 
+    "Bios Version": "2.0", 
+    "Hostname": "blh0", 
+    "children": [
+        {
+            "Name": "NICs", 
+            "children": [
+                {
+                    "tt_info": [
+                        "IP: 10.11.0.153", 
+                        "MAC: 00:25:90:fb:92:14", 
+                        "DNS Server: acmeh2.digilab.pvt", 
+                        "Speed: 1000"
+                    ], 
+                    "IP": "10.11.0.153", 
+                    "MAC": "00:25:90:fb:92:14", 
+                    "DNS Server": "acmeh2.digilab.pvt", 
+                    "Speed": "1000"
+                }, 
+                {
+                    "tt_info": [
+                        "IP: 10.0.1.1", 
+                        "MAC: 00:25:90:fb:92:15", 
+                        "DNS Server: blh1.bl.pvt", 
+                        "Speed: 10000"
+                    ], 
+                    "IP": "10.0.1.1", 
+                    "MAC": "00:25:90:fb:92:15", 
+                    "DNS Server": "blh1.bl.pvt", 
+                    "Speed": "10000"
+                }, 
+                {
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 00:25:90:fb:92:16", 
+                        "Speed: 0"
+                    ], 
+                    "IP": " ", 
+                    "MAC": "00:25:90:fb:92:16", 
+                    "Speed": "0"
+                }, 
+                {
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 00:25:90:fb:92:17", 
+                        "Speed: 0"
+                    ], 
+                    "IP": " ", 
+                    "MAC": "00:25:90:fb:92:17", 
+                    "Speed": "0"
+                }, 
+                {
+                    "tt_info": [
+                        "IP: 127.0.0.1", 
+                        "MAC:  ", 
+                        "DNS Server: localhost.bl.pvt", 
+                        "Speed: 0"
+                    ], 
+                    "IP": "127.0.0.1", 
+                    "MAC": " ", 
+                    "DNS Server": "localhost.bl.pvt", 
+                    "Speed": "0"
+                }, 
+                {
+                    "tt_info": [
+                        "IP: 10.254.254.1", 
+                        "MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                        "Speed: 10"
+                    ], 
+                    "IP": "10.254.254.1", 
+                    "MAC": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                    "Speed": "10"
+                }
+            ]
+        }, 
+        {
+            "Name": "CPUs", 
+            "children": [
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 6", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 1", 
+                        "Socket: 0"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 6, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "1", 
+                    "Socket": 0
+                }, 
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 6", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 1", 
+                        "Socket: 1"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 6, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "1", 
+                    "Socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Total: 131922836 kB", 
+            "Name": "Memory"
+        }
+    ], 
+    "Name": "blh0"
+}

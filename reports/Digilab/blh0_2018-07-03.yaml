@@ -1,0 +1,46 @@
+device:
+  Bios Version: '2.0'
+  Hostname: blh0
+  Name: blh0
+  Network: Digilab
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: acmeh2.digilab.pvt
+      IP: 10.11.0.153
+      MAC: 00:25:90:fb:92:14
+      Speed: '1000'
+    - DNS Server: blh1.bl.pvt
+      IP: 10.0.1.1
+      MAC: 00:25:90:fb:92:15
+      Speed: '10000'
+    - IP: ' '
+      MAC: 00:25:90:fb:92:16
+      Speed: '0'
+    - IP: ' '
+      MAC: 00:25:90:fb:92:17
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Speed: '0'
+    - IP: 10.254.254.1
+      MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+      Speed: '10'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 6
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 0
+      Threads Per Core: '1'
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 6
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 1
+      Threads Per Core: '1'
+  - Memory:
+      Total: 131922836 kB
