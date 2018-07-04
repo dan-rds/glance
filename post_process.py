@@ -22,7 +22,7 @@ for parent_dir in dirs:
 	head = {}
 	print (dir_dict)
 	reports = os.listdir('./glance/tree_data/' + parent_dir)
-	print (reports)
+	print ("REPORTS : ", reports)
 	for f in reports:
 
 		if 'h' in f:
@@ -38,6 +38,7 @@ for parent_dir in dirs:
 		
 	head["children"] =  sorted(heads_children, key=itemgetter('Hostname'))
 	#print("append", len(heads_children), len(head["children"]),"\n\n\n\n\n\n")
+	dir_dict["Name"] = parent_dir
 	dir_dict["children"].append(head)
 
 	root["children"].append(dir_dict)
@@ -53,7 +54,7 @@ dirs = os.listdir('./glance/csv_data/')
 
 
 import pandas as pd
-types = ["NICs", "GPUs", "CPUs", "Disks", "Memory", "SYS"]
+types = ["NICs", "GPUs", "CPUs", "Disks", "Memory", "System"]
 for t in types:
 	combined_csv = pd.concat( [ pd.read_csv('./glance/csv_data/' + f ) for f in list(filter(lambda x: t in x, dirs)) ] )
 	combined_csv.to_csv( t + ".csv", index=False )

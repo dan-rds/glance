@@ -20,10 +20,12 @@
                     "tt_info": [
                         "IP: 172.17.0.1", 
                         "MAC: 02:42:8a:99:32:83", 
-                        "Speed: 0", 
-                        "Name: docker0"
+                        "DNS Server:  ", 
+                        "Name: docker0", 
+                        "Speed: 0"
                     ], 
                     "MAC": "02:42:8a:99:32:83", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -33,10 +35,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:01:f1", 
-                        "Speed: 0", 
-                        "Name: eth1"
+                        "DNS Server:  ", 
+                        "Name: eth1", 
+                        "Speed: 0"
                     ], 
                     "MAC": "ac:1f:6b:2d:01:f1", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -46,10 +50,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:01:f2", 
-                        "Speed: 0", 
-                        "Name: eth2"
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
                     ], 
                     "MAC": "ac:1f:6b:2d:01:f2", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -59,10 +65,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:01:f3", 
-                        "Speed: 0", 
-                        "Name: eth3"
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
                     ], 
                     "MAC": "ac:1f:6b:2d:01:f3", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -202,316 +210,316 @@
                     "Name": "Disk: 10", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J37BSXHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J37BSXHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 10", 
                         "DiskID: 10", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J37BSXHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J37BSXHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "10", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 11", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8JR4R7WHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8JR4R7WHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 11", 
                         "DiskID: 11", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8JR4R7WHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8JR4R7WHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "11", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 12", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J36AMXHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J36AMXHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 12", 
                         "DiskID: 12", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J36AMXHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J36AMXHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "12", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 13", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8JR2AYWHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8JR2AYWHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 13", 
                         "DiskID: 13", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8JR2AYWHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8JR2AYWHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "13", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 14", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8J8NSTWHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8J8NSTWHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 14", 
                         "DiskID: 14", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8J8NSTWHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8J8NSTWHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "14", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 15", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J0083XHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J0083XHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 15", 
                         "DiskID: 15", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J0083XHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J0083XHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "15", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 16", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J0RSAXHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J0RSAXHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 16", 
                         "DiskID: 16", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J0RSAXHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J0RSAXHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "16", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 17", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8JR3TJWHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8JR3TJWHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 17", 
                         "DiskID: 17", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8JR3TJWHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8JR3TJWHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "17", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 18", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J37ESXHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J37ESXHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 18", 
                         "DiskID: 18", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J37ESXHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J37ESXHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "18", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 19", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: ATA     Hitachi HDS72202A3MA      JK11A5B8J37BLX", 
+                        "Serial: ATA Hitachi HDS72202A3MA JK11A5B8J37BLX", 
                         "Firmware: A3MA", 
                         "Name: Disk: 19", 
                         "DiskID: 19", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "ATA     Hitachi HDS72202A3MA      JK11A5B8J37BLX", 
+                    "Serial": "ATA Hitachi HDS72202A3MA JK11A5B8J37BLX", 
                     "type": "disk", 
                     "DiskID": "19", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 2", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8JR6XHWHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8JR6XHWHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 2", 
                         "DiskID: 2", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8JR6XHWHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8JR6XHWHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "2", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 21", 
                     "Firmware": "0001", 
                     "tt_info": [
-                        "Serial: S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001", 
+                        "Serial: S2H7JD2B403627 SAMSUNG HD204UI 1AQ10001", 
                         "Firmware: 0001", 
                         "Name: Disk: 21", 
                         "DiskID: 21", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001", 
+                    "Serial": "S2H7JD2B403627 SAMSUNG HD204UI 1AQ10001", 
                     "type": "disk", 
                     "DiskID": "21", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 23", 
                     "Firmware": "0001", 
                     "tt_info": [
-                        "Serial: S2H7JD2B403709      SAMSUNG HD204UI                         1AQ10001", 
+                        "Serial: S2H7JD2B403709 SAMSUNG HD204UI 1AQ10001", 
                         "Firmware: 0001", 
                         "Name: Disk: 23", 
                         "DiskID: 23", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "S2H7JD2B403709      SAMSUNG HD204UI                         1AQ10001", 
+                    "Serial": "S2H7JD2B403709 SAMSUNG HD204UI 1AQ10001", 
                     "type": "disk", 
                     "DiskID": "23", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 24", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J0RKSXHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J0RKSXHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 24", 
                         "DiskID: 24", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J0RKSXHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J0RKSXHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "24", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 3", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8JR24MWHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8JR24MWHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 3", 
                         "DiskID: 3", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8JR24MWHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8JR24MWHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "3", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 4", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J0RLUXHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J0RLUXHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 4", 
                         "DiskID: 4", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J0RLUXHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J0RLUXHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "4", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 5", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A5B8J0RL0XHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A5B8J0RL0XHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 5", 
                         "DiskID: 5", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A5B8J0RL0XHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A5B8J0RL0XHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "5", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 6", 
                     "Firmware": "0001", 
                     "tt_info": [
-                        "Serial: S2H7JD1B220323      SAMSUNG HD204UI                         1AQ10001", 
+                        "Serial: S2H7JD1B220323 SAMSUNG HD204UI 1AQ10001", 
                         "Firmware: 0001", 
                         "Name: Disk: 6", 
                         "DiskID: 6", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "S2H7JD1B220323      SAMSUNG HD204UI                         1AQ10001", 
+                    "Serial": "S2H7JD1B220323 SAMSUNG HD204UI 1AQ10001", 
                     "type": "disk", 
                     "DiskID": "6", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 7", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8JHRN2WHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8JHRN2WHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 7", 
                         "DiskID: 7", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8JHRN2WHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8JHRN2WHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "7", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 8", 
                     "Firmware": "0001", 
                     "tt_info": [
-                        "Serial: S2H7JD1B113002      SAMSUNG HD204UI                         1AQ10001", 
+                        "Serial: S2H7JD1B113002 SAMSUNG HD204UI 1AQ10001", 
                         "Firmware: 0001", 
                         "Name: Disk: 8", 
                         "DiskID: 8", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "S2H7JD1B113002      SAMSUNG HD204UI                         1AQ10001", 
+                    "Serial": "S2H7JD1B113002 SAMSUNG HD204UI 1AQ10001", 
                     "type": "disk", 
                     "DiskID": "8", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }, 
                 {
                     "Name": "Disk: 9", 
                     "Firmware": "A3MA", 
                     "tt_info": [
-                        "Serial: JK11A4B8JR267WHitachi HDS722020ALA330                 JKAOA3MA", 
+                        "Serial: JK11A4B8JR267WHitachi HDS722020ALA330 JKAOA3MA", 
                         "Firmware: A3MA", 
                         "Name: Disk: 9", 
                         "DiskID: 9", 
-                        "Size: 1.819 TB [0xe8e088b0 Sectors]"
+                        "Size: 1.819 TB"
                     ], 
-                    "Serial": "JK11A4B8JR267WHitachi HDS722020ALA330                 JKAOA3MA", 
+                    "Serial": "JK11A4B8JR267WHitachi HDS722020ALA330 JKAOA3MA", 
                     "type": "disk", 
                     "DiskID": "9", 
-                    "Size": "1.819 TB [0xe8e088b0 Sectors]"
+                    "Size": "1.819 TB"
                 }
             ]
         }

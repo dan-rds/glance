@@ -6,19 +6,23 @@ device:
   Vendor: American Megatrends Inc.
   children:
   - NICs:
-    - IP: 172.17.0.1
+    - DNS Server: ' '
+      IP: 172.17.0.1
       MAC: 02:42:8a:99:32:83
       Name: docker0
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: ac:1f:6b:2d:01:f1
       Name: eth1
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: ac:1f:6b:2d:01:f2
       Name: eth2
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: ac:1f:6b:2d:01:f3
       Name: eth3
       Speed: '0'
@@ -69,105 +73,105 @@ device:
     - DiskID: '10'
       Firmware: A3MA
       Name: 'Disk: 10'
-      Serial: JK11A5B8J37BSXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J37BSXHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '11'
       Firmware: A3MA
       Name: 'Disk: 11'
-      Serial: JK11A4B8JR4R7WHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8JR4R7WHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '12'
       Firmware: A3MA
       Name: 'Disk: 12'
-      Serial: JK11A5B8J36AMXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J36AMXHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '13'
       Firmware: A3MA
       Name: 'Disk: 13'
-      Serial: JK11A4B8JR2AYWHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8JR2AYWHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '14'
       Firmware: A3MA
       Name: 'Disk: 14'
-      Serial: JK11A4B8J8NSTWHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8J8NSTWHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '15'
       Firmware: A3MA
       Name: 'Disk: 15'
-      Serial: JK11A5B8J0083XHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J0083XHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '16'
       Firmware: A3MA
       Name: 'Disk: 16'
-      Serial: JK11A5B8J0RSAXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J0RSAXHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '17'
       Firmware: A3MA
       Name: 'Disk: 17'
-      Serial: JK11A4B8JR3TJWHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8JR3TJWHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '18'
       Firmware: A3MA
       Name: 'Disk: 18'
-      Serial: JK11A5B8J37ESXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J37ESXHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '19'
       Firmware: A3MA
       Name: 'Disk: 19'
-      Serial: ATA     Hitachi HDS72202A3MA      JK11A5B8J37BLX
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: ATA Hitachi HDS72202A3MA JK11A5B8J37BLX
+      Size: 1.819 TB
     - DiskID: '2'
       Firmware: A3MA
       Name: 'Disk: 2'
-      Serial: JK11A4B8JR6XHWHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8JR6XHWHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '21'
       Firmware: '0001'
       Name: 'Disk: 21'
-      Serial: S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: S2H7JD2B403627 SAMSUNG HD204UI 1AQ10001
+      Size: 1.819 TB
     - DiskID: '23'
       Firmware: '0001'
       Name: 'Disk: 23'
-      Serial: S2H7JD2B403709      SAMSUNG HD204UI                         1AQ10001
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: S2H7JD2B403709 SAMSUNG HD204UI 1AQ10001
+      Size: 1.819 TB
     - DiskID: '24'
       Firmware: A3MA
       Name: 'Disk: 24'
-      Serial: JK11A5B8J0RKSXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J0RKSXHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '3'
       Firmware: A3MA
       Name: 'Disk: 3'
-      Serial: JK11A4B8JR24MWHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8JR24MWHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '4'
       Firmware: A3MA
       Name: 'Disk: 4'
-      Serial: JK11A5B8J0RLUXHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J0RLUXHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '5'
       Firmware: A3MA
       Name: 'Disk: 5'
-      Serial: JK11A5B8J0RL0XHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A5B8J0RL0XHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '6'
       Firmware: '0001'
       Name: 'Disk: 6'
-      Serial: S2H7JD1B220323      SAMSUNG HD204UI                         1AQ10001
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: S2H7JD1B220323 SAMSUNG HD204UI 1AQ10001
+      Size: 1.819 TB
     - DiskID: '7'
       Firmware: A3MA
       Name: 'Disk: 7'
-      Serial: JK11A4B8JHRN2WHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8JHRN2WHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB
     - DiskID: '8'
       Firmware: '0001'
       Name: 'Disk: 8'
-      Serial: S2H7JD1B113002      SAMSUNG HD204UI                         1AQ10001
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: S2H7JD1B113002 SAMSUNG HD204UI 1AQ10001
+      Size: 1.819 TB
     - DiskID: '9'
       Firmware: A3MA
       Name: 'Disk: 9'
-      Serial: JK11A4B8JR267WHitachi HDS722020ALA330                 JKAOA3MA
-      Size: 1.819 TB [0xe8e088b0 Sectors]
+      Serial: JK11A4B8JR267WHitachi HDS722020ALA330 JKAOA3MA
+      Size: 1.819 TB

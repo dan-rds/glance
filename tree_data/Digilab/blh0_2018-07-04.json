@@ -20,10 +20,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: 00:25:90:fb:92:16", 
-                        "Speed: 0", 
-                        "Name: eth2"
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
                     ], 
                     "MAC": "00:25:90:fb:92:16", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -33,10 +35,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: 00:25:90:fb:92:17", 
-                        "Speed: 0", 
-                        "Name: eth3"
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
                     ], 
                     "MAC": "00:25:90:fb:92:17", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -61,10 +65,12 @@
                     "tt_info": [
                         "IP: 10.254.254.1", 
                         "MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
-                        "Speed: 10", 
-                        "Name: tun0"
+                        "DNS Server:  ", 
+                        "Name: tun0", 
+                        "Speed: 10"
                     ], 
                     "MAC": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "10"
                 }, 
