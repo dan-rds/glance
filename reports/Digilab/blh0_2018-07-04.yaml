@@ -6,27 +6,33 @@ device:
   Vendor: American Megatrends Inc.
   children:
   - NICs:
-    - DNS Server: acmeh2.digilab.pvt
-      IP: 10.11.0.153
-      MAC: 00:25:90:fb:92:14
-      Speed: '1000'
-    - DNS Server: blh1.bl.pvt
-      IP: 10.0.1.1
-      MAC: 00:25:90:fb:92:15
-      Speed: '10000'
     - IP: ' '
       MAC: 00:25:90:fb:92:16
+      Name: eth2
       Speed: '0'
     - IP: ' '
       MAC: 00:25:90:fb:92:17
+      Name: eth3
       Speed: '0'
     - DNS Server: localhost.bl.pvt
       IP: 127.0.0.1
       MAC: ' '
+      Name: lo
       Speed: '0'
     - IP: 10.254.254.1
       MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+      Name: tun0
       Speed: '10'
+    - DNS Server: acmeh2.digilab.pvt
+      IP: 10.11.0.153
+      MAC: 00:25:90:fb:92:14
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: blh1.bl.pvt
+      IP: 10.0.1.1
+      MAC: 00:25:90:fb:92:15
+      Name: eth1
+      Speed: '10000'
   - CPUs:
     - Architecture: x86_64
       Clock: 3200

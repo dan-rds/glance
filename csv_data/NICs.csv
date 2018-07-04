@@ -59,3 +59,6 @@ IP,MAC,Dns Server,Speed,Path
  ,0c:c4:7a:bc:96:bd,0,eth1,Digilab --> bls0
  ,0c:c4:7a:bc:96:be,0,eth2,Digilab --> bls0
  ,0c:c4:7a:bc:96:bf,0,eth3,Digilab --> bls0
+ ,00:25:90:fb:92:16,0,eth2,Digilab --> blh0
+ ,00:25:90:fb:92:17,0,eth3,Digilab --> blh0
+10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,10,tun0,Digilab --> blh0
