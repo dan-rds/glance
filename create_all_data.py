@@ -218,7 +218,7 @@ def write_arr_to_csv(arr, hw_class):
   list_rows = []
   for i in arr:
     i["Path"] = network + " --> " + hostname
-    #list_rows.append(format_table(i))
+    list_rows.append(i)
   filename = "csv_data/" + hw_class + '.csv'
 
   try:
