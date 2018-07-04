@@ -163,7 +163,7 @@ def get_disks():
       except:
         all_disks = sudo["/usr/local/bin/megacli"]('-pdlist -a0').split("\n\n")      
       disk_array = []
-      print sudo["/usr/local/sbin/megacli"]('-pdlist -a0')
+      print sudo["/usr/local/bin/megacli"]('-pdlist -a0')
       for x in all_disks[0:-1]:
           
           if "Port status: Active" in x and "Media Type: Hard Disk Device" in x:
