@@ -50,10 +50,12 @@
                     "tt_info": [
                         "IP: 172.17.0.1", 
                         "MAC: 02:42:49:b6:df:88", 
-                        "Speed: 0", 
-                        "Name: docker0"
+                        "DNS Server:  ", 
+                        "Name: docker0", 
+                        "Speed: 0"
                     ], 
                     "MAC": "02:42:49:b6:df:88", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -63,10 +65,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:03:f9", 
-                        "Speed: 0", 
-                        "Name: eth1"
+                        "DNS Server:  ", 
+                        "Name: eth1", 
+                        "Speed: 0"
                     ], 
                     "MAC": "ac:1f:6b:2d:03:f9", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -76,10 +80,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:03:fa", 
-                        "Speed: 0", 
-                        "Name: eth2"
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
                     ], 
                     "MAC": "ac:1f:6b:2d:03:fa", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -89,10 +95,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: ac:1f:6b:2d:03:fb", 
-                        "Speed: 0", 
-                        "Name: eth3"
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
                     ], 
                     "MAC": "ac:1f:6b:2d:03:fb", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 

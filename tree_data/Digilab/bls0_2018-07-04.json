@@ -50,10 +50,12 @@
                     "tt_info": [
                         "IP: 172.17.0.1", 
                         "MAC: 02:42:e6:0f:eb:67", 
-                        "Speed: 0", 
-                        "Name: docker0"
+                        "DNS Server:  ", 
+                        "Name: docker0", 
+                        "Speed: 0"
                     ], 
                     "MAC": "02:42:e6:0f:eb:67", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -63,10 +65,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: 0c:c4:7a:bc:96:bd", 
-                        "Speed: 0", 
-                        "Name: eth1"
+                        "DNS Server:  ", 
+                        "Name: eth1", 
+                        "Speed: 0"
                     ], 
                     "MAC": "0c:c4:7a:bc:96:bd", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -76,10 +80,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: 0c:c4:7a:bc:96:be", 
-                        "Speed: 0", 
-                        "Name: eth2"
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
                     ], 
                     "MAC": "0c:c4:7a:bc:96:be", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -89,10 +95,12 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: 0c:c4:7a:bc:96:bf", 
-                        "Speed: 0", 
-                        "Name: eth3"
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
                     ], 
                     "MAC": "0c:c4:7a:bc:96:bf", 
+                    "DNS Server": " ", 
                     "type": "nic", 
                     "Speed": "0"
                 }, 
@@ -197,526 +205,526 @@
                     "Name": "Disk: 38", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y5ADK1ECF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y5ADK1ECF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 38", 
                         "DiskID: 38", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y5ADK1ECF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y5ADK1ECF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "38", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 39", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y56FK0M9F56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y56FK0M9F56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 39", 
                         "DiskID: 39", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y56FK0M9F56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y56FK0M9F56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "39", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 40", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 855AK0OYF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 855AK0OYF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 40", 
                         "DiskID: 40", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "855AK0OYF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "855AK0OYF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "40", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 41", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y5ADK1DWF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y5ADK1DWF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 41", 
                         "DiskID: 41", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y5ADK1DWF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y5ADK1DWF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "41", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 42", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y58EK16YF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y58EK16YF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 42", 
                         "DiskID: 42", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y58EK16YF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y58EK16YF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "42", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 43", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y5ADK1DZF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y5ADK1DZF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 43", 
                         "DiskID: 43", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y5ADK1DZF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y5ADK1DZF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "43", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 44", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 759AK0EXF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 759AK0EXF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 44", 
                         "DiskID: 44", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "759AK0EXF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "759AK0EXF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "44", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 45", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y586K2MSF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y586K2MSF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 45", 
                         "DiskID: 45", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y586K2MSF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y586K2MSF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "45", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 46", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: X5O1K4OMF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: X5O1K4OMF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 46", 
                         "DiskID: 46", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "X5O1K4OMF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "X5O1K4OMF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "46", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 47", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y583K2C3F56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y583K2C3F56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 47", 
                         "DiskID: 47", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y583K2C3F56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y583K2C3F56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "47", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 48", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y56EK15CF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y56EK15CF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 48", 
                         "DiskID: 48", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y56EK15CF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y56EK15CF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "48", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 51", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9557KETRFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9557KETRFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 51", 
                         "DiskID: 51", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9557KETRFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9557KETRFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "51", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 52", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9556KL8OFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9556KL8OFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 52", 
                         "DiskID: 52", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9556KL8OFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9556KL8OFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "52", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 53", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 758DK07MF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 758DK07MF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 53", 
                         "DiskID: 53", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "758DK07MF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "758DK07MF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "53", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 54", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 85J9K10SF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 85J9K10SF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 54", 
                         "DiskID: 54", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "85J9K10SF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "85J9K10SF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "54", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 55", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 85SAKA70FSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 85SAKA70FSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 55", 
                         "DiskID: 55", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "85SAKA70FSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "85SAKA70FSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "55", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 56", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9563KNFOFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9563KNFOFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 56", 
                         "DiskID: 56", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9563KNFOFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9563KNFOFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "56", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 57", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 758DK07GF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 758DK07GF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 57", 
                         "DiskID: 57", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "758DK07GF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "758DK07GF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "57", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 58", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9565K7BVFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9565K7BVFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 58", 
                         "DiskID: 58", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9565K7BVFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9565K7BVFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "58", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 59", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y5AEK1A5F56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y5AEK1A5F56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 59", 
                         "DiskID: 59", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y5AEK1A5F56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y5AEK1A5F56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "59", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 60", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 85JAK13BF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 85JAK13BF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 60", 
                         "DiskID: 60", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "85JAK13BF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "85JAK13BF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "60", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 61", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 85N9K134F56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 85N9K134F56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 61", 
                         "DiskID: 61", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "85N9K134F56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "85N9K134F56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "61", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 62", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9556KL8KFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9556KL8KFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 62", 
                         "DiskID: 62", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9556KL8KFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9556KL8KFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "62", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 63", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9548K9TGFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9548K9TGFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 63", 
                         "DiskID: 63", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9548K9TGFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9548K9TGFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "63", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 64", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 85JBK0ILF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 85JBK0ILF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 64", 
                         "DiskID: 64", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "85JBK0ILF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "85JBK0ILF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "64", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 65", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9556KL8NFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9556KL8NFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 65", 
                         "DiskID: 65", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9556KL8NFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9556KL8NFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "65", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 66", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9547KEPYFSBATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9547KEPYFSBATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 66", 
                         "DiskID: 66", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9547KEPYFSBATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9547KEPYFSBATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "66", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 67", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9547KEPZFSBATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9547KEPZFSBATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 67", 
                         "DiskID: 67", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9547KEPZFSBATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9547KEPZFSBATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "67", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 68", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 9534KFAFFSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 9534KFAFFSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 68", 
                         "DiskID: 68", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "9534KFAFFSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "9534KFAFFSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "68", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 69", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 75B6K16XF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 75B6K16XF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 69", 
                         "DiskID: 69", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "75B6K16XF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "75B6K16XF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "69", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 70", 
                     "Firmware": "FP2A", 
                     "tt_info": [
-                        "Serial: 85O8K916FSAATOSHIBA MD04ACA400                      FP2A", 
+                        "Serial: 85O8K916FSAATOSHIBA MD04ACA400 FP2A", 
                         "Firmware: FP2A", 
                         "Name: Disk: 70", 
                         "DiskID: 70", 
-                        "Size: 3.638 TB [0x1d1c0beb0 Sectors]"
+                        "Size: 3.638 TB"
                     ], 
-                    "Serial": "85O8K916FSAATOSHIBA MD04ACA400                      FP2A", 
+                    "Serial": "85O8K916FSAATOSHIBA MD04ACA400 FP2A", 
                     "type": "disk", 
                     "DiskID": "70", 
-                    "Size": "3.638 TB [0x1d1c0beb0 Sectors]"
+                    "Size": "3.638 TB"
                 }, 
                 {
                     "Name": "Disk: 71", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 75B6K16VF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 75B6K16VF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 71", 
                         "DiskID: 71", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "75B6K16VF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "75B6K16VF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "71", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 72", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: Y58DK1B9F56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: Y58DK1B9F56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 72", 
                         "DiskID: 72", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "Y58DK1B9F56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "Y58DK1B9F56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "72", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 73", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 85JAK13GF56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 85JAK13GF56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 73", 
                         "DiskID: 73", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "85JAK13GF56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "85JAK13GF56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "73", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }, 
                 {
                     "Name": "Disk: 74", 
                     "Firmware": "FS2A", 
                     "tt_info": [
-                        "Serial: 759AK0G4F56DTOSHIBA HDWE160                         FS2A", 
+                        "Serial: 759AK0G4F56DTOSHIBA HDWE160 FS2A", 
                         "Firmware: FS2A", 
                         "Name: Disk: 74", 
                         "DiskID: 74", 
-                        "Size: 5.458 TB [0x2baa0f4b0 Sectors]"
+                        "Size: 5.458 TB"
                     ], 
-                    "Serial": "759AK0G4F56DTOSHIBA HDWE160                         FS2A", 
+                    "Serial": "759AK0G4F56DTOSHIBA HDWE160 FS2A", 
                     "type": "disk", 
                     "DiskID": "74", 
-                    "Size": "5.458 TB [0x2baa0f4b0 Sectors]"
+                    "Size": "5.458 TB"
                 }
             ]
         }

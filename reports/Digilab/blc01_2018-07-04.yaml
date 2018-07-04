@@ -16,19 +16,23 @@ device:
       MAC: 02:02:0a:0a:0a:86
       Name: eth5
       Speed: '-1'
-    - IP: 172.17.0.1
+    - DNS Server: ' '
+      IP: 172.17.0.1
       MAC: 02:42:49:b6:df:88
       Name: docker0
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: ac:1f:6b:2d:03:f9
       Name: eth1
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: ac:1f:6b:2d:03:fa
       Name: eth2
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: ac:1f:6b:2d:03:fb
       Name: eth3
       Speed: '0'

@@ -16,19 +16,23 @@ device:
       MAC: 02:02:0a:0a:0a:82
       Name: eth5
       Speed: '-1'
-    - IP: 172.17.0.1
+    - DNS Server: ' '
+      IP: 172.17.0.1
       MAC: 02:42:e6:0f:eb:67
       Name: docker0
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: 0c:c4:7a:bc:96:bd
       Name: eth1
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: 0c:c4:7a:bc:96:be
       Name: eth2
       Speed: '0'
-    - IP: ' '
+    - DNS Server: ' '
+      IP: ' '
       MAC: 0c:c4:7a:bc:96:bf
       Name: eth3
       Speed: '0'
@@ -68,175 +72,175 @@ device:
     - DiskID: '38'
       Firmware: FS2A
       Name: 'Disk: 38'
-      Serial: Y5ADK1ECF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y5ADK1ECF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '39'
       Firmware: FS2A
       Name: 'Disk: 39'
-      Serial: Y56FK0M9F56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y56FK0M9F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '40'
       Firmware: FS2A
       Name: 'Disk: 40'
-      Serial: 855AK0OYF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 855AK0OYF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '41'
       Firmware: FS2A
       Name: 'Disk: 41'
-      Serial: Y5ADK1DWF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y5ADK1DWF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '42'
       Firmware: FS2A
       Name: 'Disk: 42'
-      Serial: Y58EK16YF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y58EK16YF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '43'
       Firmware: FS2A
       Name: 'Disk: 43'
-      Serial: Y5ADK1DZF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y5ADK1DZF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '44'
       Firmware: FS2A
       Name: 'Disk: 44'
-      Serial: 759AK0EXF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 759AK0EXF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '45'
       Firmware: FS2A
       Name: 'Disk: 45'
-      Serial: Y586K2MSF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y586K2MSF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '46'
       Firmware: FS2A
       Name: 'Disk: 46'
-      Serial: X5O1K4OMF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: X5O1K4OMF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '47'
       Firmware: FS2A
       Name: 'Disk: 47'
-      Serial: Y583K2C3F56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y583K2C3F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '48'
       Firmware: FS2A
       Name: 'Disk: 48'
-      Serial: Y56EK15CF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y56EK15CF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '51'
       Firmware: FP2A
       Name: 'Disk: 51'
-      Serial: 9557KETRFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9557KETRFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '52'
       Firmware: FP2A
       Name: 'Disk: 52'
-      Serial: 9556KL8OFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9556KL8OFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '53'
       Firmware: FS2A
       Name: 'Disk: 53'
-      Serial: 758DK07MF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 758DK07MF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '54'
       Firmware: FS2A
       Name: 'Disk: 54'
-      Serial: 85J9K10SF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 85J9K10SF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '55'
       Firmware: FP2A
       Name: 'Disk: 55'
-      Serial: 85SAKA70FSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 85SAKA70FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '56'
       Firmware: FP2A
       Name: 'Disk: 56'
-      Serial: 9563KNFOFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9563KNFOFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '57'
       Firmware: FS2A
       Name: 'Disk: 57'
-      Serial: 758DK07GF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 758DK07GF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '58'
       Firmware: FP2A
       Name: 'Disk: 58'
-      Serial: 9565K7BVFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9565K7BVFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '59'
       Firmware: FS2A
       Name: 'Disk: 59'
-      Serial: Y5AEK1A5F56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y5AEK1A5F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '60'
       Firmware: FS2A
       Name: 'Disk: 60'
-      Serial: 85JAK13BF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 85JAK13BF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '61'
       Firmware: FS2A
       Name: 'Disk: 61'
-      Serial: 85N9K134F56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 85N9K134F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '62'
       Firmware: FP2A
       Name: 'Disk: 62'
-      Serial: 9556KL8KFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9556KL8KFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '63'
       Firmware: FP2A
       Name: 'Disk: 63'
-      Serial: 9548K9TGFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9548K9TGFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '64'
       Firmware: FS2A
       Name: 'Disk: 64'
-      Serial: 85JBK0ILF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 85JBK0ILF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '65'
       Firmware: FP2A
       Name: 'Disk: 65'
-      Serial: 9556KL8NFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9556KL8NFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '66'
       Firmware: FP2A
       Name: 'Disk: 66'
-      Serial: 9547KEPYFSBATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9547KEPYFSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '67'
       Firmware: FP2A
       Name: 'Disk: 67'
-      Serial: 9547KEPZFSBATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9547KEPZFSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '68'
       Firmware: FP2A
       Name: 'Disk: 68'
-      Serial: 9534KFAFFSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 9534KFAFFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '69'
       Firmware: FS2A
       Name: 'Disk: 69'
-      Serial: 75B6K16XF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 75B6K16XF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '70'
       Firmware: FP2A
       Name: 'Disk: 70'
-      Serial: 85O8K916FSAATOSHIBA MD04ACA400                      FP2A
-      Size: 3.638 TB [0x1d1c0beb0 Sectors]
+      Serial: 85O8K916FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
     - DiskID: '71'
       Firmware: FS2A
       Name: 'Disk: 71'
-      Serial: 75B6K16VF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 75B6K16VF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '72'
       Firmware: FS2A
       Name: 'Disk: 72'
-      Serial: Y58DK1B9F56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: Y58DK1B9F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '73'
       Firmware: FS2A
       Name: 'Disk: 73'
-      Serial: 85JAK13GF56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 85JAK13GF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
     - DiskID: '74'
       Firmware: FS2A
       Name: 'Disk: 74'
-      Serial: 759AK0G4F56DTOSHIBA HDWE160                         FS2A
-      Size: 5.458 TB [0x2baa0f4b0 Sectors]
+      Serial: 759AK0G4F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
