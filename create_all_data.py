@@ -195,9 +195,10 @@ def get_sys():
             task_type = 'HEAD'
       else:
             task_type = 'STORAGE' 
-      output["type"] = task_type
+      
       output =  {"Name": hostname, 'children': []}
       output.update(sys_fields)
+      output["type"] = task_type
       return output, sys_fields, add_system_fields(sys_fields)
 
 def write_arr_to_csv(arr, hw_class):
