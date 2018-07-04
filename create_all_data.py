@@ -17,7 +17,7 @@ worst enemy, I wrote these programs with VERY specific naming.
 --------------------------------------
 '''
 from plumbum import local
-from plumbum.cmd import echo, nslookup, sudo
+from plumbum.cmd import echo, nslookup, sudo, grep
 from operator import itemgetter
 import yaml
 import copy
@@ -203,7 +203,8 @@ def get_sys():
       return output, sys_fields, add_system_fields(sys_fields, task_type)
 
 def write_arr_to_csv(arr, hw_class):
-
+  global hostname 
+  global network
   if arr == None or len(arr) < 1:
    return
   if type(arr) != list:
@@ -213,12 +214,18 @@ def write_arr_to_csv(arr, hw_class):
     i["Path"] = network + " --> " + hostname
     list_rows.append(format_table(i))
   filename = "csv_data/" + hw_class + '.csv'
-  if os.path.exists(filename):
+
+  try:
+    clean_slate = grep[network + "-->" + hostname](filename)
+  except:
+    clean_slate = None
+
+  if not clean_slate:
     append_write = 'a' # append if already exists
   else:
     append_write = 'w'
 
-  with open(filename, 'a+') as f:  # Just use 'w' mode in 3.x
+  with open(filename, append_write) as f:  # Just use 'w' mode in 3.x
       w = csv.DictWriter(f, list_rows[0].keys())
       
       if append_write == 'w':
