@@ -76,7 +76,7 @@ def get_nics():
 
       for i in interfaces[:-1]:
               output = local['ifconfig'](i).encode('ascii')
-              nic_fields = {}
+              nic_fields = {"Name": i}
 
               nic_fields['IP'] = double_split('inet addr:', '  ', output)
               #print nic_fields["IP"]
