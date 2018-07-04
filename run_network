@@ -11,7 +11,7 @@ do
     ssh $i "cd ~/glance && python create_all_data.py" 
 done
 
-
+rm -f MegaSAS.log
 git add *
 git commit -m "Regular commit by $HOSTNAME on the ${obs} network at `date`"
 git push

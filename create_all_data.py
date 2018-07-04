@@ -176,7 +176,7 @@ def get_sys():
       network = local["/home/obs/bin/whereami"]().encode("ascii").strip().title()
       if(network == 'gbt'):
           network = network.upper()
-      #observatory[0] = network
+
       sys_fields["Network"] = network
 
       task_type = ''
@@ -189,12 +189,10 @@ def get_sys():
 
       output =  {"Name": hostname, 'children': []}
       output.update(sys_fields)
-      return output, sys_fields, copy.deepcopy(output)
+      return output, sys_fields, add_tree_specific_fields(output)
 
 def write_arr_to_csv(arr, hw_class):
-  
- #print hostname
-  #print "network: " + network
+
   if arr == None or len(arr) < 1:
    return
   if type(arr) != list:
@@ -220,24 +218,7 @@ def write_arr_to_csv(arr, hw_class):
         except:
           pass
 
-# def make_pretty_yaml(sys_info, children_array):
-#     sys = sys_info
-#     for hardware in children_array:
-#         print hardware
-#         if len(hardware["children"]) > 0: # I don't want empty nodes e.g. GPU
-#             sys[hardware["Name"]] = hardware["children"]
-#     return sys
 
-
-
-
-# def make_pretty_json(sys_info, children_array):
-#     sys = sys_info
-#     for hardware in children_array:
-#         print hardware
-#         if len(hardware["children"]) > 0: # I don't want empty nodes e.g. GPU
-#             sys["children"].append({"Name": hardware["Name"], "children": add_tree_specific_fields(hardware["children"])})
-#     return sys
 def add_hardware(host, *args):
     if "children" not in host.keys():
         host["children"] = []
@@ -278,45 +259,4 @@ csvs = {"Memory": mem_csv, "CPUs": cpu_csv, "GPUs": gpu_csv, "NICs": nic_csv, "S
 
 for k,v in csvs.iteritems():
     write_arr_to_csv(v, k)
-'''#sys_info_dict = get_sys()
-copy_sys = sys_info_dict.copy()
-
-yaml_data = make_pretty_yaml(sys_info_dict, [nic_info_dict, gpu_info_dict, cpu_info_dict, mem_info_dict])
-
-with open("temp.yaml", 'w') as outfile:
-      yaml.dump({"device":sys_info_dict}, outfile, default_flow_style=False)
-
-json_data = make_pretty_json(sys_info_dict, [nic_info_dict, gpu_info_dict, cpu_info_dict, mem_info_dict])
-
-with open("temp.json", 'w') as outfile:
-      json.dump(json_data, outfile, indent=4)
-
-
-sys_info_dict.update({"GPU(s)":gpu_info_dict})
-sys_info_dict.update({"NICs":nic_info_dict})
-sys_info_dict.update({"CPU":cpu_info_dict})
-sys_info_dict.update({"Memory":mem_info_dict})
-disk_info_dict = {}
-
-if 'h' not in sys_info_dict['Hostname']: #Head nodes dont have megacli >:(
-      disk_info_dict = get_disks()
-      sys_info_dict.update({"Disks": disk_info_dict})
-
-
-
-today = str(datetime.date.today())
-name  = sys_info_dict["Hostname"] 
-network = sys_info_dict["Network"]
-
-with open("reports/" + network +"/"+ name +'_'+ today +'.yaml', 'w') as outfile:
-      yaml.dump({"device" :sys_info_dict}, outfile, default_flow_style=False)
-
-
-write_arr_to_csv(nic_info_dict, "NICs", network, name)
-write_arr_to_csv(cpu_info_dict, "CPUs", network, name)
-write_arr_to_csv(gpu_info_dict, "GPUs", network, name)
-write_arr_to_csv(disk_info_dict, "Disks", network, name)
-write_arr_to_csv(mem_info_dict, "Memory", network, name)
-write_arr_to_csv(copy_sys, "SYS", network, name)
-'''
 
