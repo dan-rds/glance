@@ -192,21 +192,6 @@
             "Name": "Disks", 
             "children": [
                 {
-                    "Name": "Disk:  ", 
-                    "Firmware": " ", 
-                    "tt_info": [
-                        "Serial:  ", 
-                        "Firmware:  ", 
-                        "Name: Disk:  ", 
-                        "DiskID:  ", 
-                        "Size:  "
-                    ], 
-                    "Serial": " ", 
-                    "type": "disk", 
-                    "DiskID": " ", 
-                    "Size": " "
-                }, 
-                {
                     "Name": "Disk: 10", 
                     "Firmware": "A3MA", 
                     "tt_info": [

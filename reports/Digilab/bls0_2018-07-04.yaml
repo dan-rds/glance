@@ -64,11 +64,6 @@ device:
   - Memory:
       Total: 65865876 kB
   - Disks:
-    - DiskID: ' '
-      Firmware: ' '
-      Name: 'Disk:  '
-      Serial: ' '
-      Size: ' '
     - DiskID: '38'
       Firmware: FS2A
       Name: 'Disk: 38'

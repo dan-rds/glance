@@ -65,11 +65,6 @@ device:
   - Memory:
       Total: 396161920 kB
   - Disks:
-    - DiskID: ' '
-      Firmware: ' '
-      Name: 'Disk:  '
-      Serial: ' '
-      Size: ' '
     - DiskID: '10'
       Firmware: A3MA
       Name: 'Disk: 10'
