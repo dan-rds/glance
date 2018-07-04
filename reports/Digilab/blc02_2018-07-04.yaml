@@ -165,3 +165,4 @@ device:
       Name: 'Disk: 21'
       Serial: S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001
       Size: 1.819 TB [0xe8e088b0 Sectors]
+  type: COMPUTE

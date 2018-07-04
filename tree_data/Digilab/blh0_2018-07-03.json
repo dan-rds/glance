@@ -7,10 +7,8 @@
         "Bios Version: 2.0", 
         "Hostname: blh0", 
         "Vendor: American Megatrends Inc.", 
-        "Network: Digilab", 
-        "type: HEAD"
+        "Network: Digilab"
     ], 
-    "type": "sys", 
     "children": [
         {
             "Name": "NICs", 
@@ -21,8 +19,7 @@
                         "IP: 10.11.0.153", 
                         "MAC: 00:25:90:fb:92:14", 
                         "DNS Server: acmeh2.digilab.pvt", 
-                        "Speed: 1000", 
-                        "type: nic"
+                        "Speed: 1000"
                     ], 
                     "MAC": "00:25:90:fb:92:14", 
                     "DNS Server": "acmeh2.digilab.pvt", 
@@ -35,8 +32,7 @@
                         "IP: 10.0.1.1", 
                         "MAC: 00:25:90:fb:92:15", 
                         "DNS Server: blh1.bl.pvt", 
-                        "Speed: 10000", 
-                        "type: nic"
+                        "Speed: 10000"
                     ], 
                     "MAC": "00:25:90:fb:92:15", 
                     "DNS Server": "blh1.bl.pvt", 
@@ -47,8 +43,7 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: 00:25:90:fb:92:16", 
-                        "Speed: 0", 
-                        "type: nic"
+                        "Speed: 0"
                     ], 
                     "IP": " ", 
                     "MAC": "00:25:90:fb:92:16", 
@@ -59,8 +54,7 @@
                     "tt_info": [
                         "IP:  ", 
                         "MAC: 00:25:90:fb:92:17", 
-                        "Speed: 0", 
-                        "type: nic"
+                        "Speed: 0"
                     ], 
                     "IP": " ", 
                     "MAC": "00:25:90:fb:92:17", 
@@ -73,8 +67,7 @@
                         "IP: 127.0.0.1", 
                         "MAC:  ", 
                         "DNS Server: localhost.bl.pvt", 
-                        "Speed: 0", 
-                        "type: nic"
+                        "Speed: 0"
                     ], 
                     "MAC": " ", 
                     "DNS Server": "localhost.bl.pvt", 
@@ -85,8 +78,7 @@
                     "tt_info": [
                         "IP: 10.254.254.1", 
                         "MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
-                        "Speed: 10", 
-                        "type: nic"
+                        "Speed: 10"
                     ], 
                     "IP": "10.254.254.1", 
                     "MAC": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
@@ -108,7 +100,6 @@
                         "Cores: 6", 
                         "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
                         "Threads Per Core: 1", 
-                        "type: cpu", 
                         "Socket: 0"
                     ], 
                     "Architecture": "x86_64", 
@@ -128,7 +119,6 @@
                         "Cores: 6", 
                         "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
                         "Threads Per Core: 1", 
-                        "type: cpu", 
                         "Socket: 1"
                     ], 
                     "Architecture": "x86_64", 

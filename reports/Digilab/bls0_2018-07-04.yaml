@@ -232,3 +232,4 @@ device:
       Name: 'Disk: 69'
       Serial: 75B6K16XF56DTOSHIBA HDWE160                         FS2A
       Size: 5.458 TB [0x2baa0f4b0 Sectors]
+  type: STORAGE

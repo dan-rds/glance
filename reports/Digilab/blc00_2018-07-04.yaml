@@ -165,3 +165,4 @@ device:
       Name: 'Disk: 25'
       Serial: WD-WCAVY7407104WDC WD2002FYPS-02W3B0                   04.01G01
       Size: 1.819 TB [0xe8e088b0 Sectors]
+  type: COMPUTE
