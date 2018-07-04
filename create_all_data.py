@@ -57,7 +57,14 @@ def add_tree_specific_fields(array_dic):
           entry["tt_info"] = tooltip
       return output
 
-
+def add_system_fields(array_dic):
+      output = copy.deepcopy(array_dic)
+      tooltip =[]
+      for k, v in output.iteritems():
+        if k != 'children':
+            tooltip.append(str(k) + ": " + str(v))
+      output["tt_info"] = tooltip
+      return output
 
 def get_nics():
       inters = local["ls"]("/sys/class/net").encode("ascii")
@@ -189,7 +196,7 @@ def get_sys():
 
       output =  {"Name": hostname, 'children': []}
       output.update(sys_fields)
-      return output, sys_fields, add_tree_specific_fields(output)
+      return output, sys_fields, add_system_fields(sys_fields)
 
 def write_arr_to_csv(arr, hw_class):
 
