@@ -9,6 +9,7 @@
         "Vendor: American Megatrends Inc.", 
         "Network: Digilab"
     ], 
+    "type": "STORAGE", 
     "children": [
         {
             "Name": "NICs", 
