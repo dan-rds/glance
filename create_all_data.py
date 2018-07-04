@@ -163,7 +163,7 @@ def get_disks():
         all_disks = sudo["/usr/local/bin/megacli"]('-pdlist -a0').split("\n\n")      
       disk_array = []
       
-      for x in all_disks[1:-1]:
+      for x in all_disks[0:-1]:
           if "Port status: Active" in x and "Media Type: Hard Disk Device" in x:
               try:
                     disk_fields = {}
@@ -173,9 +173,11 @@ def get_disks():
                     disk_fields["Size"] = (double_split("Raw Size:", "[", x))
                     disk_fields["Serial"] = double_split("Inquiry Data: ", "\n", x)
     
-                    disk_array.append(disk_fields)
-                    if disk_fields["DiskID"] == ' ':
-                      print x
+                    
+                    if disk_fields["DiskID"] != ' ':
+                      disk_array.append(disk_fields)
+                    if hostname == "blc01":
+                      print disk_fields
               except:
                      print "\n\nERROR IN DISK READ\n"
       disk_array =  sorted(disk_array, key=lambda k: k['DiskID'])
