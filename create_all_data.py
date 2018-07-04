@@ -163,7 +163,7 @@ def get_disks():
         all_disks = sudo["/usr/local/bin/megacli"]('-pdlist -a0').split("\n\n")      
       disk_array = []
       
-      for x in all_disks[1:-1]:
+      for x in all_disks[0:-1]:
           if "Port status: Active" in x and "Media Type: Hard Disk Device" in x:
               try:
                     disk_fields = {}
@@ -174,6 +174,8 @@ def get_disks():
                     disk_fields["Serial"] = double_split("Inquiry Data: ", "\n", x)
     
                     disk_array.append(disk_fields)
+                    if disk_fields["DiskID"] == '':
+                      print x
               except:
                      print "\n\nERROR IN DISK READ\n"
       disk_array =  sorted(disk_array, key=lambda k: k['DiskID'])
@@ -220,7 +222,7 @@ def write_arr_to_csv(arr, hw_class):
   filename = "csv_data/" + hw_class + '.csv'
 
   try:
-    clean_slate = grep[network + "-->" + hostname](filename)
+    clean_slate = grep[network + " --> " + hostname](filename)
   except:
     clean_slate = None
 
