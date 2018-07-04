@@ -51,11 +51,11 @@ def add_tree_specific_fields(array_dic, hw_type):
       output = copy.deepcopy(array_dic)
       for entry in output:
           tooltip = []
-          entry["type"] = hw_type
           for k, v in entry.iteritems():
             if k != 'children':
                 tooltip.append(str(k) + ": " + str(v))
           entry["tt_info"] = tooltip
+          entry["type"] = hw_type
       return output
 
 def add_system_fields(array_dic, hw_type):
@@ -196,7 +196,7 @@ def get_sys():
             task_type = 'HEAD'
       else:
             task_type = 'STORAGE' 
-      sys_fields["type"] = task_type
+      
       output =  {"Name": hostname, 'children': []}
       output.update(sys_fields)
       return output, sys_fields, add_system_fields(sys_fields, 'sys')
