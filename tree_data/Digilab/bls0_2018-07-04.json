@@ -3,6 +3,12 @@
     "Network": "Digilab", 
     "Bios Version": "1.0b", 
     "Hostname": "bls0", 
+    "tt_info": [
+        "Bios Version: 1.0b", 
+        "Hostname: bls0", 
+        "Vendor: American Megatrends Inc.", 
+        "Network: Digilab"
+    ], 
     "children": [
         {
             "Name": "NICs", 
@@ -651,6 +657,5 @@
                 }
             ]
         }
-    ], 
-    "Name": "bls0"
+    ]
 }

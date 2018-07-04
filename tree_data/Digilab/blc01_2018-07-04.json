@@ -3,6 +3,12 @@
     "Network": "Digilab", 
     "Bios Version": "2.0b", 
     "Hostname": "blc01", 
+    "tt_info": [
+        "Bios Version: 2.0b", 
+        "Hostname: blc01", 
+        "Vendor: American Megatrends Inc.", 
+        "Network: Digilab"
+    ], 
     "children": [
         {
             "Name": "NICs", 
@@ -146,6 +152,5 @@
             "Name": "Disks", 
             "children": []
         }
-    ], 
-    "Name": "blc01"
+    ]
 }

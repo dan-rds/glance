@@ -59,3 +59,25 @@ IP,MAC,Dns Server,Speed,Path
  ,0c:c4:7a:bc:96:bd,0,Digilab --> bls0
  ,0c:c4:7a:bc:96:be,0,Digilab --> bls0
  ,0c:c4:7a:bc:96:bf,0,Digilab --> bls0
+10.11.0.153,00:25:90:fb:92:14,acmeh2.digilab.pvt,1000,Digilab --> blh0
+10.0.1.1,00:25:90:fb:92:15,blh1.bl.pvt,10000,Digilab --> blh0
+ ,00:25:90:fb:92:16,,0,Digilab --> blh0
+ ,00:25:90:fb:92:17,,0,Digilab --> blh0
+127.0.0.1, ,localhost.bl.pvt,0,Digilab --> blh0
+10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,,10,Digilab --> blh0
+172.17.0.1,02:42:06:bf:57:87,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ad,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:ae,0,Digilab --> blc00
+ ,0c:c4:7a:8e:0b:af,0,Digilab --> blc00
+172.17.0.1,02:42:49:b6:df:88,0,Digilab --> blc01
+ ,ac:1f:6b:2d:03:f9,0,Digilab --> blc01
+ ,ac:1f:6b:2d:03:fa,0,Digilab --> blc01
+ ,ac:1f:6b:2d:03:fb,0,Digilab --> blc01
+172.17.0.1,02:42:8a:99:32:83,0,Digilab --> blc02
+ ,ac:1f:6b:2d:01:f1,0,Digilab --> blc02
+ ,ac:1f:6b:2d:01:f2,0,Digilab --> blc02
+ ,ac:1f:6b:2d:01:f3,0,Digilab --> blc02
+172.17.0.1,02:42:e6:0f:eb:67,0,Digilab --> bls0
+ ,0c:c4:7a:bc:96:bd,0,Digilab --> bls0
+ ,0c:c4:7a:bc:96:be,0,Digilab --> bls0
+ ,0c:c4:7a:bc:96:bf,0,Digilab --> bls0
