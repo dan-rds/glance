@@ -243,6 +243,7 @@ def write_arr_to_csv(arr, hw_class):
         try:
             w.writerow(r)
         except:
+          print "unwritten line : ", r
           pass
 
 
