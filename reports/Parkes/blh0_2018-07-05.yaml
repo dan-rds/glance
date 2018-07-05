@@ -1,0 +1,55 @@
+device:
+  Bios Version: '1.1'
+  Hostname: blh0
+  Name: blh0
+  Network: Parkes
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 00:25:90:fb:92:b6
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 00:25:90:fb:92:b7
+      Name: eth3
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: ' '
+      IP: 10.254.254.3
+      MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+      Name: tun0
+      Speed: '10'
+    - DNS Server: bl-head.atnf.csiro.au
+      IP: 130.155.181.233
+      MAC: 00:25:90:fb:92:b4
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: blh0.bl.pvt
+      IP: 10.0.1.1
+      MAC: 00:25:90:fb:92:b5
+      Name: eth1
+      Speed: '10000'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 131925920 kB

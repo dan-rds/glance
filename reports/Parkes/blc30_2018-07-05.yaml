@@ -1,0 +1,177 @@
+device:
+  Bios Version: 1.0b
+  Hostname: blc30
+  Name: blc30
+  Network: Parkes
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: blc30-5.tenge.pvt
+      IP: 10.10.10.132
+      MAC: 02:02:0a:0a:0a:84
+      Name: eth5
+      Speed: '-1'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:83:9d
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:83:9e
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:83:9f
+      Name: eth3
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: blc30.bl.pvt
+      IP: 10.0.1.74
+      MAC: 0c:c4:7a:bd:83:9c
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: blc30-4.tenge.pvt
+      IP: 10.10.10.4
+      MAC: 02:02:0a:0a:0a:04
+      Name: eth4
+      Speed: '10000'
+  - GPUs:
+    - Memory: '12207'
+      Name: GeForce GTX TITAN X
+      PCIID: 0000:82:00.0
+      Serial: 0422915027276
+      Vios Version: 84.00.1F.00.90
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65865876 kB
+  - Disks:
+    - DiskID: '11'
+      Firmware: FP2A
+      Name: 'Disk: 11'
+      Serial: 85O7KDP0FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '12'
+      Firmware: FP2A
+      Name: 'Disk: 12'
+      Serial: 85O3KMRXFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '13'
+      Firmware: FP2A
+      Name: 'Disk: 13'
+      Serial: 954AKAKPFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '14'
+      Firmware: FP2A
+      Name: 'Disk: 14'
+      Serial: 85S1KAWIFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '15'
+      Firmware: FP2A
+      Name: 'Disk: 15'
+      Serial: 85O8K915FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '16'
+      Firmware: FP2A
+      Name: 'Disk: 16'
+      Serial: 85S9KBJ0FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '17'
+      Firmware: FP2A
+      Name: 'Disk: 17'
+      Serial: 85S5K72EFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '18'
+      Firmware: FP2A
+      Name: 'Disk: 18'
+      Serial: 9567KEWBFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '2'
+      Firmware: FP2A
+      Name: 'Disk: 2'
+      Serial: 85O8K912FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '20'
+      Firmware: FP2A
+      Name: 'Disk: 20'
+      Serial: 85SAKA6UFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '21'
+      Firmware: FP2A
+      Name: 'Disk: 21'
+      Serial: 85O1KA7SFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '22'
+      Firmware: FP2A
+      Name: 'Disk: 22'
+      Serial: 85O3KMS0FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '23'
+      Firmware: FP2A
+      Name: 'Disk: 23'
+      Serial: 85OBK4I3FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '24'
+      Firmware: FP2A
+      Name: 'Disk: 24'
+      Serial: 85O7KDNZFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '25'
+      Firmware: FP2A
+      Name: 'Disk: 25'
+      Serial: 85O1KA7PFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '3'
+      Firmware: FP2A
+      Name: 'Disk: 3'
+      Serial: 85S6KKY5FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '4'
+      Firmware: FP2A
+      Name: 'Disk: 4'
+      Serial: 85O7KDOXFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '5'
+      Firmware: FP2A
+      Name: 'Disk: 5'
+      Serial: 954AKAKOFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '6'
+      Firmware: FP2A
+      Name: 'Disk: 6'
+      Serial: 9563KNFFFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '7'
+      Firmware: FP2A
+      Name: 'Disk: 7'
+      Serial: 9547KEPXFSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '8'
+      Firmware: FP2A
+      Name: 'Disk: 8'
+      Serial: 9556KL8IFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '9'
+      Firmware: FP2A
+      Name: 'Disk: 9'
+      Serial: 9532KQ23FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
