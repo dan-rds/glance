@@ -15,7 +15,7 @@ ping $i -c 1 > /dev/null 2>&1
     fi 
 done
 
-rm -f MegaSAS.log
+git rm -f MegaSAS.log
 git add *
 git commit -m "Regular commit by $HOSTNAME on the ${obs} network at `date`"
 git push
