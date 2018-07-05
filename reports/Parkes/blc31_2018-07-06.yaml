@@ -1,0 +1,177 @@
+device:
+  Bios Version: '2.0'
+  Hostname: blc31
+  Name: blc31
+  Network: Parkes
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: blc31-5.tenge.pvt
+      IP: 10.10.10.133
+      MAC: 02:02:0a:0a:0a:85
+      Name: eth5
+      Speed: '-1'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:8e:c2:bd
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:8e:c2:be
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:8e:c2:bf
+      Name: eth3
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: blc31.bl.pvt
+      IP: 10.0.1.75
+      MAC: 0c:c4:7a:8e:c2:bc
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: blc31-4.tenge.pvt
+      IP: 10.10.10.5
+      MAC: 02:02:0a:0a:0a:05
+      Name: eth4
+      Speed: '10000'
+  - GPUs:
+    - Memory: '8114'
+      Name: GeForce GTX 1080
+      PCIID: 0000:82:00.0
+      Serial: '[Not Supported]'
+      Vios Version: 86.04.17.00.66
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65858632 kB
+  - Disks:
+    - DiskID: '10'
+      Firmware: FP2A
+      Name: 'Disk: 10'
+      Serial: 17Q9KAA2FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '11'
+      Firmware: FP2A
+      Name: 'Disk: 11'
+      Serial: 26I7KB04FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '12'
+      Firmware: FP2A
+      Name: 'Disk: 12'
+      Serial: 26G1KB3BFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '13'
+      Firmware: FP2A
+      Name: 'Disk: 13'
+      Serial: 26G1KB3DFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '14'
+      Firmware: FP2A
+      Name: 'Disk: 14'
+      Serial: 26I7KAZWFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '15'
+      Firmware: FP2A
+      Name: 'Disk: 15'
+      Serial: 26I7KAZTFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '17'
+      Firmware: FP2A
+      Name: 'Disk: 17'
+      Serial: 26I7KAZQFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '18'
+      Firmware: FP2A
+      Name: 'Disk: 18'
+      Serial: 26I7KAZSFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '19'
+      Firmware: FP2A
+      Name: 'Disk: 19'
+      Serial: 26I7KAZZFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '2'
+      Firmware: FP2A
+      Name: 'Disk: 2'
+      Serial: 26G1KB3KFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '21'
+      Firmware: FP2A
+      Name: 'Disk: 21'
+      Serial: 26I7KB03FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '22'
+      Firmware: FP2A
+      Name: 'Disk: 22'
+      Serial: 26I7KB02FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '23'
+      Firmware: FP2A
+      Name: 'Disk: 23'
+      Serial: 26I8K011FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '24'
+      Firmware: FP2A
+      Name: 'Disk: 24'
+      Serial: 26I7KB01FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '25'
+      Firmware: FP2A
+      Name: 'Disk: 25'
+      Serial: 26I7KB00FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '3'
+      Firmware: FP2A
+      Name: 'Disk: 3'
+      Serial: 26ICK0HSFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '4'
+      Firmware: FP2A
+      Name: 'Disk: 4'
+      Serial: 26G1KB3LFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '5'
+      Firmware: FP2A
+      Name: 'Disk: 5'
+      Serial: 26I8K012FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '6'
+      Firmware: FP2A
+      Name: 'Disk: 6'
+      Serial: 26I7KAZRFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '7'
+      Firmware: FP2A
+      Name: 'Disk: 7'
+      Serial: 26I7KAZXFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '8'
+      Firmware: FP2A
+      Name: 'Disk: 8'
+      Serial: 26I7KB05FS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB
+    - DiskID: '9'
+      Firmware: FP2A
+      Name: 'Disk: 9'
+      Serial: 26I7KAZVFS9ATOSHIBA MD04ACA500 FP2A
+      Size: 4.547 TB

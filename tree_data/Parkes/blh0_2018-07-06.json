@@ -1,0 +1,157 @@
+{
+    "Vendor": "American Megatrends Inc.", 
+    "Network": "Parkes", 
+    "Bios Version": "1.1", 
+    "Hostname": "blh0", 
+    "tt_info": [
+        "Bios Version: 1.1", 
+        "Hostname: blh0", 
+        "Vendor: American Megatrends Inc.", 
+        "Network: Parkes"
+    ], 
+    "type": "HEAD", 
+    "children": [
+        {
+            "Name": "NICs", 
+            "children": [
+                {
+                    "Name": "eth2", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 00:25:90:fb:92:b6", 
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "00:25:90:fb:92:b6", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth3", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 00:25:90:fb:92:b7", 
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "00:25:90:fb:92:b7", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "lo", 
+                    "IP": "127.0.0.1", 
+                    "tt_info": [
+                        "IP: 127.0.0.1", 
+                        "MAC:  ", 
+                        "DNS Server: localhost.bl.pvt", 
+                        "Name: lo", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": " ", 
+                    "DNS Server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "tun0", 
+                    "IP": "10.254.254.3", 
+                    "tt_info": [
+                        "IP: 10.254.254.3", 
+                        "MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                        "DNS Server:  ", 
+                        "Name: tun0", 
+                        "Speed: 10"
+                    ], 
+                    "MAC": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "10"
+                }, 
+                {
+                    "Name": "eth0", 
+                    "IP": "130.155.181.233", 
+                    "tt_info": [
+                        "IP: 130.155.181.233", 
+                        "MAC: 00:25:90:fb:92:b4", 
+                        "DNS Server: bl-head.atnf.csiro.au", 
+                        "Name: eth0", 
+                        "Speed: 1000"
+                    ], 
+                    "MAC": "00:25:90:fb:92:b4", 
+                    "DNS Server": "bl-head.atnf.csiro.au", 
+                    "type": "nic", 
+                    "Speed": "1000"
+                }, 
+                {
+                    "Name": "eth1", 
+                    "IP": "10.0.1.1", 
+                    "tt_info": [
+                        "IP: 10.0.1.1", 
+                        "MAC: 00:25:90:fb:92:b5", 
+                        "DNS Server: blh0.bl.pvt", 
+                        "Name: eth1", 
+                        "Speed: 10000"
+                    ], 
+                    "MAC": "00:25:90:fb:92:b5", 
+                    "DNS Server": "blh0.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "10000"
+                }
+            ]
+        }, 
+        {
+            "Name": "CPUs", 
+            "children": [
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 12", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 0"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 12, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 0
+                }, 
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 12", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 1"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 12, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Total: 131925920 kB", 
+            "Name": "Memory"
+        }
+    ]
+}

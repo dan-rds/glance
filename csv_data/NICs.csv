@@ -33,3 +33,223 @@ eth2, ,0c:c4:7a:bc:96:be, ,Digilab --> bls0,0
 eth3, ,0c:c4:7a:bc:96:bf, ,Digilab --> bls0,0
 lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> bls0,0
 eth0,10.0.1.72,0c:c4:7a:bc:96:bc,bls0.bl.pvt,Digilab --> bls0,1000
+eth5,10.10.10.139,02:02:0a:0a:0a:8b,blc00-5.tenge.pvt,Parkes --> blc00,-1
+eth1, ,ac:1f:6b:2c:00:2d, ,Parkes --> blc00,0
+eth2, ,ac:1f:6b:2c:00:2e, ,Parkes --> blc00,0
+eth3, ,ac:1f:6b:2c:00:2f, ,Parkes --> blc00,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc00,0
+eth0,10.0.1.81,ac:1f:6b:2c:00:2c,blc00.bl.pvt,Parkes --> blc00,1000
+eth4,10.10.10.11,02:02:0a:0a:0a:0b,blc00-4.tenge.pvt,Parkes --> blc00,10000
+eth5,10.10.10.140,02:02:0a:0a:0a:8c,blc01-5.tenge.pvt,Parkes --> blc01,-1
+eth1, ,0c:c4:7a:eb:ac:55, ,Parkes --> blc01,0
+eth2, ,0c:c4:7a:eb:ac:56, ,Parkes --> blc01,0
+eth3, ,0c:c4:7a:eb:ac:57, ,Parkes --> blc01,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc01,0
+eth0,10.0.1.82,0c:c4:7a:eb:ac:54,blc01.bl.pvt,Parkes --> blc01,1000
+eth4,10.10.10.12,02:02:0a:0a:0a:0c,blc01-4.tenge.pvt,Parkes --> blc01,10000
+eth5,10.10.10.141,02:02:0a:0a:0a:8d,blc02-5.tenge.pvt,Parkes --> blc02,-1
+eth1, ,ac:1f:6b:2c:00:31, ,Parkes --> blc02,0
+eth2, ,ac:1f:6b:2c:00:32, ,Parkes --> blc02,0
+eth3, ,ac:1f:6b:2c:00:33, ,Parkes --> blc02,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc02,0
+eth0,10.0.1.83,ac:1f:6b:2c:00:30,blc02.bl.pvt,Parkes --> blc02,1000
+eth4,10.10.10.13,02:02:0a:0a:0a:0d,blc02-4.tenge.pvt,Parkes --> blc02,10000
+eth5,10.10.10.142,02:02:0a:0a:0a:8e,blc03-5.tenge.pvt,Parkes --> blc03,-1
+eth1, ,0c:c4:7a:eb:3d:21, ,Parkes --> blc03,0
+eth2, ,0c:c4:7a:eb:3d:22, ,Parkes --> blc03,0
+eth3, ,0c:c4:7a:eb:3d:23, ,Parkes --> blc03,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc03,0
+eth0,10.0.1.84,0c:c4:7a:eb:3d:20,blc03.bl.pvt,Parkes --> blc03,1000
+eth4,10.10.10.14,02:02:0a:0a:0a:0e,blc03-4.tenge.pvt,Parkes --> blc03,10000
+eth5,10.10.10.143,02:02:0a:0a:0a:8f,blc04-5.tenge.pvt,Parkes --> blc04,-1
+eth1, ,0c:c4:7a:8e:ba:0d, ,Parkes --> blc04,0
+eth2, ,0c:c4:7a:8e:ba:0e, ,Parkes --> blc04,0
+eth3, ,0c:c4:7a:8e:ba:0f, ,Parkes --> blc04,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc04,0
+eth0,10.0.1.85,0c:c4:7a:8e:ba:0c,blc04.bl.pvt,Parkes --> blc04,1000
+eth4,10.10.10.15,02:02:0a:0a:0a:0f,blc04-4.tenge.pvt,Parkes --> blc04,10000
+eth5,10.10.10.144,02:02:0a:0a:0a:90,blc05-5.tenge.pvt,Parkes --> blc05,-1
+eth1, ,0c:c4:7a:eb:ad:61, ,Parkes --> blc05,0
+eth2, ,0c:c4:7a:eb:ad:62, ,Parkes --> blc05,0
+eth3, ,0c:c4:7a:eb:ad:63, ,Parkes --> blc05,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc05,0
+eth0,10.0.1.86,0c:c4:7a:eb:ad:60,blc05.bl.pvt,Parkes --> blc05,1000
+eth4,10.10.10.16,02:02:0a:0a:0a:10,blc05-4.tenge.pvt,Parkes --> blc05,10000
+eth5,10.10.10.145,02:02:0a:0a:0a:91,blc06-5.tenge.pvt,Parkes --> blc06,-1
+eth1, ,0c:c4:7a:eb:af:8d, ,Parkes --> blc06,0
+eth2, ,0c:c4:7a:eb:af:8e, ,Parkes --> blc06,0
+eth3, ,0c:c4:7a:eb:af:8f, ,Parkes --> blc06,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc06,0
+eth0,10.0.1.87,0c:c4:7a:eb:af:8c,blc06.bl.pvt,Parkes --> blc06,1000
+eth4,10.10.10.17,02:02:0a:0a:0a:11,blc06-4.tenge.pvt,Parkes --> blc06,10000
+eth5,10.10.10.146,02:02:0a:0a:0a:92,blc07-5.tenge.pvt,Parkes --> blc07,-1
+eth1, ,0c:c4:7a:eb:b1:71, ,Parkes --> blc07,0
+eth2, ,0c:c4:7a:eb:b1:72, ,Parkes --> blc07,0
+eth3, ,0c:c4:7a:eb:b1:73, ,Parkes --> blc07,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc07,0
+eth0,10.0.1.88,0c:c4:7a:eb:b1:70,blc07.bl.pvt,Parkes --> blc07,1000
+eth4,10.10.10.18,02:02:0a:0a:0a:12,blc07-4.tenge.pvt,Parkes --> blc07,10000
+eth5,10.10.10.147,02:02:0a:0a:0a:93,blc10-5.tenge.pvt,Parkes --> blc10,-1
+eth1, ,0c:c4:7a:eb:b1:41, ,Parkes --> blc10,0
+eth2, ,0c:c4:7a:eb:b1:42, ,Parkes --> blc10,0
+eth3, ,0c:c4:7a:eb:b1:43, ,Parkes --> blc10,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc10,0
+eth0,10.0.1.89,0c:c4:7a:eb:b1:40,blc10.bl.pvt,Parkes --> blc10,1000
+eth4,10.10.10.19,02:02:0a:0a:0a:13,blc10-4.tenge.pvt,Parkes --> blc10,10000
+eth5,10.10.10.148,02:02:0a:0a:0a:94,blc11-5.tenge.pvt,Parkes --> blc11,-1
+eth1, ,0c:c4:7a:eb:39:a9, ,Parkes --> blc11,0
+eth2, ,0c:c4:7a:eb:39:aa, ,Parkes --> blc11,0
+eth3, ,0c:c4:7a:eb:39:ab, ,Parkes --> blc11,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc11,0
+eth0,10.0.1.90,0c:c4:7a:eb:39:a8,blc11.bl.pvt,Parkes --> blc11,1000
+eth4,10.10.10.20,02:02:0a:0a:0a:14,blc11-4.tenge.pvt,Parkes --> blc11,10000
+eth5,10.10.10.149,02:02:0a:0a:0a:95,blc12-5.tenge.pvt,Parkes --> blc12,-1
+eth1, ,0c:c4:7a:eb:b0:d1, ,Parkes --> blc12,0
+eth2, ,0c:c4:7a:eb:b0:d2, ,Parkes --> blc12,0
+eth3, ,0c:c4:7a:eb:b0:d3, ,Parkes --> blc12,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc12,0
+eth0,10.0.1.91,0c:c4:7a:eb:b0:d0,blc12.bl.pvt,Parkes --> blc12,1000
+eth4,10.10.10.21,02:02:0a:0a:0a:15,blc12-4.tenge.pvt,Parkes --> blc12,10000
+eth5,10.10.10.150,02:02:0a:0a:0a:96,blc13-5.tenge.pvt,Parkes --> blc13,-1
+eth1, ,0c:c4:7a:eb:b1:a5, ,Parkes --> blc13,0
+eth2, ,0c:c4:7a:eb:b1:a6, ,Parkes --> blc13,0
+eth3, ,0c:c4:7a:eb:b1:a7, ,Parkes --> blc13,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc13,0
+eth0,10.0.1.92,0c:c4:7a:eb:b1:a4,blc13.bl.pvt,Parkes --> blc13,1000
+eth4,10.10.10.22,02:02:0a:0a:0a:16,blc13-4.tenge.pvt,Parkes --> blc13,10000
+eth5,10.10.10.151,02:02:0a:0a:0a:97,blc14-5.tenge.pvt,Parkes --> blc14,-1
+eth1, ,0c:c4:7a:eb:af:5d, ,Parkes --> blc14,0
+eth2, ,0c:c4:7a:eb:af:5e, ,Parkes --> blc14,0
+eth3, ,0c:c4:7a:eb:af:5f, ,Parkes --> blc14,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc14,0
+eth0,10.0.1.93,0c:c4:7a:eb:af:5c,blc14.bl.pvt,Parkes --> blc14,1000
+eth4,10.10.10.23,02:02:0a:0a:0a:17,blc14-4.tenge.pvt,Parkes --> blc14,10000
+eth5,10.10.10.152,02:02:0a:0a:0a:98,blc15-5.tenge.pvt,Parkes --> blc15,-1
+eth1, ,0c:c4:7a:eb:ad:45, ,Parkes --> blc15,0
+eth2, ,0c:c4:7a:eb:ad:46, ,Parkes --> blc15,0
+eth3, ,0c:c4:7a:eb:ad:47, ,Parkes --> blc15,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc15,0
+eth0,10.0.1.94,0c:c4:7a:eb:ad:44,blc15.bl.pvt,Parkes --> blc15,1000
+eth4,10.10.10.24,02:02:0a:0a:0a:18,blc15-4.tenge.pvt,Parkes --> blc15,10000
+eth5,10.10.10.153,02:02:0a:0a:0a:99,blc16-5.tenge.pvt,Parkes --> blc16,-1
+eth1, ,ac:1f:6b:2c:01:65, ,Parkes --> blc16,0
+eth2, ,ac:1f:6b:2c:01:66, ,Parkes --> blc16,0
+eth3, ,ac:1f:6b:2c:01:67, ,Parkes --> blc16,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc16,0
+eth0,10.0.1.95,ac:1f:6b:2c:01:64,blc16.bl.pvt,Parkes --> blc16,1000
+eth4,10.10.10.25,02:02:0a:0a:0a:19,blc16-4.tenge.pvt,Parkes --> blc16,10000
+eth5,10.10.10.154,02:02:0a:0a:0a:9a,blc17-5.tenge.pvt,Parkes --> blc17,-1
+eth1, ,0c:c4:7a:eb:39:39, ,Parkes --> blc17,0
+eth2, ,0c:c4:7a:eb:39:3a, ,Parkes --> blc17,0
+eth3, ,0c:c4:7a:eb:39:3b, ,Parkes --> blc17,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc17,0
+eth0,10.0.1.96,0c:c4:7a:eb:39:38,blc17.bl.pvt,Parkes --> blc17,1000
+eth4,10.10.10.26,02:02:0a:0a:0a:1a,blc17-4.tenge.pvt,Parkes --> blc17,10000
+eth5,10.10.10.135,02:02:0a:0a:0a:87,blc20-5.tenge.pvt,Parkes --> blc20,-1
+eth1, ,0c:c4:7a:8e:44:cd, ,Parkes --> blc20,0
+eth2, ,0c:c4:7a:8e:44:ce, ,Parkes --> blc20,0
+eth3, ,0c:c4:7a:8e:44:cf, ,Parkes --> blc20,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc20,0
+eth0,10.0.1.77,0c:c4:7a:8e:44:cc,blc20.bl.pvt,Parkes --> blc20,1000
+eth4,10.10.10.7,02:02:0a:0a:0a:07,blc20-4.tenge.pvt,Parkes --> blc20,10000
+eth5,10.10.10.136,02:02:0a:0a:0a:88,blc21-5.tenge.pvt,Parkes --> blc21,-1
+eth1, ,0c:c4:7a:8e:c5:29, ,Parkes --> blc21,0
+eth2, ,0c:c4:7a:8e:c5:2a, ,Parkes --> blc21,0
+eth3, ,0c:c4:7a:8e:c5:2b, ,Parkes --> blc21,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc21,0
+eth0,10.0.1.78,0c:c4:7a:8e:c5:28,blc21.bl.pvt,Parkes --> blc21,1000
+eth4,10.10.10.8,02:02:0a:0a:0a:08,blc21-4.tenge.pvt,Parkes --> blc21,10000
+eth5,10.10.10.137,02:02:0a:0a:0a:89,blc22-5.tenge.pvt,Parkes --> blc22,-1
+eth1, ,0c:c4:7a:8e:78:6d, ,Parkes --> blc22,0
+eth2, ,0c:c4:7a:8e:78:6e, ,Parkes --> blc22,0
+eth3, ,0c:c4:7a:8e:78:6f, ,Parkes --> blc22,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc22,0
+eth0,10.0.1.79,0c:c4:7a:8e:78:6c,blc22.bl.pvt,Parkes --> blc22,1000
+eth4,10.10.10.9,02:02:0a:0a:0a:09,blc22-4.tenge.pvt,Parkes --> blc22,10000
+eth5,10.10.10.155,02:02:0a:0a:0a:9b,blc23-5.tenge.pvt,Parkes --> blc23,-1
+eth1, ,ac:1f:6b:2c:00:e1, ,Parkes --> blc23,0
+eth2, ,ac:1f:6b:2c:00:e2, ,Parkes --> blc23,0
+eth3, ,ac:1f:6b:2c:00:e3, ,Parkes --> blc23,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc23,0
+eth0,10.0.1.97,ac:1f:6b:2c:00:e0,blc23.bl.pvt,Parkes --> blc23,1000
+eth4,10.10.10.27,02:02:0a:0a:0a:1b,blc23-4.tenge.pvt,Parkes --> blc23,10000
+eth5,10.10.10.156,02:02:0a:0a:0a:9c,blc24-5.tenge.pvt,Parkes --> blc24,-1
+eth1, ,ac:1f:6b:2c:01:71, ,Parkes --> blc24,0
+eth2, ,ac:1f:6b:2c:01:72, ,Parkes --> blc24,0
+eth3, ,ac:1f:6b:2c:01:73, ,Parkes --> blc24,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc24,0
+eth0,10.0.1.98,ac:1f:6b:2c:01:70,blc24.bl.pvt,Parkes --> blc24,1000
+eth4,10.10.10.28,02:02:0a:0a:0a:1c,blc24-4.tenge.pvt,Parkes --> blc24,10000
+eth5,10.10.10.157,02:02:0a:0a:0a:9d,blc25-5.tenge.pvt,Parkes --> blc25,-1
+eth1, ,0c:c4:7a:eb:b1:cd, ,Parkes --> blc25,0
+eth2, ,0c:c4:7a:eb:b1:ce, ,Parkes --> blc25,0
+eth3, ,0c:c4:7a:eb:b1:cf, ,Parkes --> blc25,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc25,0
+eth0,10.0.1.99,0c:c4:7a:eb:b1:cc,blc25.bl.pvt,Parkes --> blc25,1000
+eth4,10.10.10.29,02:02:0a:0a:0a:1d,blc25-4.tenge.pvt,Parkes --> blc25,10000
+eth5,10.10.10.158,02:02:0a:0a:0a:9e,blc26-5.tenge.pvt,Parkes --> blc26,-1
+eth1, ,0c:c4:7a:eb:ac:4d, ,Parkes --> blc26,0
+eth2, ,0c:c4:7a:eb:ac:4e, ,Parkes --> blc26,0
+eth3, ,0c:c4:7a:eb:ac:4f, ,Parkes --> blc26,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc26,0
+eth0,10.0.1.100,0c:c4:7a:eb:ac:4c,blc26.bl.pvt,Parkes --> blc26,1000
+eth4,10.10.10.30,02:02:0a:0a:0a:1e,blc26-4.tenge.pvt,Parkes --> blc26,10000
+eth5,10.10.10.159,02:02:0a:0a:0a:9f,blc27-5.tenge.pvt,Parkes --> blc27,-1
+eth1, ,ac:1f:6b:2c:00:59, ,Parkes --> blc27,0
+eth2, ,ac:1f:6b:2c:00:5a, ,Parkes --> blc27,0
+eth3, ,ac:1f:6b:2c:00:5b, ,Parkes --> blc27,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc27,0
+eth0,10.0.1.101,ac:1f:6b:2c:00:58,blc27.bl.pvt,Parkes --> blc27,1000
+eth4,10.10.10.31,02:02:0a:0a:0a:1f,blc27-4.tenge.pvt,Parkes --> blc27,10000
+eth5,10.10.10.132,02:02:0a:0a:0a:84,blc30-5.tenge.pvt,Parkes --> blc30,-1
+eth1, ,0c:c4:7a:bd:83:9d, ,Parkes --> blc30,0
+eth2, ,0c:c4:7a:bd:83:9e, ,Parkes --> blc30,0
+eth3, ,0c:c4:7a:bd:83:9f, ,Parkes --> blc30,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc30,0
+eth0,10.0.1.74,0c:c4:7a:bd:83:9c,blc30.bl.pvt,Parkes --> blc30,1000
+eth4,10.10.10.4,02:02:0a:0a:0a:04,blc30-4.tenge.pvt,Parkes --> blc30,10000
+eth5,10.10.10.133,02:02:0a:0a:0a:85,blc31-5.tenge.pvt,Parkes --> blc31,-1
+eth1, ,0c:c4:7a:8e:c2:bd, ,Parkes --> blc31,0
+eth2, ,0c:c4:7a:8e:c2:be, ,Parkes --> blc31,0
+eth3, ,0c:c4:7a:8e:c2:bf, ,Parkes --> blc31,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc31,0
+eth0,10.0.1.75,0c:c4:7a:8e:c2:bc,blc31.bl.pvt,Parkes --> blc31,1000
+eth4,10.10.10.5,02:02:0a:0a:0a:05,blc31-4.tenge.pvt,Parkes --> blc31,10000
+eth5,10.10.10.134,02:02:0a:0a:0a:86,blc32-5.tenge.pvt,Parkes --> blc32,-1
+eth1, ,0c:c4:7a:8e:4b:a5, ,Parkes --> blc32,0
+eth2, ,0c:c4:7a:8e:4b:a6, ,Parkes --> blc32,0
+eth3, ,0c:c4:7a:8e:4b:a7, ,Parkes --> blc32,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blc32,0
+eth0,10.0.1.76,0c:c4:7a:8e:4b:a4,blc32.bl.pvt,Parkes --> blc32,1000
+eth4,10.10.10.6,02:02:0a:0a:0a:06,blc32-4.tenge.pvt,Parkes --> blc32,10000
+eth2, ,00:25:90:fb:92:b6, ,Parkes --> blh0,0
+eth3, ,00:25:90:fb:92:b7, ,Parkes --> blh0,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blh0,0
+tun0,10.254.254.3,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Parkes --> blh0,10
+eth0,130.155.181.233,00:25:90:fb:92:b4,bl-head.atnf.csiro.au,Parkes --> blh0,1000
+eth1,10.0.1.1,00:25:90:fb:92:b5,blh0.bl.pvt,Parkes --> blh0,10000
+eth1, ,0c:c4:7a:eb:af:75, ,Parkes --> bls0,0
+eth2, ,0c:c4:7a:eb:af:76, ,Parkes --> bls0,0
+eth3, ,0c:c4:7a:eb:af:77, ,Parkes --> bls0,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls0,0
+eth0,10.0.1.102,0c:c4:7a:eb:af:74,bls0.bl.pvt,Parkes --> bls0,1000
+eth4,10.10.10.32,02:02:0a:0a:0a:20,bls0-4.tenge.pvt,Parkes --> bls0,40000
+eth1, ,ac:1f:6b:2c:01:79, ,Parkes --> bls1,0
+eth2, ,ac:1f:6b:2c:01:7a, ,Parkes --> bls1,0
+eth3, ,ac:1f:6b:2c:01:7b, ,Parkes --> bls1,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls1,0
+eth0,10.0.1.103,ac:1f:6b:2c:01:78,bls1.bl.pvt,Parkes --> bls1,1000
+eth4,10.10.10.33,02:02:0a:0a:0a:21,bls1-4.tenge.pvt,Parkes --> bls1,40000
+eth1, ,ac:1f:6b:2c:00:e9, ,Parkes --> bls2,0
+eth2, ,ac:1f:6b:2c:00:ea, ,Parkes --> bls2,0
+eth3, ,ac:1f:6b:2c:00:eb, ,Parkes --> bls2,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls2,0
+eth0,10.0.1.104,ac:1f:6b:2c:00:e8,bls2.bl.pvt,Parkes --> bls2,1000
+eth4,10.10.10.34,02:02:0a:0a:0a:22,bls2-4.tenge.pvt,Parkes --> bls2,40000
+eth5,10.10.10.138,02:02:0a:0a:0a:8a,bls3-5.tenge.pvt,Parkes --> bls3,-1
+eth1, ,0c:c4:7a:8e:bb:c9, ,Parkes --> bls3,0
+eth2, ,0c:c4:7a:8e:bb:ca, ,Parkes --> bls3,0
+eth3, ,0c:c4:7a:8e:bb:cb, ,Parkes --> bls3,0
+lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls3,0
+eth0,10.0.1.80,0c:c4:7a:8e:bb:c8,bls3.bl.pvt,Parkes --> bls3,1000
+eth4,10.10.10.10,02:02:0a:0a:0a:0a,bls3-4.tenge.pvt,Parkes --> bls3,10000

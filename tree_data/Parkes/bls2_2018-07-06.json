@@ -1,0 +1,657 @@
+{
+    "Vendor": "American Megatrends Inc.", 
+    "Network": "Parkes", 
+    "Bios Version": "2.0a", 
+    "Hostname": "bls2", 
+    "tt_info": [
+        "Bios Version: 2.0a", 
+        "Hostname: bls2", 
+        "Vendor: American Megatrends Inc.", 
+        "Network: Parkes"
+    ], 
+    "type": "STORAGE", 
+    "children": [
+        {
+            "Name": "NICs", 
+            "children": [
+                {
+                    "Name": "eth1", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: ac:1f:6b:2c:00:e9", 
+                        "DNS Server:  ", 
+                        "Name: eth1", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "ac:1f:6b:2c:00:e9", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth2", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: ac:1f:6b:2c:00:ea", 
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "ac:1f:6b:2c:00:ea", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth3", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: ac:1f:6b:2c:00:eb", 
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "ac:1f:6b:2c:00:eb", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "lo", 
+                    "IP": "127.0.0.1", 
+                    "tt_info": [
+                        "IP: 127.0.0.1", 
+                        "MAC:  ", 
+                        "DNS Server: localhost.bl.pvt", 
+                        "Name: lo", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": " ", 
+                    "DNS Server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth0", 
+                    "IP": "10.0.1.104", 
+                    "tt_info": [
+                        "IP: 10.0.1.104", 
+                        "MAC: ac:1f:6b:2c:00:e8", 
+                        "DNS Server: bls2.bl.pvt", 
+                        "Name: eth0", 
+                        "Speed: 1000"
+                    ], 
+                    "MAC": "ac:1f:6b:2c:00:e8", 
+                    "DNS Server": "bls2.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "1000"
+                }, 
+                {
+                    "Name": "eth4", 
+                    "IP": "10.10.10.34", 
+                    "tt_info": [
+                        "IP: 10.10.10.34", 
+                        "MAC: 02:02:0a:0a:0a:22", 
+                        "DNS Server: bls2-4.tenge.pvt", 
+                        "Name: eth4", 
+                        "Speed: 40000"
+                    ], 
+                    "MAC": "02:02:0a:0a:0a:22", 
+                    "DNS Server": "bls2-4.tenge.pvt", 
+                    "type": "nic", 
+                    "Speed": "40000"
+                }
+            ]
+        }, 
+        {
+            "Name": "CPUs", 
+            "children": [
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Clock": 3000, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000", 
+                        "Architecture: x86_64", 
+                        "Cores: 16", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 0"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 16, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 0
+                }, 
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Clock": 3000, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000", 
+                        "Architecture: x86_64", 
+                        "Cores: 16", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 1"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 16, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Total: 65858520 kB", 
+            "Name": "Memory"
+        }, 
+        {
+            "Name": "Disks", 
+            "children": [
+                {
+                    "Name": "Disk: 10", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27P7KDOMFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 10", 
+                        "DiskID: 10", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27P7KDOMFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "10", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 11", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27P7KDOKFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 11", 
+                        "DiskID: 11", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27P7KDOKFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "11", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 12", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: Z688K3SGFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 12", 
+                        "DiskID: 12", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z688K3SGFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "12", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 13", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27P7KDOTFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 13", 
+                        "DiskID: 13", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27P7KDOTFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "13", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 14", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WEFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 14", 
+                        "DiskID: 14", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WEFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "14", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 15", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WFFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 15", 
+                        "DiskID: 15", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WFFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "15", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 16", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27P7KDONFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 16", 
+                        "DiskID: 16", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27P7KDONFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "16", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 17", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: Z682KB9CFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 17", 
+                        "DiskID: 17", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z682KB9CFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "17", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 18", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27P7KDOQFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 18", 
+                        "DiskID: 18", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27P7KDOQFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "18", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 19", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WIFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 19", 
+                        "DiskID: 19", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WIFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "19", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 2", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PAKANYFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 2", 
+                        "DiskID: 2", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PAKANYFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "2", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 20", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: Z688K3SFFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 20", 
+                        "DiskID: 20", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z688K3SFFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "20", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 21", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PCK41RFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 21", 
+                        "DiskID: 21", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PCK41RFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "21", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 22", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WCFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 22", 
+                        "DiskID: 22", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WCFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "22", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 23", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WAFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 23", 
+                        "DiskID: 23", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WAFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "23", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 24", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PIK4NHFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 24", 
+                        "DiskID: 24", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PIK4NHFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "24", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 25", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: Z681KCJSFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 25", 
+                        "DiskID: 25", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z681KCJSFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "25", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 26", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PIK4NKFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 26", 
+                        "DiskID: 26", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PIK4NKFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "26", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 27", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WDFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 27", 
+                        "DiskID: 27", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WDFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "27", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 28", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PIK4NBFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 28", 
+                        "DiskID: 28", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PIK4NBFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "28", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 29", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WBFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 29", 
+                        "DiskID: 29", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WBFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "29", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 3", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PAKANZFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 3", 
+                        "DiskID: 3", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PAKANZFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "3", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 30", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7VGFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 30", 
+                        "DiskID: 30", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7VGFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "30", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 32", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PIK4NIFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 32", 
+                        "DiskID: 32", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PIK4NIFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "32", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 33", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PIK4NGFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 33", 
+                        "DiskID: 33", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PIK4NGFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "33", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 34", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PIK4NEFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 34", 
+                        "DiskID: 34", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PIK4NEFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "34", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 35", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PHK7WHFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 35", 
+                        "DiskID: 35", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PHK7WHFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "35", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 36", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: Z688K3SHFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 36", 
+                        "DiskID: 36", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z688K3SHFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "36", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 4", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27PAKAO3FFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 4", 
+                        "DiskID: 4", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27PAKAO3FFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "4", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 5", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27P7KDOOFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 5", 
+                        "DiskID: 5", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27P7KDOOFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "5", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 7", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: Z688K3RVFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 7", 
+                        "DiskID: 7", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z688K3RVFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "7", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 8", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: 27P7KDOPFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 8", 
+                        "DiskID: 8", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "27P7KDOPFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "8", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 9", 
+                    "Firmware": "FS2A", 
+                    "tt_info": [
+                        "Serial: Z683K87GFFQCTOSHIBA MD04ACA600 FS2A", 
+                        "Firmware: FS2A", 
+                        "Name: Disk: 9", 
+                        "DiskID: 9", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z683K87GFFQCTOSHIBA MD04ACA600 FS2A", 
+                    "type": "disk", 
+                    "DiskID": "9", 
+                    "Size": "5.458 TB"
+                }
+            ]
+        }
+    ]
+}
