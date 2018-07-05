@@ -161,7 +161,7 @@ def get_disks():
       if(os.path.exists("/usr/local/bin/megacli")):
         all_disks = sudo["/usr/local/bin/megacli"]('-pdlist -a0').split("\n\n")
       else:
-        all_disks = sudo["/usr/local/bin/megacli"]('-pdlist -a0').split("\n\n")      
+        all_disks = sudo["/usr/local/sbin/megacli"]('-pdlist -a0').split("\n\n")      
       disk_array = []
 
       for x in all_disks[:-1]:
