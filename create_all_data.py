@@ -193,7 +193,7 @@ def get_sys():
       sys_fields["Bios Version"] = double_split("Version:", "\n", sudo["dmidecode"]())
       sys_fields["Vendor"] = double_split("Vendor:", "\n", sudo["dmidecode"]())
       network = local["/home/obs/bin/whereami"]().encode("ascii").strip().title()
-      if(network == 'gbt'):
+      if(network == 'Gbt'):
           network = network.upper()
 
       sys_fields["Network"] = network
