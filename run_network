@@ -6,7 +6,7 @@ obs=(`/home/obs/bin/whereami`)
 k=1
 for i in "${in_group[@]}" 
 do
-    if[ $? -eq 0 ] 
+    if [ $? -eq 0 ] 
     then
     	printf "_________ %s __________ System number %d\n" "$i" "$k" 
         ((k++))
