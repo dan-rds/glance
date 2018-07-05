@@ -1,0 +1,3539 @@
+Adapter #0
+
+Enclosure Device ID: 0
+Slot Number: 0
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 2
+WWN: 5000cca221ef2e31
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3EA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0000
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK1171YBKATHHFHitachi HDS722020ALA330                 JKAOA3EA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 1
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 6
+WWN: 50014ee2048ec337
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0A80
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0001
+Connected Port Number: 0(path0) 
+Inquiry Data:      WD-WCAVY4152307WDC WD20EARS-00S8B1                     80.00A80
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 2
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 10
+WWN: 50024e90049885f7
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0002
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD1B112981      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :23C (73.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 3
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 14
+WWN: 50024e9004b1ab7e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0003
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD2B220498      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :23C (73.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 4
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 18
+WWN: 5000cca222e63844
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0004
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR2E3WHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 5
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 22
+WWN: 50024e9004cfce59
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0005
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD2B403720      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :23C (73.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 6
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 5
+WWN: 5000cca222e6375e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0006
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR25PWHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 7
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 7
+WWN: 5000cca222e649ec
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0007
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR73XWHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 8
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 8
+Enclosure position: 0
+Device Id: 11
+WWN: 50000f00500b0223
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0008
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JR0B502302      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 9
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 9
+Enclosure position: 0
+Device Id: 15
+WWN: 5000cca221ef40d0
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3EA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0009
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK1171YBKAYG8FHitachi HDS722020ALA330                 JKAOA3EA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 10
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 10
+Enclosure position: 0
+Device Id: 19
+WWN: 50024e9004cfce64
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb000a
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD2B403723      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :22C (71.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 11
+Enclosure position: 0
+Device Id: 23
+WWN: 5000cca221ef5422
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: A3EA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb000b
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK1171YBKB3LUFHitachi HDS722020ALA330                 JKAOA3EA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 12
+Enclosure position: 0
+Device Id: 3
+WWN: 50024e9004b1ab41
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb001c
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD1B220140      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 13
+Enclosure position: 0
+Device Id: 8
+WWN: 50014ee2b15dcb97
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 1G02
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb001d
+Connected Port Number: 0(path0) 
+Inquiry Data:      WD-WMAVY0152909WDC WD2002FYPS-02W3B1                   04.01G02
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 14
+Enclosure position: 0
+Device Id: 12
+WWN: 50024e90049885f2
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb001e
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD1B112980      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 15
+Enclosure position: 0
+Device Id: 16
+WWN: 5000cca222e6491f
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb001f
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR6X9WHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 16
+Enclosure position: 0
+Device Id: 20
+WWN: 5000cca221ef36ce
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: A3EA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0020
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK1171YBKAVTMFHitachi HDS722020ALA330                 JKAOA3EA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 19
+Enclosure position: 0
+Device Id: 9
+WWN: 50014ee209224f32
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 1K02
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0023
+Connected Port Number: 0(path0) 
+Inquiry Data:      WD-WCC1P0878541WDC WD2000FYYZ-01UL1B1                  01.01K02
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :26C (78.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 20
+Enclosure position: 0
+Device Id: 13
+WWN: 50014ee25c07d99a
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 1G02
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0024
+Connected Port Number: 0(path0) 
+Inquiry Data:      WD-WMAVY0151984WDC WD2002FYPS-02W3B1                   04.01G02
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 21
+Enclosure position: 0
+Device Id: 17
+WWN: 50014ee2b3349d9c
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 1K01
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0025
+Connected Port Number: 0(path0) 
+Inquiry Data:      WD-WCC1P0318932WDC WD2000FYYZ-01UL1B0                  01.01K01
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 22
+Enclosure position: 0
+Device Id: 21
+WWN: 50014ee204efa460
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 17
+Last Predictive Failure Event Seq Number: 6723605
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 1G01
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0026
+Connected Port Number: 0(path0) 
+Inquiry Data:      WD-WCAVY5377394WDC WD2002FYPS-02W3B0                   04.01G01
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : Yes
+
+
+
+Enclosure Device ID: 0
+Slot Number: 23
+Enclosure position: 0
+Device Id: 25
+WWN: 50014ee2067137f1
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: 1G01
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ecb0027
+Connected Port Number: 0(path0) 
+Inquiry Data:      WD-WCAVY7407104WDC WD2002FYPS-02W3B0                   04.01G01
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 0
+Slot Number: 0
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 2
+WWN: 5000cca222e64925
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28340
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR6XHWHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 1
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 4
+WWN: 5000cca222dc83df
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28341
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J0RLUXHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 2
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 3
+WWN: 5000cca222e6373d
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28342
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR24MWHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 3
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 6
+WWN: 50024e9004b1ae0b
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28343
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD1B220323      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :24C (75.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 4
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 5
+WWN: 5000cca222dc83c6
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28344
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J0RL0XHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 5
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 7
+WWN: 5000cca222e35597
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28345
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JHRN2WHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 6
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 13
+WWN: 5000cca222e63801
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28346
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR2AYWHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 7
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 11
+WWN: 5000cca222e640e1
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28347
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR4R7WHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 8
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 8
+Enclosure position: 0
+Device Id: 12
+WWN: 5000cca222dda3ee
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28348
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J36AMXHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 9
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 9
+Enclosure position: 0
+Device Id: 10
+WWN: 5000cca222dda7d2
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28349
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J37BSXHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 10
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 10
+Enclosure position: 0
+Device Id: 8
+WWN: 50024e9004988c63
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b2834a
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD1B113002      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :24C (75.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 11
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 11
+Enclosure position: 0
+Device Id: 9
+WWN: 5000cca222e6376f
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b2834b
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR267WHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 12
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 12
+Enclosure position: 0
+Device Id: 14
+WWN: 5000cca222e01fef
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b2835c
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8J8NSTWHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 13
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 13
+Enclosure position: 0
+Device Id: 16
+WWN: 5000cca222dc846b
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b2835d
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J0RSAXHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 14
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 14
+Enclosure position: 0
+Device Id: 15
+WWN: 5000cca222dc2ffd
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b2835e
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J0083XHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 15
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 15
+Enclosure position: 0
+Device Id: 17
+WWN: 5000cca222e63d67
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b2835f
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A4B8JR3TJWHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 16
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 16
+Enclosure position: 0
+Device Id: 18
+WWN: 5000cca222dda810
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28360
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J37ESXHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 17
+Enclosure position: 0
+Device Id: 19
+WWN: 5000cca222dda7cd
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Unconfigured(bad)
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28361
+Connected Port Number: 0(path0) 
+Inquiry Data: ATA     Hitachi HDS72202A3MA      JK11A5B8J37BLX
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: Foreign 
+Foreign Secure: Drive is not secured by a foreign lock key
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 18
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 18
+Enclosure position: 0
+Device Id: 23
+WWN: 50024e9004cfce3f
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28362
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD2B403709      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 19
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 19
+Enclosure position: 0
+Device Id: 24
+WWN: 5000cca222dc83be
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28363
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J0RKSXHitachi HDS722020ALA330                 JKAOA3MA
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 0
+Slot Number: 20
+Enclosure position: 0
+Device Id: 25
+WWN: 5000cca222dda887
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATAHotspare Information: 
+Type: Global, is revertible
+
+
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Hotspare, Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: A3MA
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28364
+Connected Port Number: 0(path0) 
+Inquiry Data:       JK11A5B8J37KLXHitachi HDS722020ALA330                 JKAOA3MAHotspare Information: 
+Type: Global, is revertible
+
+
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+Hotspare Information: 
+Type: Global, is revertible
+
+
+Enclosure Device ID: 0
+Slot Number: 21
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 17
+Enclosure position: 0
+Device Id: 21
+WWN: 50024e9004cfcd63
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 1.819 TB [0xe8e088b0 Sectors]
+Non Coerced Size: 1.818 TB [0xe8d088b0 Sectors]
+Coerced Size: 1.818 TB [0xe8d00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : Yes
+Device Firmware Level: 0001
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048017b28365
+Connected Port Number: 0(path0) 
+Inquiry Data: S2H7JD2B403627      SAMSUNG HD204UI                         1AQ10001
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 3.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :24C (75.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 37
+Slot Number: 0
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 46
+WWN: 500003969b704174
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124540
+Connected Port Number: 0(path0) 
+Inquiry Data:         X5O1K4OMF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :40C (104.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 1
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 38
+WWN: 50000396abd0137b
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124541
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y5ADK1ECF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :42C (107.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 2
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 43
+WWN: 50000396abd0136e
+Sequence Number: 2
+Media Error Count: 1
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124542
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y5ADK1DZF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :39C (102.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 3
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 41
+WWN: 50000396abd0136b
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124543
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y5ADK1DWF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :45C (113.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 4
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 45
+WWN: 50000396ab980a70
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124544
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y586K2MSF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :46C (114.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 5
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 39
+WWN: 50000396abe008e9
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124545
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y56FK0M9F56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :41C (105.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 6
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 40
+WWN: 500003967bb8030a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124546
+Connected Port Number: 0(path0) 
+Inquiry Data:         855AK0OYF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :41C (105.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 7
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 47
+WWN: 50000396ab8012eb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124547
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y583K2C3F56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :41C (105.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 8
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 8
+Enclosure position: 0
+Device Id: 44
+WWN: 500003966bb8109a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124548
+Connected Port Number: 0(path0) 
+Inquiry Data:         759AK0EXF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :40C (104.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 9
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 9
+Enclosure position: 0
+Device Id: 48
+WWN: 50000396abd809f0
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x5003048009124549
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y56EK15CF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :40C (104.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 10
+Drive's postion: DiskGroup: 2, Span: 0, Arm: 10
+Enclosure position: 0
+Device Id: 42
+WWN: 50000396abd80cdd
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304800912454a
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y58EK16YF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :40C (104.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 37
+Slot Number: 11
+Enclosure position: 0
+Device Id: 49
+WWN: 50000396abd0136d
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATAHotspare Information: 
+Type: Global, is revertible
+
+
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Hotspare, Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304800912454b
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y5ADK1DYF56DTOSHIBA HDWE160                         FS2A    Hotspare Information: 
+Type: Global, is revertible
+
+
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :40C (104.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+Hotspare Information: 
+Type: Global, is revertible
+
+
+Enclosure Device ID: 50
+Slot Number: 0
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 65
+WWN: 500003968b9805ea
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a300
+Connected Port Number: 0(path0) 
+Inquiry Data:         9556KL8NFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :36C (96.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 1
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 52
+WWN: 500003968b9805eb
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a301
+Connected Port Number: 0(path0) 
+Inquiry Data:         9556KL8OFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 2
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 51
+WWN: 500003968ba00cb9
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a302
+Connected Port Number: 0(path0) 
+Inquiry Data:         9557KETRFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :33C (91.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 3
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 63
+WWN: 500003968ba80665
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a303
+Connected Port Number: 0(path0) 
+Inquiry Data:         9548K9TGFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 4
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 62
+WWN: 500003968b9805e7
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a304
+Connected Port Number: 0(path0) 
+Inquiry Data:         9556KL8KFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 5
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 67
+WWN: 500003968ba00a59
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a305
+Connected Port Number: 0(path0) 
+Inquiry Data:         9547KEPZFSBATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 6
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 66
+WWN: 500003968ba00a58
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a306
+Connected Port Number: 0(path0) 
+Inquiry Data:         9547KEPYFSBATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :36C (96.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 7
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 70
+WWN: 500003967ba82997
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a307
+Connected Port Number: 0(path0) 
+Inquiry Data:         85O8K916FSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :37C (98.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 8
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 8
+Enclosure position: 0
+Device Id: 56
+WWN: 500003968b800746
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a308
+Connected Port Number: 0(path0) 
+Inquiry Data:         9563KNFOFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :35C (95.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 9
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 9
+Enclosure position: 0
+Device Id: 55
+WWN: 500003967bb836da
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a309
+Connected Port Number: 0(path0) 
+Inquiry Data:         85SAKA70FSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 10
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 10
+Enclosure position: 0
+Device Id: 68
+WWN: 500003968b8802f7
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a30a
+Connected Port Number: 0(path0) 
+Inquiry Data:         9534KFAFFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 11
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 11
+Enclosure position: 0
+Device Id: 58
+WWN: 500003968b9004f1
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 3.638 TB [0x1d1c0beb0 Sectors]
+Non Coerced Size: 3.637 TB [0x1d1b0beb0 Sectors]
+Coerced Size: 3.637 TB [0x1d1b00000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FP2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a30b
+Connected Port Number: 0(path0) 
+Inquiry Data:         9565K7BVFSAATOSHIBA MD04ACA400                      FP2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 12
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 59
+WWN: 50000396abd81142
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a31c
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y5AEK1A5F56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 13
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 72
+WWN: 50000396abd00e72
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a31d
+Connected Port Number: 0(path0) 
+Inquiry Data:         Y58DK1B9F56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :39C (102.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 14
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 57
+WWN: 500003966bd00d14
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a31e
+Connected Port Number: 0(path0) 
+Inquiry Data:         758DK07GF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :40C (104.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 15
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 53
+WWN: 500003966bd00d1a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a31f
+Connected Port Number: 0(path0) 
+Inquiry Data:         758DK07MF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :39C (102.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 16
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 74
+WWN: 500003966bb81318
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a320
+Connected Port Number: 0(path0) 
+Inquiry Data:         759AK0G4F56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :37C (98.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 17
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 61
+WWN: 500003967bb0245a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a321
+Connected Port Number: 0(path0) 
+Inquiry Data:         85N9K134F56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 18
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 54
+WWN: 500003967bb01a6d
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a322
+Connected Port Number: 0(path0) 
+Inquiry Data:         85J9K10SF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :39C (102.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 19
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 71
+WWN: 500003966b980932
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a323
+Connected Port Number: 0(path0) 
+Inquiry Data:         75B6K16VF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :39C (102.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 20
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 8
+Enclosure position: 0
+Device Id: 60
+WWN: 500003967bb81e00
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a324
+Connected Port Number: 0(path0) 
+Inquiry Data:         85JAK13BF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 21
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 9
+Enclosure position: 0
+Device Id: 64
+WWN: 500003967bc00c9c
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a325
+Connected Port Number: 0(path0) 
+Inquiry Data:         85JBK0ILF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :38C (100.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 22
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 10
+Enclosure position: 0
+Device Id: 73
+WWN: 500003967bb81e05
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a326
+Connected Port Number: 0(path0) 
+Inquiry Data:         85JAK13GF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :33C (91.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Disabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 50
+Slot Number: 23
+Enclosure position: 0
+Device Id: 69
+WWN: 500003966b980934
+Sequence Number: 1
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Unconfigured(good), Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: FS2A
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801e81a327
+Connected Port Number: 0(path0) 
+Inquiry Data:         75B6K16XF56DTOSHIBA HDWE160                         FS2A    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
