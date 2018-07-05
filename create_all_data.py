@@ -229,10 +229,15 @@ def write_arr_to_csv(arr, hw_class):
   except:
     clean_slate = None
 
-  if not clean_slate:
-    append_write = 'a' # append if already exists
-  else:
-    append_write = 'w'
+  if clean_slate:
+    with open(filename, "rb") as f:
+    data = list(csv.reader(f))
+
+    with open("original.csv", "wb") as f:
+        writer = csv.writer(f)
+        for row in data:
+            if (network + " --> " + hostname) not in row:
+                writer.writerow(row)
 
   with open(filename, append_write) as f:  # Just use 'w' mode in 3.x
       w = csv.DictWriter(f, list_rows[0].keys())
