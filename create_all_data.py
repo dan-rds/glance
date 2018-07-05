@@ -262,11 +262,6 @@ gpu_yaml, gpu_csv, gpu_tree = get_gpus()
 cpu_yaml, cpu_csv, cpu_tree = get_cpus()
 mem_yaml, mem_csv, mem_tree = get_mem()
 disk_yaml, disk_csv, disk_tree = get_disks()
-print(hostname)
-print(disk_yaml)
-for i in disk_yaml["Disks"]:
-    for k,v in i.iteritems():
-        print(k , v)
 
 add_hardware(sys_yaml, nic_yaml, gpu_yaml, cpu_yaml, mem_yaml, disk_yaml)
 add_hardware(sys_tree, nic_tree, gpu_tree, cpu_tree, mem_tree, disk_tree)
