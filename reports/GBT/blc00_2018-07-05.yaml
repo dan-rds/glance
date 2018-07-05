@@ -1,0 +1,177 @@
+device:
+  Bios Version: 1.0b
+  Hostname: blc00
+  Name: blc00
+  Network: GBT
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:08:25
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:08:26
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:08:27
+      Name: eth3
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: blc00.bl.pvt
+      IP: 10.0.1.71
+      MAC: 0c:c4:7a:bd:08:24
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: blc00-10-0.gb.nrao.edu
+      IP: 10.17.2.16
+      MAC: 02:02:0a:11:02:10
+      Name: eth4
+      Speed: '10000'
+    - DNS Server: blc00-10-1.gb.nrao.edu
+      IP: 10.17.2.144
+      MAC: 02:02:0a:11:02:90
+      Name: eth5
+      Speed: '10000'
+  - GPUs:
+    - Memory: '12207'
+      Name: GeForce GTX TITAN X
+      PCIID: 0000:82:00.0
+      Serial: '0423215021416'
+      Vios Version: 84.00.1F.00.90
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 6
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 0
+      Threads Per Core: '1'
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 6
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 1
+      Threads Per Core: '1'
+  - Memory:
+      Total: 65867508 kB
+  - Disks:
+    - DiskID: '10'
+      Firmware: FP2A
+      Name: 'Disk: 10'
+      Serial: 85J1K5BPF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '11'
+      Firmware: FP2A
+      Name: 'Disk: 11'
+      Serial: 85J5K320F57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '12'
+      Firmware: FP2A
+      Name: 'Disk: 12'
+      Serial: 85KGK6YQF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '14'
+      Firmware: FP2A
+      Name: 'Disk: 14'
+      Serial: 85A4K6KTF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '15'
+      Firmware: FP2A
+      Name: 'Disk: 15'
+      Serial: 85J2KD5SF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '16'
+      Firmware: FP2A
+      Name: 'Disk: 16'
+      Serial: 85L8K48WF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '17'
+      Firmware: FP2A
+      Name: 'Disk: 17'
+      Serial: 85I3KBVXF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '18'
+      Firmware: FP2A
+      Name: 'Disk: 18'
+      Serial: 85KAK4IVF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '19'
+      Firmware: FP2A
+      Name: 'Disk: 19'
+      Serial: 85J7K66EF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '20'
+      Firmware: FP2A
+      Name: 'Disk: 20'
+      Serial: 8581K4E4F57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '21'
+      Firmware: FP2A
+      Name: 'Disk: 21'
+      Serial: 85I3KBVTF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '22'
+      Firmware: FP2A
+      Name: 'Disk: 22'
+      Serial: 85J2KD5VF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '23'
+      Firmware: FP2A
+      Name: 'Disk: 23'
+      Serial: 85J3KBXWF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '24'
+      Firmware: FP2A
+      Name: 'Disk: 24'
+      Serial: 85J2KD4RF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '25'
+      Firmware: FP2A
+      Name: 'Disk: 25'
+      Serial: 85K2KD7LF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '26'
+      Firmware: FP2A
+      Name: 'Disk: 26'
+      Serial: 85MAK4QCF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '27'
+      Firmware: FP2A
+      Name: 'Disk: 27'
+      Serial: 85J3KBY7F57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '28'
+      Firmware: FP2A
+      Name: 'Disk: 28'
+      Serial: 85K3KBZ0F57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '29'
+      Firmware: FP2A
+      Name: 'Disk: 29'
+      Serial: 85I9K5BCF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '31'
+      Firmware: FP2A
+      Name: 'Disk: 31'
+      Serial: 7595K2GAF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '32'
+      Firmware: FP2A
+      Name: 'Disk: 32'
+      Serial: 85J2KD5QF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '33'
+      Firmware: FP2A
+      Name: 'Disk: 33'
+      Serial: 85A9K4ZJF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB

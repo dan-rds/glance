@@ -1,0 +1,241 @@
+device:
+  Bios Version: 1.0b
+  Hostname: bls0
+  Name: bls0
+  Network: GBT
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: bls0-10-1.gb.nrao.edu
+      IP: 10.17.2.132
+      MAC: 02:02:0a:11:02:84
+      Name: eth5
+      Speed: '-1'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:81:01
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:81:02
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:bd:81:03
+      Name: eth3
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: bls0.bl.pvt
+      IP: 10.0.1.82
+      MAC: 0c:c4:7a:bd:81:00
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: bls0-10-0.gb.nrao.edu
+      IP: 10.17.2.104
+      MAC: 02:02:0a:11:02:68
+      Name: eth4
+      Speed: '10000'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65865880 kB
+  - Disks:
+    - DiskID: '46'
+      Firmware: FP2A
+      Name: 'Disk: 46'
+      Serial: 85OAK9VIFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '47'
+      Firmware: FP2A
+      Name: 'Disk: 47'
+      Serial: 954BK50BFSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '48'
+      Firmware: FP2A
+      Name: 'Disk: 48'
+      Serial: 85K3KBZPF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '49'
+      Firmware: FP2A
+      Name: 'Disk: 49'
+      Serial: 85AAK45IF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '50'
+      Firmware: FP2A
+      Name: 'Disk: 50'
+      Serial: 954BK50CFSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '51'
+      Firmware: FP2A
+      Name: 'Disk: 51'
+      Serial: 9563KNF6FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '52'
+      Firmware: FP2A
+      Name: 'Disk: 52'
+      Serial: 85V7KECAFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '53'
+      Firmware: FP2A
+      Name: 'Disk: 53'
+      Serial: 85V7KEC9FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '54'
+      Firmware: FP2A
+      Name: 'Disk: 54'
+      Serial: 9562KQ6EFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '55'
+      Firmware: FP2A
+      Name: 'Disk: 55'
+      Serial: 85L3KC1OF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '56'
+      Firmware: FP2A
+      Name: 'Disk: 56'
+      Serial: 85O9KB4GFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '57'
+      Firmware: FP2A
+      Name: 'Disk: 57'
+      Serial: 85O9KB4JFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '58'
+      Firmware: FP2A
+      Name: 'Disk: 58'
+      Serial: 954BK50EFSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '59'
+      Firmware: FP2A
+      Name: 'Disk: 59'
+      Serial: 9549KBTIFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '60'
+      Firmware: FP2A
+      Name: 'Disk: 60'
+      Serial: 9547KEQ0FSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '61'
+      Firmware: FP2A
+      Name: 'Disk: 61'
+      Serial: 85O9KB4IFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '62'
+      Firmware: FP2A
+      Name: 'Disk: 62'
+      Serial: 85J6KB9JF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '63'
+      Firmware: FP2A
+      Name: 'Disk: 63'
+      Serial: 9549KBTTFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '64'
+      Firmware: FP2A
+      Name: 'Disk: 64'
+      Serial: 85A9K4ZHF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '65'
+      Firmware: FP2A
+      Name: 'Disk: 65'
+      Serial: 85T3KN1ZFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '66'
+      Firmware: FP2A
+      Name: 'Disk: 66'
+      Serial: 85L9K5E7F57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '67'
+      Firmware: FP2A
+      Name: 'Disk: 67'
+      Serial: 954BK4XTFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '68'
+      Firmware: FP2A
+      Name: 'Disk: 68'
+      Serial: 85V7KEC5FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '69'
+      Firmware: FP2A
+      Name: 'Disk: 69'
+      Serial: 9548K9THFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '70'
+      Firmware: FP2A
+      Name: 'Disk: 70'
+      Serial: 85T3KN25FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '71'
+      Firmware: FP2A
+      Name: 'Disk: 71'
+      Serial: 85J5K31YF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '72'
+      Firmware: FP2A
+      Name: 'Disk: 72'
+      Serial: 954BK50DFSBATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '73'
+      Firmware: FP2A
+      Name: 'Disk: 73'
+      Serial: 85T3KN1XFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '74'
+      Firmware: FP2A
+      Name: 'Disk: 74'
+      Serial: 85M3KC3GF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '75'
+      Firmware: FP2A
+      Name: 'Disk: 75'
+      Serial: 85J1K5B3F57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '76'
+      Firmware: FP2A
+      Name: 'Disk: 76'
+      Serial: 9557KETQFSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '77'
+      Firmware: FP2A
+      Name: 'Disk: 77'
+      Serial: 85A9K4ZGF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '78'
+      Firmware: FP2A
+      Name: 'Disk: 78'
+      Serial: 85K4K6XYF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '79'
+      Firmware: FP2A
+      Name: 'Disk: 79'
+      Serial: 85I1K5AKF57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB
+    - DiskID: '80'
+      Firmware: FP2A
+      Name: 'Disk: 80'
+      Serial: 85V7KEC6FSAATOSHIBA MD04ACA400 FP2A
+      Size: 3.638 TB
+    - DiskID: '81'
+      Firmware: FP2A
+      Name: 'Disk: 81'
+      Serial: 85M2KDD2F57DTOSHIBA HDWE150 FP2A
+      Size: 4.547 TB

@@ -1,0 +1,527 @@
+{
+    "Vendor": "American Megatrends Inc.", 
+    "Network": "GBT", 
+    "Bios Version": "2.0", 
+    "Hostname": "blc16", 
+    "tt_info": [
+        "Bios Version: 2.0", 
+        "Hostname: blc16", 
+        "Vendor: American Megatrends Inc.", 
+        "Network: GBT"
+    ], 
+    "type": "COMPUTE", 
+    "children": [
+        {
+            "Name": "NICs", 
+            "children": [
+                {
+                    "Name": "eth5", 
+                    "IP": "10.17.2.158", 
+                    "tt_info": [
+                        "IP: 10.17.2.158", 
+                        "MAC: 02:02:0a:11:02:9e", 
+                        "DNS Server: blc16-10-1.gb.nrao.edu", 
+                        "Name: eth5", 
+                        "Speed: -1"
+                    ], 
+                    "MAC": "02:02:0a:11:02:9e", 
+                    "DNS Server": "blc16-10-1.gb.nrao.edu", 
+                    "type": "nic", 
+                    "Speed": "-1"
+                }, 
+                {
+                    "Name": "eth1", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 0c:c4:7a:8e:06:19", 
+                        "DNS Server:  ", 
+                        "Name: eth1", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "0c:c4:7a:8e:06:19", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth2", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 0c:c4:7a:8e:06:1a", 
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "0c:c4:7a:8e:06:1a", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth3", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 0c:c4:7a:8e:06:1b", 
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "0c:c4:7a:8e:06:1b", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "lo", 
+                    "IP": "127.0.0.1", 
+                    "tt_info": [
+                        "IP: 127.0.0.1", 
+                        "MAC:  ", 
+                        "DNS Server: localhost.bl.pvt", 
+                        "Name: lo", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": " ", 
+                    "DNS Server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth0", 
+                    "IP": "10.0.1.88", 
+                    "tt_info": [
+                        "IP: 10.0.1.88", 
+                        "MAC: 0c:c4:7a:8e:06:18", 
+                        "DNS Server: blc16.bl.pvt", 
+                        "Name: eth0", 
+                        "Speed: 1000"
+                    ], 
+                    "MAC": "0c:c4:7a:8e:06:18", 
+                    "DNS Server": "blc16.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "1000"
+                }, 
+                {
+                    "Name": "eth4", 
+                    "IP": "10.17.2.30", 
+                    "tt_info": [
+                        "IP: 10.17.2.30", 
+                        "MAC: 02:02:0a:11:02:1e", 
+                        "DNS Server: blc16-10-0.gb.nrao.edu", 
+                        "Name: eth4", 
+                        "Speed: 10000"
+                    ], 
+                    "MAC": "02:02:0a:11:02:1e", 
+                    "DNS Server": "blc16-10-0.gb.nrao.edu", 
+                    "type": "nic", 
+                    "Speed": "10000"
+                }
+            ]
+        }, 
+        {
+            "Name": "GPUs", 
+            "children": [
+                {
+                    "Name": "GeForce GTX 1080", 
+                    "PCIID": "0000:82:00.0", 
+                    "tt_info": [
+                        "Vios Version: 86.04.3B.00.90", 
+                        "Serial: [Not Supported]", 
+                        "Name: GeForce GTX 1080", 
+                        "PCIID: 0000:82:00.0", 
+                        "Memory: 8114"
+                    ], 
+                    "Vios Version": "86.04.3B.00.90", 
+                    "Memory": "8114", 
+                    "Serial": "[Not Supported]", 
+                    "type": "gpu"
+                }
+            ]
+        }, 
+        {
+            "Name": "CPUs", 
+            "children": [
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 6", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 1", 
+                        "Socket: 0"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 6, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "1", 
+                    "type": "cpu", 
+                    "Socket": 0
+                }, 
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 6", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 1", 
+                        "Socket: 1"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 6, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "1", 
+                    "type": "cpu", 
+                    "Socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Total: 65861268 kB", 
+            "Name": "Memory"
+        }, 
+        {
+            "Name": "Disks", 
+            "children": [
+                {
+                    "Name": "Disk: 11", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5I6KDJEF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 11", 
+                        "DiskID: 11", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5I6KDJEF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "11", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 12", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85MAK4QUF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 12", 
+                        "DiskID: 12", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85MAK4QUF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "12", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 13", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5I2KGPTF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 13", 
+                        "DiskID: 13", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5I2KGPTF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "13", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 14", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 8598K3S3F57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 14", 
+                        "DiskID: 14", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "8598K3S3F57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "14", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 15", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5S8KAAAF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 15", 
+                        "DiskID: 15", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5S8KAAAF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "15", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 16", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5H7K9WDF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 16", 
+                        "DiskID: 16", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5H7K9WDF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "16", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 17", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85M8K4CQF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 17", 
+                        "DiskID: 17", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85M8K4CQF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "17", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 18", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 8593KBHGF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 18", 
+                        "DiskID: 18", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "8593KBHGF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "18", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 19", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85J3KBX7F57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 19", 
+                        "DiskID: 19", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85J3KBX7F57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "19", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 2", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5IEKC51F57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 2", 
+                        "DiskID: 2", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5IEKC51F57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "2", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 20", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85J1K5B9F57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 20", 
+                        "DiskID: 20", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85J1K5B9F57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "20", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 21", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85J6KBA5F57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 21", 
+                        "DiskID: 21", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85J6KBA5F57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "21", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 22", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85K2KD7ZF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 22", 
+                        "DiskID: 22", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85K2KD7ZF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "22", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 23", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85M3KC3DF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 23", 
+                        "DiskID: 23", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85M3KC3DF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "23", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 24", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85J1K5CMF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 24", 
+                        "DiskID: 24", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85J1K5CMF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "24", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 3", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5I2KGPUF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 3", 
+                        "DiskID: 3", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5I2KGPUF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "3", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 4", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5I6KDI9F57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 4", 
+                        "DiskID: 4", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5I6KDI9F57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "4", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 5", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: 85J1K5BTF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 5", 
+                        "DiskID: 5", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "85J1K5BTF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "5", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 6", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5I6KDJNF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 6", 
+                        "DiskID: 6", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5I6KDJNF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "6", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 7", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5I5K4IXF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 7", 
+                        "DiskID: 7", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5I5K4IXF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "7", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 8", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5I5K4J3F57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 8", 
+                        "DiskID: 8", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5I5K4J3F57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "8", 
+                    "Size": "4.547 TB"
+                }, 
+                {
+                    "Name": "Disk: 9", 
+                    "Firmware": "FP2A", 
+                    "tt_info": [
+                        "Serial: Z5IEKC5CF57DTOSHIBA HDWE150 FP2A", 
+                        "Firmware: FP2A", 
+                        "Name: Disk: 9", 
+                        "DiskID: 9", 
+                        "Size: 4.547 TB"
+                    ], 
+                    "Serial": "Z5IEKC5CF57DTOSHIBA HDWE150 FP2A", 
+                    "type": "disk", 
+                    "DiskID": "9", 
+                    "Size": "4.547 TB"
+                }
+            ]
+        }
+    ]
+}
