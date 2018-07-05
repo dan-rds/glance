@@ -1,35 +1,4 @@
 Name,IP,MAC,DNS Server,Path,Speed
-eth2, ,00:25:90:fb:92:b6, ,Parkes --> blh0,0
-eth3, ,00:25:90:fb:92:b7, ,Parkes --> blh0,0
-lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> blh0,0
-tun0,10.254.254.3,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Parkes --> blh0,10
-eth0,130.155.181.233,00:25:90:fb:92:b4,bl-head.atnf.csiro.au,Parkes --> blh0,1000
-eth1,10.0.1.1,00:25:90:fb:92:b5,blh0.bl.pvt,Parkes --> blh0,10000
-eth1, ,0c:c4:7a:eb:af:75, ,Parkes --> bls0,0
-eth2, ,0c:c4:7a:eb:af:76, ,Parkes --> bls0,0
-eth3, ,0c:c4:7a:eb:af:77, ,Parkes --> bls0,0
-lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls0,0
-eth0,10.0.1.102,0c:c4:7a:eb:af:74,bls0.bl.pvt,Parkes --> bls0,1000
-eth4,10.10.10.32,02:02:0a:0a:0a:20,bls0-4.tenge.pvt,Parkes --> bls0,40000
-eth1, ,ac:1f:6b:2c:01:79, ,Parkes --> bls1,0
-eth2, ,ac:1f:6b:2c:01:7a, ,Parkes --> bls1,0
-eth3, ,ac:1f:6b:2c:01:7b, ,Parkes --> bls1,0
-lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls1,0
-eth0,10.0.1.103,ac:1f:6b:2c:01:78,bls1.bl.pvt,Parkes --> bls1,1000
-eth4,10.10.10.33,02:02:0a:0a:0a:21,bls1-4.tenge.pvt,Parkes --> bls1,40000
-eth1, ,ac:1f:6b:2c:00:e9, ,Parkes --> bls2,0
-eth2, ,ac:1f:6b:2c:00:ea, ,Parkes --> bls2,0
-eth3, ,ac:1f:6b:2c:00:eb, ,Parkes --> bls2,0
-lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls2,0
-eth0,10.0.1.104,ac:1f:6b:2c:00:e8,bls2.bl.pvt,Parkes --> bls2,1000
-eth4,10.10.10.34,02:02:0a:0a:0a:22,bls2-4.tenge.pvt,Parkes --> bls2,40000
-eth5,10.10.10.138,02:02:0a:0a:0a:8a,bls3-5.tenge.pvt,Parkes --> bls3,-1
-eth1, ,0c:c4:7a:8e:bb:c9, ,Parkes --> bls3,0
-eth2, ,0c:c4:7a:8e:bb:ca, ,Parkes --> bls3,0
-eth3, ,0c:c4:7a:8e:bb:cb, ,Parkes --> bls3,0
-lo,127.0.0.1, ,localhost.bl.pvt,Parkes --> bls3,0
-eth0,10.0.1.80,0c:c4:7a:8e:bb:c8,bls3.bl.pvt,Parkes --> bls3,1000
-eth4,10.10.10.10,02:02:0a:0a:0a:0a,bls3-4.tenge.pvt,Parkes --> bls3,10000
 docker0,172.17.0.1,02:42:06:bf:57:87, ,Digilab --> blc00,0
 eth1, ,0c:c4:7a:8e:0b:ad, ,Digilab --> blc00,0
 eth2, ,0c:c4:7a:8e:0b:ae, ,Digilab --> blc00,0
