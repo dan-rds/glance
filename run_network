@@ -6,9 +6,12 @@ obs=(`/home/obs/bin/whereami`)
 k=1
 for i in "${in_group[@]}" 
 do
-    printf "_________ %s __________ %d of %d\n" "$i" "$k" "${#in_group[@]}"
-    ((k++))
-    ssh $i "cd ~/glance && python create_all_data.py && cat tree_data/Digilab/*h*" 
+    if[ $? -eq 0 ] 
+    then
+    	printf "_________ %s __________ System number %d\n" "$i" "$k" 
+        ((k++))
+        ssh $i "cd ~/glance && python create_all_data.py"
+    fi 
 done
 
 rm -f MegaSAS.log
