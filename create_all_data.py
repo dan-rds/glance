@@ -229,21 +229,21 @@ def write_arr_to_csv(arr, hw_class):
   except:
     clean_slate = None
 
-  if clean_slate:
+  if clean_slate and os.path.isfile(filename):
     with open(filename, "rb") as f:
     data = list(csv.reader(f))
 
-    with open("original.csv", "wb") as f:
+    with open(filename, "wb") as f:
         writer = csv.writer(f)
         for row in data:
             if (network + " --> " + hostname) not in row:
                 writer.writerow(row)
 
-  with open(filename, append_write) as f:  # Just use 'w' mode in 3.x
+  with open(filename, 'a') as f:  # Just use 'w' mode in 3.x
       w = csv.DictWriter(f, list_rows[0].keys())
       
-      if append_write == 'w':
-        w.writeheader()
+      # if append_write == 'w':
+      #   w.writeheader()
       for r in list_rows:
         try:
             w.writerow(r)
