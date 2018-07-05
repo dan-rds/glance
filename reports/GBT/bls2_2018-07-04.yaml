@@ -1,0 +1,226 @@
+device:
+  Bios Version: '2.0'
+  Hostname: bls2
+  Name: bls2
+  Network: GBT
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:8e:7a:19
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:8e:7a:1a
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:8e:7a:1b
+      Name: eth3
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: bls2.bl.pvt
+      IP: 10.0.1.93
+      MAC: 0c:c4:7a:8e:7a:18
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: bls2-10-0.gb.nrao.edu
+      IP: 10.17.2.106
+      MAC: 02:02:0a:11:02:6a
+      Name: eth4
+      Speed: '10000'
+    - DNS Server: bls2-10-1.gb.nrao.edu
+      IP: 10.17.2.134
+      MAC: 02:02:0a:11:02:86
+      Name: eth5
+      Speed: '10000'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65858544 kB
+  - Disks:
+    - DiskID: '10'
+      Firmware: FS2A
+      Name: 'Disk: 10'
+      Serial: 46F2K8X0FFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '11'
+      Firmware: FS2A
+      Name: 'Disk: 11'
+      Serial: 46BAK69XFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '12'
+      Firmware: FS2A
+      Name: 'Disk: 12'
+      Serial: 46B4K4RRFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '13'
+      Firmware: FS2A
+      Name: 'Disk: 13'
+      Serial: 46BAK69WFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '14'
+      Firmware: FS2A
+      Name: 'Disk: 14'
+      Serial: 46A3K5TMFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '15'
+      Firmware: FS2A
+      Name: 'Disk: 15'
+      Serial: 46BBK3DTFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '16'
+      Firmware: FS2A
+      Name: 'Disk: 16'
+      Serial: 46BCK1KDFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '17'
+      Firmware: FS2A
+      Name: 'Disk: 17'
+      Serial: 46A3K5TQFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '18'
+      Firmware: FS2A
+      Name: 'Disk: 18'
+      Serial: 46ACK1JMFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '19'
+      Firmware: FS2A
+      Name: 'Disk: 19'
+      Serial: 46BAK69RFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '2'
+      Firmware: FS2A
+      Name: 'Disk: 2'
+      Serial: 46B1K9GKFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '20'
+      Firmware: FS2A
+      Name: 'Disk: 20'
+      Serial: 46A3K5TWFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '21'
+      Firmware: FS2A
+      Name: 'Disk: 21'
+      Serial: 46B4K4ROFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '22'
+      Firmware: FS2A
+      Name: 'Disk: 22'
+      Serial: 46B4K4RWFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '23'
+      Firmware: FS2A
+      Name: 'Disk: 23'
+      Serial: 46A3K5TRFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '24'
+      Firmware: FS2A
+      Name: 'Disk: 24'
+      Serial: 46BBK3DXFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '25'
+      Firmware: FS2A
+      Name: 'Disk: 25'
+      Serial: 46A3K5TKFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '27'
+      Firmware: FS2A
+      Name: 'Disk: 27'
+      Serial: 46A3K5TOFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '28'
+      Firmware: FS2A
+      Name: 'Disk: 28'
+      Serial: 46BBK3DVFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '3'
+      Firmware: FS2A
+      Name: 'Disk: 3'
+      Serial: 46BBK3DUFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '30'
+      Firmware: FS2A
+      Name: 'Disk: 30'
+      Serial: 46A3K5TNFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '31'
+      Firmware: FS2A
+      Name: 'Disk: 31'
+      Serial: 46A3K5TUFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '32'
+      Firmware: FS2A
+      Name: 'Disk: 32'
+      Serial: 46A2K8SFFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '33'
+      Firmware: FS2A
+      Name: 'Disk: 33'
+      Serial: 46A2K8SEFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '34'
+      Firmware: FS2A
+      Name: 'Disk: 34'
+      Serial: 46A3K5TVFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '35'
+      Firmware: FS2A
+      Name: 'Disk: 35'
+      Serial: 46A2K8SHFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '36'
+      Firmware: FS2A
+      Name: 'Disk: 36'
+      Serial: 46F2K8X2FFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '37'
+      Firmware: FS2A
+      Name: 'Disk: 37'
+      Serial: 46ACK1JJFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '4'
+      Firmware: FS2A
+      Name: 'Disk: 4'
+      Serial: 46BAK69VFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '5'
+      Firmware: FS2A
+      Name: 'Disk: 5'
+      Serial: 46B4K4RPFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '6'
+      Firmware: FS2A
+      Name: 'Disk: 6'
+      Serial: 46BAK69UFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '8'
+      Firmware: FS2A
+      Name: 'Disk: 8'
+      Serial: 46BAK69OFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB
+    - DiskID: '9'
+      Firmware: FS2A
+      Name: 'Disk: 9'
+      Serial: 46B1K9GJFFQCTOSHIBA MD04ACA600 FS2A
+      Size: 5.458 TB

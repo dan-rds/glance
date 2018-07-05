@@ -1,0 +1,226 @@
+device:
+  Bios Version: 2.0b
+  Hostname: bls4
+  Name: bls4
+  Network: GBT
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: ' '
+      IP: ' '
+      MAC: ac:1f:6b:2d:04:05
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: ac:1f:6b:2d:04:06
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: ac:1f:6b:2d:04:07
+      Name: eth3
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: ec:0d:9a:22:9e:61
+      Name: eth5
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: bls4.bl.pvt
+      IP: 10.0.1.111
+      MAC: ac:1f:6b:2d:04:04
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: bls4-10-0.gb.nrao.edu
+      IP: 10.17.2.108
+      MAC: 02:02:0a:11:02:6c
+      Name: eth4
+      Speed: '10000'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65858348 kB
+  - Disks:
+    - DiskID: '38'
+      Firmware: FS2A
+      Name: 'Disk: 38'
+      Serial: 27RHK81TF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '39'
+      Firmware: FS2A
+      Name: 'Disk: 39'
+      Serial: 27RHK81MF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '40'
+      Firmware: FS2A
+      Name: 'Disk: 40'
+      Serial: 27R3KATXF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '41'
+      Firmware: FS2A
+      Name: 'Disk: 41'
+      Serial: 27R1KFUGF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '42'
+      Firmware: FS2A
+      Name: 'Disk: 42'
+      Serial: 27R3KATOF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '43'
+      Firmware: FS2A
+      Name: 'Disk: 43'
+      Serial: 27R3KAU4F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '44'
+      Firmware: FS2A
+      Name: 'Disk: 44'
+      Serial: 27RAKAS5F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '45'
+      Firmware: FS2A
+      Name: 'Disk: 45'
+      Serial: 27RAKAS4F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '46'
+      Firmware: FS2A
+      Name: 'Disk: 46'
+      Serial: 27R3KAU0F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '47'
+      Firmware: FS2A
+      Name: 'Disk: 47'
+      Serial: 27R9K93ZF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '48'
+      Firmware: FS2A
+      Name: 'Disk: 48'
+      Serial: 27R3KAU9F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '49'
+      Firmware: FS2A
+      Name: 'Disk: 49'
+      Serial: 27RHK81NF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '50'
+      Firmware: FS2A
+      Name: 'Disk: 50'
+      Serial: 278WK086F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '51'
+      Firmware: FS2A
+      Name: 'Disk: 51'
+      Serial: 27RAKAS2F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '52'
+      Firmware: FS2A
+      Name: 'Disk: 52'
+      Serial: 27R1KFUFF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '53'
+      Firmware: FS2A
+      Name: 'Disk: 53'
+      Serial: 27RHK81VF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '54'
+      Firmware: FS2A
+      Name: 'Disk: 54'
+      Serial: 27RFK40PF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '55'
+      Firmware: FS2A
+      Name: 'Disk: 55'
+      Serial: 27RHK81RF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '56'
+      Firmware: FS2A
+      Name: 'Disk: 56'
+      Serial: 27R3KAUBF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '57'
+      Firmware: FS2A
+      Name: 'Disk: 57'
+      Serial: 27R3KAUCF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '58'
+      Firmware: FS2A
+      Name: 'Disk: 58'
+      Serial: 27R3KAU6F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '60'
+      Firmware: FS2A
+      Name: 'Disk: 60'
+      Serial: 27R9K93VF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '62'
+      Firmware: FS2A
+      Name: 'Disk: 62'
+      Serial: 27R8K5NFF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '63'
+      Firmware: FS2A
+      Name: 'Disk: 63'
+      Serial: 27R3KASMF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '64'
+      Firmware: FS2A
+      Name: 'Disk: 64'
+      Serial: 27R3KATPF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '65'
+      Firmware: FS2A
+      Name: 'Disk: 65'
+      Serial: 27R3KATZF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '66'
+      Firmware: FS2A
+      Name: 'Disk: 66'
+      Serial: 27RAKAS1F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '67'
+      Firmware: FS2A
+      Name: 'Disk: 67'
+      Serial: 27R3KAU5F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '68'
+      Firmware: FS2A
+      Name: 'Disk: 68'
+      Serial: 27R3KAUAF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '69'
+      Firmware: FS2A
+      Name: 'Disk: 69'
+      Serial: 27RDK3FFF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '70'
+      Firmware: FS2A
+      Name: 'Disk: 70'
+      Serial: 27RDK3FHF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '71'
+      Firmware: FS2A
+      Name: 'Disk: 71'
+      Serial: 27RDK3FIF56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
+    - DiskID: '72'
+      Firmware: FS2A
+      Name: 'Disk: 72'
+      Serial: 27R3KAU7F56DTOSHIBA HDWE160 FS2A
+      Size: 5.458 TB
