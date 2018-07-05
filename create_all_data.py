@@ -231,7 +231,7 @@ def write_arr_to_csv(arr, hw_class):
 
   if clean_slate and os.path.isfile(filename):
     with open(filename, "rb") as f:
-    data = list(csv.reader(f))
+      data = list(csv.reader(f))
 
     with open(filename, "wb") as f:
         writer = csv.writer(f)
