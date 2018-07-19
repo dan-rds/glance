@@ -116,7 +116,7 @@ def get_gpus():
             gpu_arr = gpu_info.strip().split(", ")
             gpu_fields["Name"] = gpu_arr[0]
             gpu_fields['PCIID'] = gpu_arr[1]
-            gpu_fields['Vios Version'] = gpu_arr[2]
+            gpu_fields['Bios Version'] = gpu_arr[2]
             gpu_fields['Serial'] = gpu_arr[3]
             gpu_fields['Memory'] = gpu_arr[4]
 
