@@ -1,0 +1,3110 @@
+Adapter #0
+
+Enclosure Device ID: 8
+Slot Number: 0
+Enclosure position: 0
+Device Id: 31
+WWN: 5000c500a2ec7aa1
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a520c
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17GW62ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 1
+Enclosure position: 0
+Device Id: 42
+WWN: 5000c500a2eec3c6
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a520d
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17GMTAST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 2
+Enclosure position: 0
+Device Id: 10
+WWN: 5000c500a2ef7c9c
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a520e
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HJJCST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 3
+Enclosure position: 0
+Device Id: 24
+WWN: 5000c500a2ee5bd3
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a520f
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HB11ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 4
+Enclosure position: 0
+Device Id: 18
+WWN: 5000c500a2ee5b47
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5210
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HB6DST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 5
+Enclosure position: 0
+Device Id: 27
+WWN: 5000c500a2ef6fd2
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5211
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HJMVST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 6
+Enclosure position: 0
+Device Id: 35
+WWN: 5000c500a2eee9ef
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5212
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HZDCST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 7
+Enclosure position: 0
+Device Id: 23
+WWN: 5000c500a2eeaf63
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5213
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17GM0TST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 8
+Enclosure position: 0
+Device Id: 34
+WWN: 5000c500a2ee5b94
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5214
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HAMSST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :32C (89.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 9
+Enclosure position: 0
+Device Id: 25
+WWN: 5000c500a3008264
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5215
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17LX2SST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 10
+Enclosure position: 0
+Device Id: 43
+WWN: 5000c500a2eee87f
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5216
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HZE2ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 11
+Enclosure position: 0
+Device Id: 13
+WWN: 5000c500a2f47014
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5217
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17JJSCST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 12
+Enclosure position: 0
+Device Id: 45
+WWN: 5000c500a2eeb0d5
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5218
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17GM4BST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 13
+Enclosure position: 0
+Device Id: 12
+WWN: 5000c500a2eefa78
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5219
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HZ64ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 14
+Enclosure position: 0
+Device Id: 38
+WWN: 5000c500a2ec74a0
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a521a
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17H8BTST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 15
+Enclosure position: 0
+Device Id: 21
+WWN: 5000c500a2e88ee6
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a521b
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17G4YQST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 16
+Enclosure position: 0
+Device Id: 29
+WWN: 5000c500a2ecc338
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a521c
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17H736ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 17
+Enclosure position: 0
+Device Id: 20
+WWN: 5000c500a2eee9f9
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a521d
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HZNFST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 18
+Enclosure position: 0
+Device Id: 30
+WWN: 5000c500a2ee6510
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a521e
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HAKRST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 19
+Enclosure position: 0
+Device Id: 26
+WWN: 5000c500a2ef6c2a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a521f
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HJNYST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 20
+Enclosure position: 0
+Device Id: 44
+WWN: 5000c500a2eef708
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5220
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HZBVST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 21
+Enclosure position: 0
+Device Id: 16
+WWN: 5000c500a2ef70b6
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5221
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HJM5ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 22
+Enclosure position: 0
+Device Id: 33
+WWN: 5000c500a2ee631b
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5222
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17HAPEST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 8
+Slot Number: 23
+Enclosure position: 0
+Device Id: 32
+WWN: 5000c500a2ef5dbe
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x50030480183a5223
+Connected Port Number: 0(path0) 
+Inquiry Data:             ZA17GL8GST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :26C (78.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 0
+Enclosure position: 0
+Device Id: 22
+WWN: 5000c500a2ef2727
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b82c
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17GLYWST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :35C (95.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 1
+Enclosure position: 0
+Device Id: 11
+WWN: 5000c500a2ed1785
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b82d
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17H5VBST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :35C (95.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 2
+Enclosure position: 0
+Device Id: 28
+WWN: 5000c500a2ece530
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b82e
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17H6KCST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :33C (91.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 3
+Enclosure position: 0
+Device Id: 36
+WWN: 5000c500a2ec7395
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b82f
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17H4ZQST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :35C (95.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 4
+Enclosure position: 0
+Device Id: 39
+WWN: 5000c500a2e5ee70
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b830
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17G0NSST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :36C (96.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 5
+Enclosure position: 0
+Device Id: 15
+WWN: 5000c500a2eee7ef
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b831
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17HACVST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 6
+Enclosure position: 0
+Device Id: 40
+WWN: 5000c500a2ee5351
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b832
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17HALAST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 7
+Enclosure position: 0
+Device Id: 19
+WWN: 5000c500a2ed1924
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b833
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17H5MLST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 8
+Enclosure position: 0
+Device Id: 17
+WWN: 5000c500a2ed1296
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b834
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17H5LMST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 9
+Enclosure position: 0
+Device Id: 37
+WWN: 5000c500a2eef01d
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b835
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17HZH1ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :35C (95.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 10
+Enclosure position: 0
+Device Id: 14
+WWN: 5000c500a2eec4e9
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b836
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17GMLQST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :35C (95.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 9
+Slot Number: 11
+Enclosure position: 0
+Device Id: 41
+WWN: 5000c500a2ee563d
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 7.277 TB [0x3a3812ab0 Sectors]
+Non Coerced Size: 7.276 TB [0x3a3712ab0 Sectors]
+Coerced Size: 7.276 TB [0x3a3710000 Sectors]
+Firmware state: JBOD
+Device Firmware Level: SC61
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801826b837
+Connected Port Number: 1(path0) 
+Inquiry Data:             ZA17HAZ6ST8000VN0022-2EL112                     SC61    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 6.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 6.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00
+Adapter #0
+
+Enclosure Device ID: 1
+Slot Number: 0
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 23
+WWN: 5000c50087008880
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7800
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2GDP8ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :31C (87.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 1
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 31
+WWN: 5000c50087014b6c
+Sequence Number: 2
+Media Error Count: 74
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7801
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2XGJDST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 2
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 8
+Enclosure position: 0
+Device Id: 26
+WWN: 5000c5007bba3297
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7802
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2NEMEST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 3
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 9
+Enclosure position: 0
+Device Id: 37
+WWN: 5000c50087007df4
+Sequence Number: 2
+Media Error Count: 57
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7803
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2CZBXST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :33C (91.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 4
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 10
+Enclosure position: 0
+Device Id: 12
+WWN: 5000c50087012e63
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7804
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2XGQGST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :34C (93.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 5
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 11
+Enclosure position: 0
+Device Id: 36
+WWN: 5000c5007b877135
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7805
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2JP2ZST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 6
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 12
+Enclosure position: 0
+Device Id: 30
+WWN: 5000c50087007d25
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7806
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D25P1PST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 7
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 13
+Enclosure position: 0
+Device Id: 17
+WWN: 5000c50087008be1
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7807
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2TYB9ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 8
+Enclosure position: 0
+Device Id: 20
+WWN: 5000c50087007d5b
+Sequence Number: 5
+Media Error Count: 661
+Other Error Count: 6
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Unconfigured(bad)
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7808
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1FRRQST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 9
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 15
+Enclosure position: 0
+Device Id: 7
+WWN: 5000c5007b3fcb09
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf7809
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1TZM4ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 10
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 16
+Enclosure position: 0
+Device Id: 2
+WWN: 5000c50086fbd354
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf780a
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2E8QQST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :30C (86.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 1
+Slot Number: 11
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 14
+Enclosure position: 0
+Device Id: 10
+WWN: 5000c50086fb4de1
+Sequence Number: 4
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : Yes
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801eaf780b
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1TLF8ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 0
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 67
+WWN: 5000c5007bcaf0be
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa00
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2R4XWST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 1
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 73
+WWN: 5000c50086fbbca9
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa01
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2SRBMST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 2
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 66
+WWN: 5000c50086fc3250
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa02
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2MZXKST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :26C (78.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 3
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 79
+WWN: 5000c50086fbddd5
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa03
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1ZP3LST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :26C (78.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 4
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 68
+WWN: 5000c5007bc4e0af
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa04
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2QJSYST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :26C (78.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 5
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 69
+WWN: 5000c50086fbdf2c
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa05
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1MGE6ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :24C (75.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 6
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 6
+Enclosure position: 0
+Device Id: 65
+WWN: 5000c5007b1296b7
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa06
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1RPBDST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 7
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 7
+Enclosure position: 0
+Device Id: 75
+WWN: 5000c50086fc3347
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa07
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2N0LXST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 8
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 8
+Enclosure position: 0
+Device Id: 74
+WWN: 5000c5007b861178
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa08
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2J04RST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 9
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 9
+Enclosure position: 0
+Device Id: 72
+WWN: 5000c5007bd5eb4c
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa09
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2SV22ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 10
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 10
+Enclosure position: 0
+Device Id: 71
+WWN: 5000c50086fb960e
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa0a
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2SR69ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 11
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 11
+Enclosure position: 0
+Device Id: 83
+WWN: 5000c50086fbbc3a
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa0b
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2TGZ4ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :24C (75.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 12
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 12
+Enclosure position: 0
+Device Id: 77
+WWN: 5000c5007bcd5685
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa1c
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2QSG1ST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 13
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 13
+Enclosure position: 0
+Device Id: 81
+WWN: 5000c50086fc0f58
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa1d
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2DTCZST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 14
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 14
+Enclosure position: 0
+Device Id: 78
+WWN: 5000c50086fc0cf8
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa1e
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2NQPBST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 15
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 15
+Enclosure position: 0
+Device Id: 76
+WWN: 5000c50086edc641
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa1f
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2WMXDST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :26C (78.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 16
+Drive's postion: DiskGroup: 0, Span: 0, Arm: 16
+Enclosure position: 0
+Device Id: 82
+WWN: 5000c50086fbd9a0
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa20
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2P4XWST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :26C (78.80 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 17
+Enclosure position: 0
+Device Id: 70
+WWN: 5000c50086fc09da
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATAHotspare Information: 
+Type: Global, is revertible
+
+
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Hotspare, Spun down
+Emergency Spare    : Eligible
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa21
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2CF7JST6000DM001-1XY17Z                      CC48    Hotspare Information: 
+Type: Global, is revertible
+
+
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :23C (73.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+Hotspare Information: 
+Type: Global, is revertible
+
+
+Enclosure Device ID: 38
+Slot Number: 18
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 0
+Enclosure position: 0
+Device Id: 87
+WWN: 5000c50087008743
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa22
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2NHWRST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 19
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 1
+Enclosure position: 0
+Device Id: 84
+WWN: 5000c50087007f78
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa23
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1M1RKST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :29C (84.20 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 20
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 2
+Enclosure position: 0
+Device Id: 85
+WWN: 5000c50087007dd7
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa24
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1W13RST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 21
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 3
+Enclosure position: 0
+Device Id: 86
+WWN: 5000c5008700cbd2
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa25
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2XQZLST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :28C (82.40 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 22
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 4
+Enclosure position: 0
+Device Id: 80
+WWN: 5000c5007b8ada25
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa26
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D2JXPYST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :27C (80.60 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+Enclosure Device ID: 38
+Slot Number: 23
+Drive's postion: DiskGroup: 1, Span: 0, Arm: 5
+Enclosure position: 0
+Device Id: 88
+WWN: 5000c5007ada78fa
+Sequence Number: 2
+Media Error Count: 0
+Other Error Count: 0
+Predictive Failure Count: 0
+Last Predictive Failure Event Seq Number: 0
+PD Type: SATA
+Raw Size: 5.458 TB [0x2baa0f4b0 Sectors]
+Non Coerced Size: 5.457 TB [0x2ba90f4b0 Sectors]
+Coerced Size: 5.457 TB [0x2ba900000 Sectors]
+Firmware state: Online, Spun Up
+Commissioned Spare : No
+Device Firmware Level: CC48
+Shield Counter: 0
+Successful diagnostics completion on :  N/A
+SAS Address(0): 0x500304801ec9fa27
+Connected Port Number: 0(path0) 
+Inquiry Data:             Z4D1EY9PST6000DM001-1XY17Z                      CC48    
+FDE Enable: Disable
+Secured: Unsecured
+Locked: Unlocked
+Needs EKM Attention: No
+Foreign State: None 
+Device Speed: 6.0Gb/s 
+Link Speed: 12.0Gb/s 
+Media Type: Hard Disk Device
+Drive Temperature :25C (77.00 F)
+PI Eligibility:  No 
+Drive is formatted for PI information:  No
+PI: No PI
+Drive's write cache : Enabled
+Drive's NCQ setting : Enabled
+Port-0 :
+Port status: Active
+Port's Linkspeed: 12.0Gb/s 
+Drive has flagged a S.M.A.R.T alert : No
+
+
+
+
+Exit Code: 0x00

@@ -1,0 +1,702 @@
+{
+    "Vendor": "American Megatrends Inc.", 
+    "Network": "Dc", 
+    "Bios Version": "2.0", 
+    "Hostname": "blpd0", 
+    "tt_info": [
+        "Bios Version: 2.0", 
+        "Hostname: blpd0", 
+        "Vendor: American Megatrends Inc.", 
+        "Network: Dc"
+    ], 
+    "type": "STORAGE", 
+    "children": [
+        {
+            "Name": "NICs", 
+            "children": [
+                {
+                    "Name": "eth1", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 0c:c4:7a:ba:d1:e1", 
+                        "DNS Server:  ", 
+                        "Name: eth1", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "0c:c4:7a:ba:d1:e1", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth2", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 0c:c4:7a:ba:d1:e2", 
+                        "DNS Server:  ", 
+                        "Name: eth2", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "0c:c4:7a:ba:d1:e2", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth3", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 0c:c4:7a:ba:d1:e3", 
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "0c:c4:7a:ba:d1:e3", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth4", 
+                    "IP": "10.10.10.101", 
+                    "tt_info": [
+                        "IP: 10.10.10.101", 
+                        "MAC: 02:02:0a:0a:0a:65", 
+                        "DNS Server: blpd0.tenge.pvt", 
+                        "Name: eth4", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "02:02:0a:0a:0a:65", 
+                    "DNS Server": "blpd0.tenge.pvt", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth5", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 3c:fd:fe:9c:c0:09", 
+                        "DNS Server:  ", 
+                        "Name: eth5", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "3c:fd:fe:9c:c0:09", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "lo", 
+                    "IP": "127.0.0.1", 
+                    "tt_info": [
+                        "IP: 127.0.0.1", 
+                        "MAC:  ", 
+                        "DNS Server: localhost.bl.pvt", 
+                        "Name: lo", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": " ", 
+                    "DNS Server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth0", 
+                    "IP": "10.0.1.100", 
+                    "tt_info": [
+                        "IP: 10.0.1.100", 
+                        "MAC: 0c:c4:7a:ba:d1:e0", 
+                        "DNS Server: blpd0.bl.pvt", 
+                        "Name: eth0", 
+                        "Speed: 1000"
+                    ], 
+                    "MAC": "0c:c4:7a:ba:d1:e0", 
+                    "DNS Server": "blpd0.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "1000"
+                }
+            ]
+        }, 
+        {
+            "Name": "CPUs", 
+            "children": [
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 12", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 0"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 12, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 0
+                }, 
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Clock": 3200, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Clock: 3200", 
+                        "Architecture: x86_64", 
+                        "Cores: 12", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 1"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 12, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Total: 65859684 kB", 
+            "Name": "Memory"
+        }, 
+        {
+            "Name": "Disks", 
+            "children": [
+                {
+                    "Name": "Disk: 10", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1TLF8ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 10", 
+                        "DiskID: 10", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1TLF8ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "10", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 12", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2XGQGST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 12", 
+                        "DiskID: 12", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2XGQGST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "12", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 17", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2TYB9ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 17", 
+                        "DiskID: 17", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2TYB9ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "17", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 2", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2E8QQST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 2", 
+                        "DiskID: 2", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2E8QQST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "2", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 20", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1FRRQST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 20", 
+                        "DiskID: 20", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1FRRQST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "20", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 23", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2GDP8ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 23", 
+                        "DiskID: 23", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2GDP8ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "23", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 26", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2NEMEST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 26", 
+                        "DiskID: 26", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2NEMEST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "26", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 30", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D25P1PST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 30", 
+                        "DiskID: 30", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D25P1PST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "30", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 31", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2XGJDST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 31", 
+                        "DiskID: 31", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2XGJDST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "31", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 36", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2JP2ZST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 36", 
+                        "DiskID: 36", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2JP2ZST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "36", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 37", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2CZBXST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 37", 
+                        "DiskID: 37", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2CZBXST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "37", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 65", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1RPBDST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 65", 
+                        "DiskID: 65", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1RPBDST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "65", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 66", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2MZXKST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 66", 
+                        "DiskID: 66", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2MZXKST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "66", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 67", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2R4XWST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 67", 
+                        "DiskID: 67", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2R4XWST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "67", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 68", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2QJSYST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 68", 
+                        "DiskID: 68", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2QJSYST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "68", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 69", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1MGE6ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 69", 
+                        "DiskID: 69", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1MGE6ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "69", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 7", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1TZM4ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 7", 
+                        "DiskID: 7", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1TZM4ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "7", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 71", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2SR69ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 71", 
+                        "DiskID: 71", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2SR69ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "71", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 72", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2SV22ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 72", 
+                        "DiskID: 72", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2SV22ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "72", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 73", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2SRBMST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 73", 
+                        "DiskID: 73", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2SRBMST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "73", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 74", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2J04RST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 74", 
+                        "DiskID: 74", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2J04RST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "74", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 75", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2N0LXST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 75", 
+                        "DiskID: 75", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2N0LXST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "75", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 76", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2WMXDST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 76", 
+                        "DiskID: 76", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2WMXDST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "76", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 77", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2QSG1ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 77", 
+                        "DiskID: 77", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2QSG1ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "77", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 78", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2NQPBST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 78", 
+                        "DiskID: 78", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2NQPBST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "78", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 79", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1ZP3LST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 79", 
+                        "DiskID: 79", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1ZP3LST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "79", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 80", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2JXPYST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 80", 
+                        "DiskID: 80", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2JXPYST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "80", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 81", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2DTCZST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 81", 
+                        "DiskID: 81", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2DTCZST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "81", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 82", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2P4XWST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 82", 
+                        "DiskID: 82", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2P4XWST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "82", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 83", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2TGZ4ST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 83", 
+                        "DiskID: 83", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2TGZ4ST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "83", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 84", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1M1RKST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 84", 
+                        "DiskID: 84", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1M1RKST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "84", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 85", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1W13RST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 85", 
+                        "DiskID: 85", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1W13RST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "85", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 86", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2XQZLST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 86", 
+                        "DiskID: 86", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2XQZLST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "86", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 87", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D2NHWRST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 87", 
+                        "DiskID: 87", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D2NHWRST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "87", 
+                    "Size": "5.458 TB"
+                }, 
+                {
+                    "Name": "Disk: 88", 
+                    "Firmware": "CC48", 
+                    "tt_info": [
+                        "Serial: Z4D1EY9PST6000DM001-1XY17Z CC48", 
+                        "Firmware: CC48", 
+                        "Name: Disk: 88", 
+                        "DiskID: 88", 
+                        "Size: 5.458 TB"
+                    ], 
+                    "Serial": "Z4D1EY9PST6000DM001-1XY17Z CC48", 
+                    "type": "disk", 
+                    "DiskID": "88", 
+                    "Size": "5.458 TB"
+                }
+            ]
+        }
+    ]
+}

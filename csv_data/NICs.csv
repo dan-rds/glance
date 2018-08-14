@@ -522,3 +522,15 @@ eth1, ,ac:1f:6b:16:19:fd, ,Dc --> blph0,0
 lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blph0,0
 tun0,10.254.254.4,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Dc --> blph0,10
 eth0,10.0.1.1,ac:1f:6b:16:19:fc,blph0.bl.pvt,Dc --> blph0,1000
+eth1, ,0c:c4:7a:28:b7:75, ,Dc --> blpd4,0
+eth3, ,24:8a:07:ee:cf:81, ,Dc --> blpd4,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd4,0
+eth0,10.0.1.90,0c:c4:7a:28:b7:74,blpd4.bl.pvt,Dc --> blpd4,1000
+eth2,10.10.10.90,02:02:0a:0a:0a:5a,blpd4.tenge.pvt,Dc --> blpd4,10000
+eth1, ,0c:c4:7a:ba:d1:e1, ,Dc --> blpd0,0
+eth2, ,0c:c4:7a:ba:d1:e2, ,Dc --> blpd0,0
+eth3, ,0c:c4:7a:ba:d1:e3, ,Dc --> blpd0,0
+eth4,10.10.10.101,02:02:0a:0a:0a:65,blpd0.tenge.pvt,Dc --> blpd0,0
+eth5, ,3c:fd:fe:9c:c0:09, ,Dc --> blpd0,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd0,0
+eth0,10.0.1.100,0c:c4:7a:ba:d1:e0,blpd0.bl.pvt,Dc --> blpd0,1000
