@@ -1,0 +1,236 @@
+device:
+  Bios Version: 2.1a
+  Hostname: blpd2
+  Name: blpd2
+  Network: Dc
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: ' '
+      IP: 172.17.0.1
+      MAC: 02:42:e4:27:e4:8c
+      Name: docker0
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:28:c8:65
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 24:8a:07:ee:db:61
+      Name: eth3
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: blpd2.bl.pvt
+      IP: 10.0.1.94
+      MAC: 0c:c4:7a:28:c8:64
+      Name: eth0
+      Speed: '1000'
+    - DNS Server: blpd2.tenge.pvt
+      IP: 10.10.10.94
+      MAC: 02:02:0a:0a:0a:5e
+      Name: eth2
+      Speed: '10000'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65860736 kB
+  - Disks:
+    - DiskID: '10'
+      Firmware: SC61
+      Name: 'Disk: 10'
+      Serial: ZA17M4AVST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '11'
+      Firmware: SC61
+      Name: 'Disk: 11'
+      Serial: ZA17F6K2ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '12'
+      Firmware: SC61
+      Name: 'Disk: 12'
+      Serial: ZA17H73VST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '13'
+      Firmware: SC61
+      Name: 'Disk: 13'
+      Serial: ZA17H5K3ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '14'
+      Firmware: SC61
+      Name: 'Disk: 14'
+      Serial: ZA17LX36ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '15'
+      Firmware: SC61
+      Name: 'Disk: 15'
+      Serial: ZA17LWWNST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '16'
+      Firmware: SC61
+      Name: 'Disk: 16'
+      Serial: ZA17H5PRST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '17'
+      Firmware: SC61
+      Name: 'Disk: 17'
+      Serial: ZA17M44VST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '18'
+      Firmware: SC61
+      Name: 'Disk: 18'
+      Serial: ZA17H81PST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '19'
+      Firmware: SC61
+      Name: 'Disk: 19'
+      Serial: ZA17HB7GST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '20'
+      Firmware: SC61
+      Name: 'Disk: 20'
+      Serial: ZA17GPNXST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '21'
+      Firmware: SC61
+      Name: 'Disk: 21'
+      Serial: ZA17H811ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '22'
+      Firmware: SC61
+      Name: 'Disk: 22'
+      Serial: ZA17M450ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '23'
+      Firmware: SC61
+      Name: 'Disk: 23'
+      Serial: ZA17GSZHST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '24'
+      Firmware: SC61
+      Name: 'Disk: 24'
+      Serial: ZA17HZQEST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '25'
+      Firmware: SC61
+      Name: 'Disk: 25'
+      Serial: ZA17HYVCST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '26'
+      Firmware: SC61
+      Name: 'Disk: 26'
+      Serial: ZA17GW9VST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '27'
+      Firmware: SC61
+      Name: 'Disk: 27'
+      Serial: ZA17LX6MST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '28'
+      Firmware: SC61
+      Name: 'Disk: 28'
+      Serial: ZA17LX3PST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '29'
+      Firmware: SC61
+      Name: 'Disk: 29'
+      Serial: ZA17HJMNST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '30'
+      Firmware: SC61
+      Name: 'Disk: 30'
+      Serial: ZA17GM1LST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '31'
+      Firmware: SC61
+      Name: 'Disk: 31'
+      Serial: ZA17M43AST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '32'
+      Firmware: SC61
+      Name: 'Disk: 32'
+      Serial: ZA17M47JST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '33'
+      Firmware: SC61
+      Name: 'Disk: 33'
+      Serial: ZA17M45PST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '34'
+      Firmware: SC61
+      Name: 'Disk: 34'
+      Serial: ZA17M5JSST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '35'
+      Firmware: SC61
+      Name: 'Disk: 35'
+      Serial: ZA17H8K5ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '36'
+      Firmware: SC61
+      Name: 'Disk: 36'
+      Serial: ZA17LX4MST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '37'
+      Firmware: SC61
+      Name: 'Disk: 37'
+      Serial: ZA17LWXSST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '38'
+      Firmware: SC61
+      Name: 'Disk: 38'
+      Serial: ZA17GLA1ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '39'
+      Firmware: SC61
+      Name: 'Disk: 39'
+      Serial: ZA17LX4JST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '40'
+      Firmware: SC61
+      Name: 'Disk: 40'
+      Serial: ZA17LX28ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '41'
+      Firmware: SC61
+      Name: 'Disk: 41'
+      Serial: ZA17M47GST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '42'
+      Firmware: SC61
+      Name: 'Disk: 42'
+      Serial: ZA17LX0XST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '43'
+      Firmware: SC61
+      Name: 'Disk: 43'
+      Serial: ZA17M433ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '44'
+      Firmware: SC61
+      Name: 'Disk: 44'
+      Serial: ZA17LX14ST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
+    - DiskID: '45'
+      Firmware: SC61
+      Name: 'Disk: 45'
+      Serial: ZA17M48MST8000VN0022-2EL112 SC61
+      Size: 7.277 TB
