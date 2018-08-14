@@ -518,15 +518,6 @@ eth5, ,ec:0d:9a:22:9e:61, ,GBT --> bls4,0
 lo,127.0.0.1, ,localhost.bl.pvt,GBT --> bls4,0
 eth0,10.0.1.111,ac:1f:6b:2d:04:04,bls4.bl.pvt,GBT --> bls4,1000
 eth4,10.17.2.108,02:02:0a:11:02:6c,bls4-10-0.gb.nrao.edu,GBT --> bls4,10000
-eth1, ,ac:1f:6b:16:19:fd, ,Dc --> blph0,0
-lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blph0,0
-tun0,10.254.254.4,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Dc --> blph0,10
-eth0,10.0.1.1,ac:1f:6b:16:19:fc,blph0.bl.pvt,Dc --> blph0,1000
-eth1, ,0c:c4:7a:28:b7:75, ,Dc --> blpd4,0
-eth3, ,24:8a:07:ee:cf:81, ,Dc --> blpd4,0
-lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd4,0
-eth0,10.0.1.90,0c:c4:7a:28:b7:74,blpd4.bl.pvt,Dc --> blpd4,1000
-eth2,10.10.10.90,02:02:0a:0a:0a:5a,blpd4.tenge.pvt,Dc --> blpd4,10000
 eth1, ,0c:c4:7a:ba:d1:e1, ,Dc --> blpd0,0
 eth2, ,0c:c4:7a:ba:d1:e2, ,Dc --> blpd0,0
 eth3, ,0c:c4:7a:ba:d1:e3, ,Dc --> blpd0,0
@@ -534,3 +525,48 @@ eth4,10.10.10.101,02:02:0a:0a:0a:65,blpd0.tenge.pvt,Dc --> blpd0,0
 eth5, ,3c:fd:fe:9c:c0:09, ,Dc --> blpd0,0
 lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd0,0
 eth0,10.0.1.100,0c:c4:7a:ba:d1:e0,blpd0.bl.pvt,Dc --> blpd0,1000
+eth1, ,0c:c4:7a:28:c8:5d, ,Dc --> blpd1,0
+eth3, ,24:8a:07:ee:b2:01, ,Dc --> blpd1,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd1,0
+eth0,10.0.1.96,0c:c4:7a:28:c8:5c,blpd1.bl.pvt,Dc --> blpd1,1000
+eth2,10.10.10.96,02:02:0a:0a:0a:60,blpd1.tenge.pvt,Dc --> blpd1,10000
+docker0,172.17.0.1,02:42:e4:27:e4:8c, ,Dc --> blpd2,0
+eth1, ,0c:c4:7a:28:c8:65, ,Dc --> blpd2,0
+eth3, ,24:8a:07:ee:db:61, ,Dc --> blpd2,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd2,0
+eth0,10.0.1.94,0c:c4:7a:28:c8:64,blpd2.bl.pvt,Dc --> blpd2,1000
+eth2,10.10.10.94,02:02:0a:0a:0a:5e,blpd2.tenge.pvt,Dc --> blpd2,10000
+eth1, ,0c:c4:7a:28:b7:75, ,Dc --> blpd4,0
+eth3, ,24:8a:07:ee:cf:81, ,Dc --> blpd4,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd4,0
+eth0,10.0.1.90,0c:c4:7a:28:b7:74,blpd4.bl.pvt,Dc --> blpd4,1000
+eth2,10.10.10.90,02:02:0a:0a:0a:5a,blpd4.tenge.pvt,Dc --> blpd4,10000
+eth2,10.10.10.84,02:02:0a:0a:0a:54,blpd5.tenge.pvt,Dc --> blpd5,-1
+eth1, ,0c:c4:7a:2b:b4:39, ,Dc --> blpd5,0
+eth3, ,50:6b:4b:5c:d2:01, ,Dc --> blpd5,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd5,0
+eth0,10.0.1.84,0c:c4:7a:2b:b4:38,blpd5.bl.pvt,Dc --> blpd5,1000
+eth2,10.10.10.82,02:02:0a:0a:0a:52,blpd6.tenge.pvt,Dc --> blpd6,-1
+eth1, ,0c:c4:7a:2b:b6:ff, ,Dc --> blpd6,0
+eth3, ,50:6b:4b:5c:d5:31, ,Dc --> blpd6,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd6,0
+eth0,10.0.1.82,0c:c4:7a:2b:b6:fe,blpd6.bl.pvt,Dc --> blpd6,1000
+eth2,10.10.10.80,02:02:0a:0a:0a:50,blpd7.tenge.pvt,Dc --> blpd7,-1
+eth1, ,0c:c4:7a:2b:b8:49, ,Dc --> blpd7,0
+eth3, ,50:6b:4b:5c:d6:41, ,Dc --> blpd7,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd7,0
+eth0,10.0.1.80,0c:c4:7a:2b:b8:48,blpd7.bl.pvt,Dc --> blpd7,1000
+eth2,10.10.10.78,02:02:0a:0a:0a:4e,blpd8.tenge.pvt,Dc --> blpd8,-1
+eth1, ,0c:c4:7a:2b:b7:2f, ,Dc --> blpd8,0
+eth3, ,50:6b:4b:5c:d2:41, ,Dc --> blpd8,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd8,0
+eth0,10.0.1.78,0c:c4:7a:2b:b7:2e,blpd8.bl.pvt,Dc --> blpd8,1000
+eth2,10.10.10.76,02:02:0a:0a:0a:4c,blpd9.tenge.pvt,Dc --> blpd9,-1
+eth1, ,0c:c4:7a:2b:b7:33, ,Dc --> blpd9,0
+eth3, ,50:6b:4b:5c:d2:31, ,Dc --> blpd9,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blpd9,0
+eth0,10.0.1.76,0c:c4:7a:2b:b7:32,blpd9.bl.pvt,Dc --> blpd9,1000
+eth1, ,ac:1f:6b:16:19:fd, ,Dc --> blph0,0
+lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blph0,0
+tun0,10.254.254.4,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Dc --> blph0,10
+eth0,10.0.1.1,ac:1f:6b:16:19:fc,blph0.bl.pvt,Dc --> blph0,1000

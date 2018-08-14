@@ -74,6 +74,13 @@ Bios Version,Hostname,Vendor,Network,Path
 2.0,bls2,American Megatrends Inc.,GBT,GBT --> bls2
 2.0,bls3,American Megatrends Inc.,GBT,GBT --> bls3
 2.0b,bls4,American Megatrends Inc.,GBT,GBT --> bls4
-2.0b,blph0,American Megatrends Inc.,Dc,Dc --> blph0
-2.1a,blpd4,American Megatrends Inc.,Dc,Dc --> blpd4
 2.0,blpd0,American Megatrends Inc.,Dc,Dc --> blpd0
+2.1a,blpd1,American Megatrends Inc.,Dc,Dc --> blpd1
+2.1a,blpd2,American Megatrends Inc.,Dc,Dc --> blpd2
+2.1a,blpd4,American Megatrends Inc.,Dc,Dc --> blpd4
+3.0a,blpd5,American Megatrends Inc.,Dc,Dc --> blpd5
+3.0a,blpd6,American Megatrends Inc.,Dc,Dc --> blpd6
+3.0a,blpd7,American Megatrends Inc.,Dc,Dc --> blpd7
+3.0a,blpd8,American Megatrends Inc.,Dc,Dc --> blpd8
+3.0a,blpd9,American Megatrends Inc.,Dc,Dc --> blpd9
+2.0b,blph0,American Megatrends Inc.,Dc,Dc --> blph0
