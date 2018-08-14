@@ -1,0 +1,133 @@
+{
+    "vendor": "American Megatrends Inc.", 
+    "network": "Dc", 
+    "bios version": "2.0b", 
+    "hostname": "blph0", 
+    "tt_info": [
+        "Vendor: American Megatrends Inc.", 
+        "Network: Dc", 
+        "Bios Version: 2.0b", 
+        "Hostname: blph0", 
+        "Type: HEAD"
+    ], 
+    "stroke": 1, 
+    "type": "HEAD", 
+    "children": [
+        {
+            "stroke": 1, 
+            "name": "GPUs", 
+            "children": []
+        }, 
+        {
+            "stroke": 1, 
+            "name": "NICs", 
+            "children": [
+                {
+                    "dns_server": " ", 
+                    "name": "tun0", 
+                    "ip": "10.254.254.4", 
+                    "stroke": 0, 
+                    "tt_info": [
+                        "Name: tun0", 
+                        "Ip: 10.254.254.4", 
+                        "Mac: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                        "Speed: 10"
+                    ], 
+                    "mac": "00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00", 
+                    "type": "nic", 
+                    "speed": "10"
+                }, 
+                {
+                    "dns_server": " ", 
+                    "name": "eth1", 
+                    "ip": " ", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: eth1", 
+                        "Ip:  ", 
+                        "Mac: ac:1f:6b:16:19:fd", 
+                        "Speed: NA"
+                    ], 
+                    "mac": "ac:1f:6b:16:19:fd", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "dns_server": "localhost.bl.pvt", 
+                    "name": "lo", 
+                    "ip": "127.0.0.1", 
+                    "stroke": 1, 
+                    "tt_info": [
+                        "Name: lo", 
+                        "Ip: 127.0.0.1", 
+                        "Mac:  ", 
+                        "Speed: NA"
+                    ], 
+                    "mac": " ", 
+                    "type": "nic", 
+                    "speed": "NA"
+                }, 
+                {
+                    "dns_server": "blph0.bl.pvt", 
+                    "name": "eth0", 
+                    "ip": "10.0.1.1", 
+                    "stroke": 10, 
+                    "tt_info": [
+                        "Name: eth0", 
+                        "Ip: 10.0.1.1", 
+                        "Mac: ac:1f:6b:16:19:fc", 
+                        "Speed: 1000"
+                    ], 
+                    "mac": "ac:1f:6b:16:19:fc", 
+                    "type": "nic", 
+                    "speed": "1000"
+                }
+            ]
+        }, 
+        {
+            "stroke": 1, 
+            "name": "CPUs", 
+            "children": [
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "clock": "3000.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000.0000", 
+                        "Cores: 16", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 16, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "threads per core": "2", 
+                    "type": "cpu", 
+                    "socket": 0
+                }, 
+                {
+                    "name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "clock": "3000.0000", 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000.0000", 
+                        "Cores: 16", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz"
+                    ], 
+                    "stroke": 1, 
+                    "architecture": "x86_64", 
+                    "cores": 16, 
+                    "model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "threads per core": "2", 
+                    "type": "cpu", 
+                    "socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Memory: 65859780 kB", 
+            "stroke": 1, 
+            "name": "Memory"
+        }
+    ]
+}
