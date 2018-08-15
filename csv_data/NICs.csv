@@ -1,24 +1,4 @@
 Name,IP,MAC,DNS Server,Path,Speed
-docker0,172.17.0.1,02:42:8a:99:32:83, ,Digilab --> blc02,0
-eth1, ,ac:1f:6b:2d:01:f1, ,Digilab --> blc02,0
-eth2, ,ac:1f:6b:2d:01:f2, ,Digilab --> blc02,0
-eth3, ,ac:1f:6b:2d:01:f3, ,Digilab --> blc02,0
-lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc02,0
-eth0,10.0.1.112,ac:1f:6b:2d:01:f0,blc02.bl.pvt,Digilab --> blc02,1000
-eth2, ,00:25:90:fb:92:16, ,Digilab --> blh0,0
-eth3, ,00:25:90:fb:92:17, ,Digilab --> blh0,0
-lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blh0,0
-tun0,10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Digilab --> blh0,10
-eth0,10.11.0.153,00:25:90:fb:92:14,acmeh2.digilab.pvt,Digilab --> blh0,1000
-eth1,10.0.1.1,00:25:90:fb:92:15,blh1.bl.pvt,Digilab --> blh0,10000
-eth4,10.10.10.2,02:02:0a:0a:0a:02,bls0-4.tenge.pvt,Digilab --> bls0,-1
-eth5,10.10.10.130,02:02:0a:0a:0a:82,bls0-5.tenge.pvt,Digilab --> bls0,-1
-docker0,172.17.0.1,02:42:e6:0f:eb:67, ,Digilab --> bls0,0
-eth1, ,0c:c4:7a:bc:96:bd, ,Digilab --> bls0,0
-eth2, ,0c:c4:7a:bc:96:be, ,Digilab --> bls0,0
-eth3, ,0c:c4:7a:bc:96:bf, ,Digilab --> bls0,0
-lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> bls0,0
-eth0,10.0.1.72,0c:c4:7a:bc:96:bc,bls0.bl.pvt,Digilab --> bls0,1000
 eth5,10.10.10.139,02:02:0a:0a:0a:8b,blc00-5.tenge.pvt,Parkes --> blc00,-1
 eth1, ,ac:1f:6b:2c:00:2d, ,Parkes --> blc00,0
 eth2, ,ac:1f:6b:2c:00:2e, ,Parkes --> blc00,0
@@ -505,20 +485,6 @@ lo,127.0.0.1, ,localhost.bl.pvt,GBT --> bls4,0
 eth0,10.0.1.111,ac:1f:6b:2d:04:04,bls4.bl.pvt,GBT --> bls4,1000
 eth4,10.17.2.108,02:02:0a:11:02:6c,bls4-10-0.gb.nrao.edu,GBT --> bls4,10000
 <<<<<<< HEAD
-docker0,172.17.0.1,02:42:06:bf:57:87, ,Digilab --> blc00,0
-eth1, ,0c:c4:7a:8e:0b:ad, ,Digilab --> blc00,0
-eth2, ,0c:c4:7a:8e:0b:ae, ,Digilab --> blc00,0
-eth3, ,0c:c4:7a:8e:0b:af, ,Digilab --> blc00,0
-lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc00,0
-eth0,10.0.1.75,0c:c4:7a:8e:0b:ac,blc00.bl.pvt,Digilab --> blc00,1000
-eth4,10.10.10.6,02:02:0a:0a:0a:06,blc01-4.tenge.pvt,Digilab --> blc01,-1
-eth5,10.10.10.134,02:02:0a:0a:0a:86,blc01-5.tenge.pvt,Digilab --> blc01,-1
-docker0,172.17.0.1,02:42:49:b6:df:88, ,Digilab --> blc01,0
-eth1, ,ac:1f:6b:2d:03:f9, ,Digilab --> blc01,0
-eth2, ,ac:1f:6b:2d:03:fa, ,Digilab --> blc01,0
-eth3, ,ac:1f:6b:2d:03:fb, ,Digilab --> blc01,0
-lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc01,0
-eth0,10.0.1.111,ac:1f:6b:2d:03:f8,blc01.bl.pvt,Digilab --> blc01,1000
 =======
 eth1, ,0c:c4:7a:ba:d1:e1, ,Dc --> blpd0,0
 eth2, ,0c:c4:7a:ba:d1:e2, ,Dc --> blpd0,0
@@ -573,3 +539,39 @@ lo,127.0.0.1, ,localhost.bl.pvt,Dc --> blph0,0
 tun0,10.254.254.4,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Dc --> blph0,10
 eth0,10.0.1.1,ac:1f:6b:16:19:fc,blph0.bl.pvt,Dc --> blph0,1000
 >>>>>>> 4111dc3394b96fade4ed4accdf98e5c42caced85
+docker0,172.17.0.1,02:42:26:3e:b9:91, ,Digilab --> blc00,0
+eth1, ,0c:c4:7a:8e:0b:ad, ,Digilab --> blc00,0
+eth2, ,0c:c4:7a:8e:0b:ae, ,Digilab --> blc00,0
+eth3, ,0c:c4:7a:8e:0b:af, ,Digilab --> blc00,0
+eth5, ,24:8a:07:de:03:51, ,Digilab --> blc00,0
+lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc00,0
+eth0,10.0.1.75,0c:c4:7a:8e:0b:ac,blc00.bl.pvt,Digilab --> blc00,1000
+eth4,10.10.10.5,02:02:0a:0a:0a:05,blc00-4.tenge.pvt,Digilab --> blc00,10000
+eth4,10.10.10.6,02:02:0a:0a:0a:06,blc01-4.tenge.pvt,Digilab --> blc01,-1
+eth5,10.10.10.134,02:02:0a:0a:0a:86,blc01-5.tenge.pvt,Digilab --> blc01,-1
+docker0,172.17.0.1,02:42:d5:55:8f:2a, ,Digilab --> blc01,0
+eth1, ,ac:1f:6b:2d:03:f9, ,Digilab --> blc01,0
+eth2, ,ac:1f:6b:2d:03:fa, ,Digilab --> blc01,0
+eth3, ,ac:1f:6b:2d:03:fb, ,Digilab --> blc01,0
+lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc01,0
+eth0,10.0.1.111,ac:1f:6b:2d:03:f8,blc01.bl.pvt,Digilab --> blc01,1000
+docker0,172.17.0.1,02:42:72:e5:fd:9d, ,Digilab --> blc02,0
+eth1, ,ac:1f:6b:2d:01:f1, ,Digilab --> blc02,0
+eth2, ,ac:1f:6b:2d:01:f2, ,Digilab --> blc02,0
+eth3, ,ac:1f:6b:2d:01:f3, ,Digilab --> blc02,0
+lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc02,0
+eth0,10.0.1.112,ac:1f:6b:2d:01:f0,blc02.bl.pvt,Digilab --> blc02,1000
+eth2, ,00:25:90:fb:92:16, ,Digilab --> blh0,0
+eth3, ,00:25:90:fb:92:17, ,Digilab --> blh0,0
+lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blh0,0
+tun0,10.254.254.1,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00, ,Digilab --> blh0,10
+eth0,10.11.0.153,00:25:90:fb:92:14,acmeh2.digilab.pvt,Digilab --> blh0,1000
+eth1,10.0.1.1,00:25:90:fb:92:15,blh1.bl.pvt,Digilab --> blh0,10000
+eth4,10.10.10.2,02:02:0a:0a:0a:02,bls0-4.tenge.pvt,Digilab --> bls0,-1
+eth5,10.10.10.130,02:02:0a:0a:0a:82,bls0-5.tenge.pvt,Digilab --> bls0,-1
+docker0,172.17.0.1,02:42:e6:0f:eb:67, ,Digilab --> bls0,0
+eth1, ,0c:c4:7a:bc:96:bd, ,Digilab --> bls0,0
+eth2, ,0c:c4:7a:bc:96:be, ,Digilab --> bls0,0
+eth3, ,0c:c4:7a:bc:96:bf, ,Digilab --> bls0,0
+lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> bls0,0
+eth0,10.0.1.72,0c:c4:7a:bc:96:bc,bls0.bl.pvt,Digilab --> bls0,1000

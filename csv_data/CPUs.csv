@@ -1,10 +1,4 @@
 Path,Name,Clock,Cores,Model,Threads Per Core,Socket,Architecture
-Digilab --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
-Digilab --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
-Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
-Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
-Digilab --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
-Digilab --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
 Parkes --> blc00,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
 Parkes --> blc00,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
 Parkes --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
@@ -146,10 +140,6 @@ GBT --> bls3,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) 
 GBT --> bls4,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
 GBT --> bls4,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
 <<<<<<< HEAD
-Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
-Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
-Digilab --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
-Digilab --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
 =======
 Dc --> blpd0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
 Dc --> blpd0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
@@ -172,3 +162,13 @@ Dc --> blpd9,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) 
 Dc --> blph0,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,0,x86_64
 Dc --> blph0,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,16,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,2,1,x86_64
 >>>>>>> 4111dc3394b96fade4ed4accdf98e5c42caced85
+Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+Digilab --> blc00,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64
+Digilab --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Digilab --> blc01,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Digilab --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,0,x86_64
+Digilab --> blc02,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,3000,8,Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz,1,1,x86_64
+Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,0,x86_64
+Digilab --> blh0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,6,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,1,1,x86_64
+Digilab --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,0,x86_64
+Digilab --> bls0,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,3200,12,Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz,2,1,x86_64

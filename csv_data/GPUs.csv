@@ -1,6 +1,4 @@
 Name,PCIID,Bios Version,Memory,Path,Serial
-TITAN Xp,00000000:02:00.0,86.02.3D.00.01,12196,Digilab --> blc02,0324517035065
-TITAN V,00000000:81:00.0,88.00.41.00.03,12066,Digilab --> blc02,0320418070022
 GeForce GTX 1080,0000:82:00.0,86.04.17.00.80,8114,Parkes --> blc00,[Not Supported]
 GeForce GTX 1080,0000:82:00.0,86.04.17.00.80,8114,Parkes --> blc01,[Not Supported]
 GeForce GTX 1080,0000:82:00.0,86.04.17.00.80,8114,Parkes --> blc02,[Not Supported]
@@ -61,4 +59,6 @@ GeForce GTX 1080,0000:82:00.0,86.04.3B.00.90,8114,GBT --> blc35,[Not Supported]
 GeForce GTX 1080,0000:82:00.0,86.04.3B.00.90,8114,GBT --> blc36,[Not Supported]
 GeForce GTX 1080,0000:82:00.0,86.04.3B.00.90,8114,GBT --> blc37,[Not Supported]
 GeForce GTX 1080,86.04.17.00.80,00000000:02:00.0,8119,Digilab --> blc00,[Not Supported]
-GeForce GTX 1080,86.04.17.00.80,00000000:81:00.0,8119,Digilab --> blc00,[Not Supported]
+GeForce GTX 1080,86.04.17.00.80,00000000:82:00.0,8119,Digilab --> blc00,[Not Supported]
+TITAN Xp,86.02.3D.00.01,00000000:02:00.0,12196,Digilab --> blc02,0324517035065
+TITAN V,88.00.41.00.03,00000000:82:00.0,12066,Digilab --> blc02,0320418070022

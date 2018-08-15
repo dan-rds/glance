@@ -1,7 +1,4 @@
 Bios Version,Hostname,Vendor,Network,Path
-2.0b,blc02,American Megatrends Inc.,Digilab,Digilab --> blc02
-2.0,blh0,American Megatrends Inc.,Digilab,Digilab --> blh0
-1.0b,bls0,American Megatrends Inc.,Digilab,Digilab --> bls0
 2.0a,blc00,American Megatrends Inc.,Parkes,Parkes --> blc00
 2.0a,blc01,American Megatrends Inc.,Parkes,Parkes --> blc01
 2.0a,blc02,American Megatrends Inc.,Parkes,Parkes --> blc02
@@ -73,8 +70,6 @@ Bios Version,Hostname,Vendor,Network,Path
 2.0,bls3,American Megatrends Inc.,GBT,GBT --> bls3
 2.0b,bls4,American Megatrends Inc.,GBT,GBT --> bls4
 <<<<<<< HEAD
-1.0b,blc00,American Megatrends Inc.,Digilab,Digilab --> blc00
-2.0b,blc01,American Megatrends Inc.,Digilab,Digilab --> blc01
 =======
 2.0,blpd0,American Megatrends Inc.,Dc,Dc --> blpd0
 2.1a,blpd1,American Megatrends Inc.,Dc,Dc --> blpd1
@@ -87,3 +82,8 @@ Bios Version,Hostname,Vendor,Network,Path
 3.0a,blpd9,American Megatrends Inc.,Dc,Dc --> blpd9
 2.0b,blph0,American Megatrends Inc.,Dc,Dc --> blph0
 >>>>>>> 4111dc3394b96fade4ed4accdf98e5c42caced85
+1.0b,blc00,American Megatrends Inc.,Digilab,Digilab --> blc00
+2.0b,blc01,American Megatrends Inc.,Digilab,Digilab --> blc01
+2.0b,blc02,American Megatrends Inc.,Digilab,Digilab --> blc02
+2.0,blh0,American Megatrends Inc.,Digilab,Digilab --> blh0
+1.0b,bls0,American Megatrends Inc.,Digilab,Digilab --> bls0
