@@ -1,18 +1,4 @@
 Name,IP,MAC,DNS Server,Path,Speed
-docker0,172.17.0.1,02:42:06:bf:57:87, ,Digilab --> blc00,0
-eth1, ,0c:c4:7a:8e:0b:ad, ,Digilab --> blc00,0
-eth2, ,0c:c4:7a:8e:0b:ae, ,Digilab --> blc00,0
-eth3, ,0c:c4:7a:8e:0b:af, ,Digilab --> blc00,0
-lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc00,0
-eth0,10.0.1.75,0c:c4:7a:8e:0b:ac,blc00.bl.pvt,Digilab --> blc00,1000
-eth4,10.10.10.6,02:02:0a:0a:0a:06,blc01-4.tenge.pvt,Digilab --> blc01,-1
-eth5,10.10.10.134,02:02:0a:0a:0a:86,blc01-5.tenge.pvt,Digilab --> blc01,-1
-docker0,172.17.0.1,02:42:49:b6:df:88, ,Digilab --> blc01,0
-eth1, ,ac:1f:6b:2d:03:f9, ,Digilab --> blc01,0
-eth2, ,ac:1f:6b:2d:03:fa, ,Digilab --> blc01,0
-eth3, ,ac:1f:6b:2d:03:fb, ,Digilab --> blc01,0
-lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc01,0
-eth0,10.0.1.111,ac:1f:6b:2d:03:f8,blc01.bl.pvt,Digilab --> blc01,1000
 docker0,172.17.0.1,02:42:8a:99:32:83, ,Digilab --> blc02,0
 eth1, ,ac:1f:6b:2d:01:f1, ,Digilab --> blc02,0
 eth2, ,ac:1f:6b:2d:01:f2, ,Digilab --> blc02,0
@@ -518,3 +504,17 @@ eth5, ,ec:0d:9a:22:9e:61, ,GBT --> bls4,0
 lo,127.0.0.1, ,localhost.bl.pvt,GBT --> bls4,0
 eth0,10.0.1.111,ac:1f:6b:2d:04:04,bls4.bl.pvt,GBT --> bls4,1000
 eth4,10.17.2.108,02:02:0a:11:02:6c,bls4-10-0.gb.nrao.edu,GBT --> bls4,10000
+docker0,172.17.0.1,02:42:06:bf:57:87, ,Digilab --> blc00,0
+eth1, ,0c:c4:7a:8e:0b:ad, ,Digilab --> blc00,0
+eth2, ,0c:c4:7a:8e:0b:ae, ,Digilab --> blc00,0
+eth3, ,0c:c4:7a:8e:0b:af, ,Digilab --> blc00,0
+lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc00,0
+eth0,10.0.1.75,0c:c4:7a:8e:0b:ac,blc00.bl.pvt,Digilab --> blc00,1000
+eth4,10.10.10.6,02:02:0a:0a:0a:06,blc01-4.tenge.pvt,Digilab --> blc01,-1
+eth5,10.10.10.134,02:02:0a:0a:0a:86,blc01-5.tenge.pvt,Digilab --> blc01,-1
+docker0,172.17.0.1,02:42:49:b6:df:88, ,Digilab --> blc01,0
+eth1, ,ac:1f:6b:2d:03:f9, ,Digilab --> blc01,0
+eth2, ,ac:1f:6b:2d:03:fa, ,Digilab --> blc01,0
+eth3, ,ac:1f:6b:2d:03:fb, ,Digilab --> blc01,0
+lo,127.0.0.1, ,localhost.bl.pvt,Digilab --> blc01,0
+eth0,10.0.1.111,ac:1f:6b:2d:03:f8,blc01.bl.pvt,Digilab --> blc01,1000
