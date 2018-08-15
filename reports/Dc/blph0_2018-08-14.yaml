@@ -1,0 +1,45 @@
+device:
+  Bios Version: 2.0b
+  Hostname: blph0
+  Name: blph0
+  Network: Dc
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: ' '
+      IP: ' '
+      MAC: ac:1f:6b:16:19:fd
+      Name: eth1
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: ' '
+      IP: 10.254.254.4
+      MAC: 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00
+      Name: tun0
+      Speed: '10'
+    - DNS Server: blph0.bl.pvt
+      IP: 10.0.1.1
+      MAC: ac:1f:6b:16:19:fc
+      Name: eth0
+      Speed: '1000'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3000
+      Cores: 16
+      Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65859780 kB

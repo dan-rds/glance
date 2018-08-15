@@ -1,0 +1,687 @@
+{
+    "Vendor": "American Megatrends Inc.", 
+    "Network": "Dc", 
+    "Bios Version": "2.1a", 
+    "Hostname": "blpd4", 
+    "tt_info": [
+        "Bios Version: 2.1a", 
+        "Hostname: blpd4", 
+        "Vendor: American Megatrends Inc.", 
+        "Network: Dc"
+    ], 
+    "type": "STORAGE", 
+    "children": [
+        {
+            "Name": "NICs", 
+            "children": [
+                {
+                    "Name": "eth1", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 0c:c4:7a:28:b7:75", 
+                        "DNS Server:  ", 
+                        "Name: eth1", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "0c:c4:7a:28:b7:75", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth3", 
+                    "IP": " ", 
+                    "tt_info": [
+                        "IP:  ", 
+                        "MAC: 24:8a:07:ee:cf:81", 
+                        "DNS Server:  ", 
+                        "Name: eth3", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": "24:8a:07:ee:cf:81", 
+                    "DNS Server": " ", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "lo", 
+                    "IP": "127.0.0.1", 
+                    "tt_info": [
+                        "IP: 127.0.0.1", 
+                        "MAC:  ", 
+                        "DNS Server: localhost.bl.pvt", 
+                        "Name: lo", 
+                        "Speed: 0"
+                    ], 
+                    "MAC": " ", 
+                    "DNS Server": "localhost.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "0"
+                }, 
+                {
+                    "Name": "eth0", 
+                    "IP": "10.0.1.90", 
+                    "tt_info": [
+                        "IP: 10.0.1.90", 
+                        "MAC: 0c:c4:7a:28:b7:74", 
+                        "DNS Server: blpd4.bl.pvt", 
+                        "Name: eth0", 
+                        "Speed: 1000"
+                    ], 
+                    "MAC": "0c:c4:7a:28:b7:74", 
+                    "DNS Server": "blpd4.bl.pvt", 
+                    "type": "nic", 
+                    "Speed": "1000"
+                }, 
+                {
+                    "Name": "eth2", 
+                    "IP": "10.10.10.90", 
+                    "tt_info": [
+                        "IP: 10.10.10.90", 
+                        "MAC: 02:02:0a:0a:0a:5a", 
+                        "DNS Server: blpd4.tenge.pvt", 
+                        "Name: eth2", 
+                        "Speed: 10000"
+                    ], 
+                    "MAC": "02:02:0a:0a:0a:5a", 
+                    "DNS Server": "blpd4.tenge.pvt", 
+                    "type": "nic", 
+                    "Speed": "10000"
+                }
+            ]
+        }, 
+        {
+            "Name": "CPUs", 
+            "children": [
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Clock": 3000, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000", 
+                        "Architecture: x86_64", 
+                        "Cores: 16", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 0"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 16, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 0
+                }, 
+                {
+                    "Name": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Clock": 3000, 
+                    "tt_info": [
+                        "Name: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Clock: 3000", 
+                        "Architecture: x86_64", 
+                        "Cores: 16", 
+                        "Model: Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                        "Threads Per Core: 2", 
+                        "Socket: 1"
+                    ], 
+                    "Architecture": "x86_64", 
+                    "Cores": 16, 
+                    "Model": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz", 
+                    "Threads Per Core": "2", 
+                    "type": "cpu", 
+                    "Socket": 1
+                }
+            ]
+        }, 
+        {
+            "tt_info": "Total: 65860736 kB", 
+            "Name": "Memory"
+        }, 
+        {
+            "Name": "Disks", 
+            "children": [
+                {
+                    "Name": "Disk: 10", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HJJCST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 10", 
+                        "DiskID: 10", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HJJCST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "10", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 11", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17H5VBST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 11", 
+                        "DiskID: 11", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17H5VBST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "11", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 12", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HZ64ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 12", 
+                        "DiskID: 12", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HZ64ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "12", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 13", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17JJSCST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 13", 
+                        "DiskID: 13", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17JJSCST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "13", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 14", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17GMLQST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 14", 
+                        "DiskID: 14", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17GMLQST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "14", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 15", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HACVST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 15", 
+                        "DiskID: 15", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HACVST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "15", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 16", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HJM5ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 16", 
+                        "DiskID: 16", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HJM5ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "16", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 17", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17H5LMST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 17", 
+                        "DiskID: 17", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17H5LMST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "17", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 18", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HB6DST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 18", 
+                        "DiskID: 18", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HB6DST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "18", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 19", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17H5MLST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 19", 
+                        "DiskID: 19", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17H5MLST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "19", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 20", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HZNFST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 20", 
+                        "DiskID: 20", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HZNFST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "20", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 21", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17G4YQST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 21", 
+                        "DiskID: 21", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17G4YQST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "21", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 22", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17GLYWST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 22", 
+                        "DiskID: 22", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17GLYWST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "22", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 23", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17GM0TST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 23", 
+                        "DiskID: 23", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17GM0TST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "23", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 24", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HB11ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 24", 
+                        "DiskID: 24", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HB11ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "24", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 25", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17LX2SST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 25", 
+                        "DiskID: 25", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17LX2SST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "25", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 26", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HJNYST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 26", 
+                        "DiskID: 26", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HJNYST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "26", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 27", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HJMVST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 27", 
+                        "DiskID: 27", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HJMVST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "27", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 28", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17H6KCST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 28", 
+                        "DiskID: 28", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17H6KCST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "28", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 29", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17H736ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 29", 
+                        "DiskID: 29", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17H736ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "29", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 30", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HAKRST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 30", 
+                        "DiskID: 30", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HAKRST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "30", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 31", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17GW62ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 31", 
+                        "DiskID: 31", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17GW62ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "31", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 32", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17GL8GST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 32", 
+                        "DiskID: 32", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17GL8GST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "32", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 33", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HAPEST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 33", 
+                        "DiskID: 33", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HAPEST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "33", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 34", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HAMSST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 34", 
+                        "DiskID: 34", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HAMSST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "34", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 35", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HZDCST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 35", 
+                        "DiskID: 35", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HZDCST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "35", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 36", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17H4ZQST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 36", 
+                        "DiskID: 36", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17H4ZQST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "36", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 37", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HZH1ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 37", 
+                        "DiskID: 37", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HZH1ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "37", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 38", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17H8BTST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 38", 
+                        "DiskID: 38", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17H8BTST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "38", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 39", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17G0NSST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 39", 
+                        "DiskID: 39", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17G0NSST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "39", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 40", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HALAST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 40", 
+                        "DiskID: 40", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HALAST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "40", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 41", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HAZ6ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 41", 
+                        "DiskID: 41", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HAZ6ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "41", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 42", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17GMTAST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 42", 
+                        "DiskID: 42", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17GMTAST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "42", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 43", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HZE2ST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 43", 
+                        "DiskID: 43", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HZE2ST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "43", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 44", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17HZBVST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 44", 
+                        "DiskID: 44", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17HZBVST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "44", 
+                    "Size": "7.277 TB"
+                }, 
+                {
+                    "Name": "Disk: 45", 
+                    "Firmware": "SC61", 
+                    "tt_info": [
+                        "Serial: ZA17GM4BST8000VN0022-2EL112 SC61", 
+                        "Firmware: SC61", 
+                        "Name: Disk: 45", 
+                        "DiskID: 45", 
+                        "Size: 7.277 TB"
+                    ], 
+                    "Serial": "ZA17GM4BST8000VN0022-2EL112 SC61", 
+                    "type": "disk", 
+                    "DiskID": "45", 
+                    "Size": "7.277 TB"
+                }
+            ]
+        }
+    ]
+}

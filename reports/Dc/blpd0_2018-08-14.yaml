@@ -1,0 +1,236 @@
+device:
+  Bios Version: '2.0'
+  Hostname: blpd0
+  Name: blpd0
+  Network: Dc
+  Vendor: American Megatrends Inc.
+  children:
+  - NICs:
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:ba:d1:e1
+      Name: eth1
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:ba:d1:e2
+      Name: eth2
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 0c:c4:7a:ba:d1:e3
+      Name: eth3
+      Speed: '0'
+    - DNS Server: blpd0.tenge.pvt
+      IP: 10.10.10.101
+      MAC: 02:02:0a:0a:0a:65
+      Name: eth4
+      Speed: '0'
+    - DNS Server: ' '
+      IP: ' '
+      MAC: 3c:fd:fe:9c:c0:09
+      Name: eth5
+      Speed: '0'
+    - DNS Server: localhost.bl.pvt
+      IP: 127.0.0.1
+      MAC: ' '
+      Name: lo
+      Speed: '0'
+    - DNS Server: blpd0.bl.pvt
+      IP: 10.0.1.100
+      MAC: 0c:c4:7a:ba:d1:e0
+      Name: eth0
+      Speed: '1000'
+  - CPUs:
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 0
+      Threads Per Core: '2'
+    - Architecture: x86_64
+      Clock: 3200
+      Cores: 12
+      Model: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+      Socket: 1
+      Threads Per Core: '2'
+  - Memory:
+      Total: 65859684 kB
+  - Disks:
+    - DiskID: '10'
+      Firmware: CC48
+      Name: 'Disk: 10'
+      Serial: Z4D1TLF8ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '12'
+      Firmware: CC48
+      Name: 'Disk: 12'
+      Serial: Z4D2XGQGST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '17'
+      Firmware: CC48
+      Name: 'Disk: 17'
+      Serial: Z4D2TYB9ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '2'
+      Firmware: CC48
+      Name: 'Disk: 2'
+      Serial: Z4D2E8QQST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '20'
+      Firmware: CC48
+      Name: 'Disk: 20'
+      Serial: Z4D1FRRQST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '23'
+      Firmware: CC48
+      Name: 'Disk: 23'
+      Serial: Z4D2GDP8ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '26'
+      Firmware: CC48
+      Name: 'Disk: 26'
+      Serial: Z4D2NEMEST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '30'
+      Firmware: CC48
+      Name: 'Disk: 30'
+      Serial: Z4D25P1PST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '31'
+      Firmware: CC48
+      Name: 'Disk: 31'
+      Serial: Z4D2XGJDST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '36'
+      Firmware: CC48
+      Name: 'Disk: 36'
+      Serial: Z4D2JP2ZST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '37'
+      Firmware: CC48
+      Name: 'Disk: 37'
+      Serial: Z4D2CZBXST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '65'
+      Firmware: CC48
+      Name: 'Disk: 65'
+      Serial: Z4D1RPBDST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '66'
+      Firmware: CC48
+      Name: 'Disk: 66'
+      Serial: Z4D2MZXKST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '67'
+      Firmware: CC48
+      Name: 'Disk: 67'
+      Serial: Z4D2R4XWST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '68'
+      Firmware: CC48
+      Name: 'Disk: 68'
+      Serial: Z4D2QJSYST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '69'
+      Firmware: CC48
+      Name: 'Disk: 69'
+      Serial: Z4D1MGE6ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '7'
+      Firmware: CC48
+      Name: 'Disk: 7'
+      Serial: Z4D1TZM4ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '71'
+      Firmware: CC48
+      Name: 'Disk: 71'
+      Serial: Z4D2SR69ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '72'
+      Firmware: CC48
+      Name: 'Disk: 72'
+      Serial: Z4D2SV22ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '73'
+      Firmware: CC48
+      Name: 'Disk: 73'
+      Serial: Z4D2SRBMST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '74'
+      Firmware: CC48
+      Name: 'Disk: 74'
+      Serial: Z4D2J04RST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '75'
+      Firmware: CC48
+      Name: 'Disk: 75'
+      Serial: Z4D2N0LXST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '76'
+      Firmware: CC48
+      Name: 'Disk: 76'
+      Serial: Z4D2WMXDST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '77'
+      Firmware: CC48
+      Name: 'Disk: 77'
+      Serial: Z4D2QSG1ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '78'
+      Firmware: CC48
+      Name: 'Disk: 78'
+      Serial: Z4D2NQPBST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '79'
+      Firmware: CC48
+      Name: 'Disk: 79'
+      Serial: Z4D1ZP3LST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '80'
+      Firmware: CC48
+      Name: 'Disk: 80'
+      Serial: Z4D2JXPYST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '81'
+      Firmware: CC48
+      Name: 'Disk: 81'
+      Serial: Z4D2DTCZST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '82'
+      Firmware: CC48
+      Name: 'Disk: 82'
+      Serial: Z4D2P4XWST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '83'
+      Firmware: CC48
+      Name: 'Disk: 83'
+      Serial: Z4D2TGZ4ST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '84'
+      Firmware: CC48
+      Name: 'Disk: 84'
+      Serial: Z4D1M1RKST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '85'
+      Firmware: CC48
+      Name: 'Disk: 85'
+      Serial: Z4D1W13RST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '86'
+      Firmware: CC48
+      Name: 'Disk: 86'
+      Serial: Z4D2XQZLST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '87'
+      Firmware: CC48
+      Name: 'Disk: 87'
+      Serial: Z4D2NHWRST6000DM001-1XY17Z CC48
+      Size: 5.458 TB
+    - DiskID: '88'
+      Firmware: CC48
+      Name: 'Disk: 88'
+      Serial: Z4D1EY9PST6000DM001-1XY17Z CC48
+      Size: 5.458 TB

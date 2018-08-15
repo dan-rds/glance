@@ -1,0 +1,5 @@
+dns_server,name,ip,mac,Path,speed
+blph0.bl.pvt,eth0,10.0.1.1,ac:1f:6b:16:19:fc,Dc --> blph0,1000
+ ,eth1, ,ac:1f:6b:16:19:fd,Dc --> blph0,NA
+localhost.bl.pvt,lo,127.0.0.1, ,Dc --> blph0,NA
+ ,tun0,10.254.254.4,00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00,Dc --> blph0,10
